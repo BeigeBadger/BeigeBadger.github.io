@@ -8,6 +8,8 @@ Created following a combination of these guides:
 
 Run `npm run deploy` to deploy (which will push to the `cv` branch that is configured [here](https://github.com/BeigeBadger/BeigeBadger.github.io/settings/pages) as the default branch for GitHub Pages).
 
+**NOTE:** The deployment will only run if there are actually changes to the files that are served as part of the site. Hence running the `deploy` command multiple times or when only the README has been updated will generate a "Published" message but a deployment will not be created.
+
 See [here](https://www.npmjs.com/package/gh-pages#when-get-error-branch-already-exists) for deployment tips:
 
 ```
