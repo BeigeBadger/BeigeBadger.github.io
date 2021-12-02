@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './images/Matt-Gravatar.png';
 import './App.scss';
 
 function App() {
