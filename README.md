@@ -29,3 +29,10 @@ The gh-pages module writes temporary files to a node_modules/.cache/gh-pages dir
 
 If gh-pages fails, you may find that you need to manually clean up the cache directory. To remove the cache directory, run node_modules/gh-pages/bin/gh-pages-clean or remove node_modules/.cache/gh-pages.
 ```
+
+
+# Ideas
+- React Helmet for page titles (if there are separate pages)
+- Use SCSS instead of CSS
+- Use material UI styling?
+- https://create-react-app.dev/docs/adding-a-sass-stylesheet/
