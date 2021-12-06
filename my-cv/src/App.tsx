@@ -1,6 +1,7 @@
 import logo from './images/Matt-Gravatar.png';
 import './App.scss';
 import { useEffect } from 'react';
+import { Resume } from './models/resume/resume';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
 					});
 
 			console.log(resumeJson);
+
+			const resume = resumeJson as Resume;
 		}
 
 		LoadResumeDetailsFromLocalFile();
