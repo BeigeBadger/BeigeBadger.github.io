@@ -1,0 +1,207 @@
+{
+	"meta": {
+		"theme": "kendall"
+	},
+	"basics": {
+		"name": "Matt Stannett",
+		"label": "Senior Software Engineer",
+		"image": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200",
+		"email": "matt.stannett@gmail.com",
+		"phone": "",
+		"url": "",
+		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that satisfy client needs. Believes in producing elegant, extensible, and well-documented deliverables. Highly motivated to overcome challenges that foster personal growth and development. An avid reader, amateur military historian and scale model builder. Keeps active through football (indoor, six-a-side, and outdoor), and mountain biking hobbies.",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Hamilton",
+			"countryCode": "NZ",
+			"region": ""
+		},
+		"profiles": [
+			{
+				"network": "GitHub",
+				"username": "BeigeBadger",
+				"url": "https://github.com/BeigeBadger"
+			},
+			{
+				"network": "StackOverflow",
+				"username": "matt-stannett",
+				"url": "https://stackoverflow.com/users/5209435/matt-stannett"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "matt-stannett",
+				"url": "https://www.linkedin.com/in/matt-stannett-404a63b7/"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Aware Group",
+			"position": "Senior Software Engineer",
+			"url": "https://www.awaregroup.com/",
+			"startDate": "2020-11-01",
+			"summary": "TODO",
+			"highlights": [
+				"TODO"
+			]
+		},
+		{
+			"name": "Aware Group",
+			"position": "Software Engineer",
+			"url": "https://www.awaregroup.com/",
+			"startDate": "2019-02-04",
+			"endDate": "2020-10-31",
+			"summary": "Worked as part of a small software engineering team to deliver primarily web-based solutions that are built using the PaaS and IaaS offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for presales work, in addition to short and long-term engagements. Took ownership of being the technical authority on ChatBots, Form Recognizer, Power Apps, speech (Speech to Text) and language (LUIS and QnA Maker) cognitive services. Worked with Microsoft product teams to test new and upcoming features, and had multiple pull requests accepted for documentation across various Microsoft services and technologies. Successfully delivered projects whether working independently, collaborating with team members, or as an embedded resource within a client team (remote and in person). Mentored and supported team members across professional practices, to share knowledge throughout the business.",
+			"highlights": [
+				"<b>Planned and delivered customer workshops</b> - Successfully led multi-day workshops and events for customers. Operated as the sole presenter for company-specific events and collaborated as part of a team of coaches at events that were open to the public. These events covered a variety of topics and technologies, which could span multiple disciplines. This involved designing, writing, reviewing, and testing event content practical exercises; usually on short notice, with limited preparation time, and occasionally for others to deliver.",
+				"<b>Developed an Automated Ad Serving solution</b> - Successfully architected and delivered a project, using a new language and unfamiliar technologies. Interacted directly with technical and non-technical staff on the client-side to; confirm requirements, prevent scope creep, sign-off milestones, and exceed client expectations. The end deliverable significantly improved the client’s go-live process, provided increased visibility of changes, and is readily extensible.",
+				"<b>Championed team improvements</b> - Designed and implements a pull request template for a frequently changing repository. Regularly shared development of new tools, functionality, productivity tips, and other announcements with team members to encourage continuous improvement. Created and shared lab exercises, and a standardized template for workshop."
+			]
+		},
+		{
+			"name": "Smartrak",
+			"position": "Software Engineer",
+			"url": "https://smartrak.com/",
+			"startDate": "2016-06-01",
+			"endDate": "2019-01-31",
+			"summary": "Served as a key member of the software development team charged with maintaining and iterating upon core web applications used both internally and externally. Collaborated with stakeholders across departments to assist with the delivery of innovative new products and solutions that met client requirements and matched the Smartrak vision. Volunteered to mentor Junior Software Engineers and interns, for mutual benefit. Wrote robust,reusable, and well-tested code; that adhered to design patterns and social contracts within the team.",
+			"highlights": [
+				"<b>Improved soft skills</b> - Gave technical presentations on testing and software engineering principles to the development team. Attended Agile training, which led to running daily stand-ups and sprint retrospectives for the team.",
+				"<b>Developed an authentication proxy</b> - Worked with a Senior Software Engineer to scope, plan, then independently implement a crucial middleware component that helped deliver an API solution, that used JWT authentication tokens, Entity Framework, and OWIN.",
+				"<b>TODO?</b>"
+			]
+		},
+		{
+			"name": "Smartrak",
+			"position": "Junior Software Engineer/IT Administrator",
+			"url": "https://smartrak.com/",
+			"startDate": "2014-01-01",
+			"endDate": "2016-05-31",
+			"summary": "Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System and Smart Fleet Management System solutions to a major New Zealand dairy company using .NET and open-source technologies.",
+			"highlights": [
+				"<b>Developed multi-platform systems</b> - Helpers develop the ICS application that ran on a tablet, along with the Smart FMS portal. Used WPF, Razor, ReactJS, SQLite, and PostgreSQL.",
+				"<b>TODO</b> - IT Admin work, onboarding new staff accounts + hardware, assisting with IT troubleshooting, created documentation and was involved with the transition to an external IT team."
+			]
+		},
+		{
+			"name": "Smartrak",
+			"position": "Software Engineer Intern",
+			"url": "https://smartrak.com/",
+			"startDate": "2012-11-01",
+			"endDate": "2013-12-31",
+			"summary": "Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System and Smart Fleet Management System solutions to a major New Zealand dairy company using .NET and open-source technologies.",
+			"highlights": [
+				"<b>Updated customer-facing Admin website</b> - TODO... reskinned site with over 30 pages that was using legacy styling to use a responsive framework."
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "University of Waikato",
+			"url": "",
+			"area": "Computer Science",
+			"studyType": "Bachelors of Computing and Mathematical Sciences",
+			"startDate": "2014-01-01",
+			"endDate": "2010-01-01",
+			"score": "First Class Honours",
+			"courses": []
+		}
+	],
+	"awards": [
+		{
+			"title": "Employee of the month",
+			"date": "2017-03-01",
+			"awarder": "Smartrak Ltd",
+			"summary": "I was awarded employee of the month."
+		},
+		{
+			"title": "Development Team MVP for 2016",
+			"date": "2016-12-01",
+			"awarder": "Smartrak Ltd",
+			"summary": "I was awarded the MVP award for 2016 by my peers in the Development Team."
+		},
+		{
+			"title": "Employee of the month",
+			"date": "2015-05-01",
+			"awarder": "Smartrak Ltd",
+			"summary": "I was awarded employee of the month."
+		},
+		{
+			"title": "Best Honours Project Presentation",
+			"date": "2013-11-01",
+			"awarder": "University of Waikato Computer Science Department",
+			"summary": "I was awarded the best presentation for my cohort (~50 students)."
+		}
+	],
+	"publications": [
+		{
+			"name": "Massive Ontology Interface",
+			"publisher": "The University of Waikato",
+			"releaseDate": "2013",
+			"url": "https://researchcommons.waikato.ac.nz/handle/10289/8410",
+			"summary": "Stannett, M., Legg, C. & Sarjant, S. (2013). Massive ontology interface. Paper presented at CHINZ 2013: 14th Annual Conference of the New Zealand Chapter of the ACM Special Interest Group on Computer-Human Interaction, 15-16 November 2013 — Christchurch, New Zealand."
+		}
+	],
+	"skills": [
+		{
+			"name": "Web Development",
+			"level": "Master",
+			"keywords": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			]
+		}
+	],
+	"interests": [
+		{
+			"name": "Sports",
+			"keywords": [
+				"Football (all types)",
+				"Mountain biking",
+				"Lawn games"
+			]
+		},
+		{
+			"name": "Wildlife",
+			"keywords": [
+				"Unicorns"
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "Team Leader",
+			"reference": "Available by request"
+		},
+		{
+			"name": "Project Manager",
+			"reference": "Available by request"
+		},
+		{
+			"name": "Colleague",
+			"reference": "Available by request"
+		}
+	],
+	"projects": [
+		{
+			"name": "Project",
+			"description": "Description…",
+			"highlights": [
+				"Won award at AIHacks 2016"
+			],
+			"keywords": [
+				"HTML"
+			],
+			"startDate": "2019-01-01",
+			"endDate": "2021-01-01",
+			"url": "https://project.com/",
+			"roles": [
+				"Team Lead"
+			],
+			"entity": "Entity",
+			"type": "application"
+		}
+	]
+}
