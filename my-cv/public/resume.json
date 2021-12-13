@@ -1,32 +1,30 @@
 {
 	"basics": {
 		"name": "Matt Stannett",
-		"label": "Senior Software Engineer | Aware Group",
-		"image": "https://avatars.githubusercontent.com/u/8124536?v=4",
+		"jobTitle": "Senior Software Engineer",
+		"image": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200",
 		"email": "matt.stannett@gmail.com",
 		"phone": "",
 		"url": null,
 		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that satisfy client needs. Believes in producing elegant, extensible, and well-documented deliverables. Highly motivated to overcome challenges that foster personal growth and development. An avid reader, amateur military historian and scale model builder. Keeps active through football (indoor, six-a-side, and outdoor), and mountain biking hobbies.",
 		"profiles": [
 			{
-				"network": "gitconnected",
-				"username": "BeigeBadger",
-				"url": "https://gitconnected.com/BeigeBadger"
-			},
-			{
 				"network": "GitHub",
 				"username": "BeigeBadger",
-				"url": "https://github.com/BeigeBadger"
-			},
-			{
-				"network": "LinkedIn",
-				"url": "https://www.linkedin.com/in/matt-stannett-404a63b7/",
-				"username": "matt-stannett-404a63b7"
+				"url": "https://github.com/BeigeBadger",
+				"iconName": "github"
 			},
 			{
 				"network": "Stack Overflow",
 				"url": "https://stackoverflow.com/users/5209435/matt-stannett",
-				"username": "matt-stannett"
+				"username": "matt-stannett",
+				"iconName": "stack-overflow"
+			},
+			{
+				"network": "LinkedIn",
+				"url": "https://www.linkedin.com/in/matt-stannett-404a63b7/",
+				"username": "Matt Stannett",
+				"iconName": "linkedin"
 			}
 		],
 		"headline": "",
@@ -34,12 +32,12 @@
 		"yearsOfExperience": 8,
 		"username": "BeigeBadger",
 		"locationAsString": "Hamilton, New Zealand",
-		"region": "Hamilton, New Zealand",
+		"location": "Hamilton, New Zealand",
 		"karma": 14,
 		"id": "c8a9f100-0c01-403e-9c0f-cd64cd7deb54",
 		"followers": 3,
 		"following": 0,
-		"picture": "https://avatars.githubusercontent.com/u/8124536?v=4",
+		"picture": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200",
 		"website": null
 	},
 	"skills": [

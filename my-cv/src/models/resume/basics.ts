@@ -2,7 +2,7 @@ import { IProfile } from "./profile";
 
 export interface IBasics {
 	name: string;
-	label: string;
+	jobTitle: string;
 	image: string;
 	email: string;
 	phone: string;
@@ -14,7 +14,7 @@ export interface IBasics {
 	yearsOfExperience: number;
 	username: string;
 	locationAsString: string;
-	region: string;
+	location: string;
 	karma: number;
 	id: string;
 	followers: number;
