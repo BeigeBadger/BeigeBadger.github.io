@@ -1,5 +1,5 @@
-import { YearMonth } from "./yearMonth";
+import { IYearMonth } from "./yearMonth";
 
-export interface YearMonthDay extends YearMonth {
+export interface IYearMonthDay extends IYearMonth {
 	day?: any;
 }

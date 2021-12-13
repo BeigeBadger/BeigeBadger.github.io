@@ -1,11 +1,11 @@
-import { YearMonthDay } from "./yearMonthDay";
+import { IYearMonthDay } from "./yearMonthDay";
 
-export interface Certificate {
+export interface ICertificate {
 	name: string;
 	issuer: string;
 	date: string;
 	url: string;
 	summary: string;
-	fullDate: YearMonthDay;
+	fullDate: IYearMonthDay;
 	website: string;
 }

@@ -1,4 +1,4 @@
-export interface Skill {
+export interface ISkill {
 	name: string;
 	level: string;
 	keywords: any[];

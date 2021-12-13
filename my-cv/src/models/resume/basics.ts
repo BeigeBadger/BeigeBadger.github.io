@@ -1,6 +1,6 @@
-import { Profile } from "./profile";
+import { IProfile } from "./profile";
 
-export interface Basics {
+export interface IBasics {
 	name: string;
 	label: string;
 	image: string;
@@ -8,7 +8,7 @@ export interface Basics {
 	phone: string;
 	url?: any;
 	summary: string;
-	profiles: Profile[];
+	profiles: IProfile[];
 	headline: string;
 	blog?: any;
 	yearsOfExperience: number;

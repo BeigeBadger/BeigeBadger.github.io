@@ -1,6 +1,6 @@
-import { YearMonth } from "./yearMonth";
+import { IYearMonth } from "./yearMonth";
 
-export interface Work {
+export interface IWork {
 	name: string;
 	location: string;
 	description: string;
@@ -11,8 +11,8 @@ export interface Work {
 	summary: string;
 	highlights: string[];
 	isCurrentRole: boolean;
-	start: YearMonth;
-	end: YearMonth;
+	start: IYearMonth;
+	end: IYearMonth;
 	company: string;
 	website: string;
 }

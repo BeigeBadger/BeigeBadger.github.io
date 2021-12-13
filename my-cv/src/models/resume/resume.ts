@@ -1,26 +1,26 @@
-import { Award } from "./award";
-import { Basics } from "./basics";
-import { Certificate } from "./certificate";
-import { Education } from "./education";
-import { Interest } from "./interest";
-import { Language } from "./language";
-import { Project } from "./project";
-import { Publication } from "./publication";
-import { Reference } from "./reference";
-import { Skill } from "./skill";
-import { Work } from "./work";
+import { IAward } from "./award";
+import { IBasics } from "./basics";
+import { ICertificate } from "./certificate";
+import { IEducation } from "./education";
+import { IInterest } from "./interest";
+import { ILanguage } from "./language";
+import { IProject } from "./project";
+import { IPublication } from "./publication";
+import { IReference } from "./reference";
+import { ISkill } from "./skill";
+import { IWork } from "./work";
 
-export interface Resume {
-	basics: Basics;
-	skills: Skill[];
-	openSourceProjects: Project[];
-	work: Work[];
-	publications: Publication[];
-	education: Education[];
+export interface IResume {
+	basics: IBasics;
+	skills: ISkill[];
+	openSourceProjects: IProject[];
+	work: IWork[];
+	publications: IPublication[];
+	education: IEducation[];
 	volunteer: any[];
-	awards: Award[];
-	languages: Language[];
-	interests: Interest[];
-	references: Reference[];
-	certificates: Certificate[];
+	awards: IAward[];
+	languages: ILanguage[];
+	interests: IInterest[];
+	references: IReference[];
+	certificates: ICertificate[];
 }

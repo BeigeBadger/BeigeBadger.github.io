@@ -1,6 +1,6 @@
-import { YearMonth } from "./yearMonth";
+import { IYearMonth } from "./yearMonth";
 
-export interface Education {
+export interface IEducation {
 	institution: string;
 	url: string;
 	area: string;
@@ -11,8 +11,8 @@ export interface Education {
 	courses: any[];
 	description: string;
 	activities: string;
-	start: YearMonth;
-	end: YearMonth;
+	start: IYearMonth;
+	end: IYearMonth;
 	website: string;
 	gpa: string;
 }

@@ -1,11 +1,11 @@
-import { FullReleaseDate } from "./fullReleaseDate";
+import { IFullReleaseDate } from "./fullReleaseDate";
 
-export interface Publication {
+export interface IPublication {
 	name: string;
 	publisher: string;
 	releaseDate: string;
 	url: string;
 	summary: string;
-	fullReleaseDate: FullReleaseDate;
+	fullReleaseDate: IFullReleaseDate;
 	website: string;
 }

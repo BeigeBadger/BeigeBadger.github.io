@@ -1,6 +1,6 @@
-import { YearMonthDay } from "./yearMonthDay";
+import { IYearMonthDay } from "./yearMonthDay";
 
-export interface Project {
+export interface IProject {
 	name: string;
 	description: string;
 	url: string;
@@ -19,8 +19,8 @@ export interface Project {
 	libraries: any[];
 	githubUrl: string;
 	repositoryUrl: string;
-	start: YearMonthDay;
-	end: YearMonthDay;
+	start: IYearMonthDay;
+	end: IYearMonthDay;
 	images: any[];
 	videos: any[];
 }

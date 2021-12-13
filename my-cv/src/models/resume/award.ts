@@ -1,10 +1,10 @@
-import { YearMonthDay } from "./yearMonthDay";
+import { IYearMonthDay } from "./yearMonthDay";
 
-export interface Award {
+export interface IAward {
 	title: string;
 	date: string;
 	awarder: string;
 	summary: string;
-	fullDate: YearMonthDay;
+	fullDate: IYearMonthDay;
 	link: string;
 }
