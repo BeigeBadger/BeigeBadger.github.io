@@ -6,4 +6,5 @@ export interface Award {
 	awarder: string;
 	summary: string;
 	fullDate: YearMonthDay;
+	link: string;
 }
