@@ -17,7 +17,6 @@ export interface Resume {
 	work: Work[];
 	publications: Publication[];
 	education: Education[];
-	// TODO
 	volunteer: any[];
 	awards: Award[];
 	languages: Language[];
