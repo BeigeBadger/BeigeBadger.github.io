@@ -13,7 +13,7 @@ import { Work } from "./work";
 export interface Resume {
 	basics: Basics;
 	skills: Skill[];
-	projects: Project[];
+	openSourceProjects: Project[];
 	work: Work[];
 	publications: Publication[];
 	education: Education[];

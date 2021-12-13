@@ -107,10 +107,45 @@
 			"yearsOfExperience": 4
 		}
 	],
-	"projects": [
+	"openSourceProjects": [
+		{
+			"name": "AzureMapsCodeSamples",
+			"description": "Fixed typos in the GitHub Issue template.",
+			"url": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Azure Maps Code Samples",
+			"website": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
+			"summary": "A collection of over a hundred code samples for the Azure Maps Web SDK.",
+			"primaryLanguage": "C#",
+			"languages": [
+				"C#",
+				"Markdown"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
+			"repositoryUrl": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
 		{
 			"name": "azure-docs",
-			"description": "",
+			"description": "Improved the clarity, raised issues, and fixed various typos.",
 			"url": "https://docs.microsoft.com/azure",
 			"highlights": [],
 			"keywords": [],
@@ -119,12 +154,13 @@
 			"endDate": "",
 			"entity": "",
 			"type": "",
-			"displayName": "azure-docs",
+			"displayName": "Azure Docs",
 			"website": "https://docs.microsoft.com/azure",
 			"summary": "Open source documentation of Microsoft Azure",
-			"primaryLanguage": "PowerShell",
+			"primaryLanguage": "Markdown",
 			"languages": [
-				"PowerShell"
+				"PowerShell",
+				"Markdown"
 			],
 			"libraries": [],
 			"githubUrl": "https://github.com/MicrosoftDocs/azure-docs",
@@ -144,7 +180,7 @@
 		},
 		{
 			"name": "azure-cosmos-dotnet-repository",
-			"description": "",
+			"description": "Added support for using Managed Identities to authenticate. Added tests to ensure correct behaviour and prevent regressions.",
 			"url": "",
 			"highlights": [],
 			"keywords": [],
@@ -153,7 +189,7 @@
 			"endDate": "",
 			"entity": "",
 			"type": "",
-			"displayName": "azure-cosmos-dotnet-repository",
+			"displayName": "Azure Cosmos DB Repository .NET SDK",
 			"website": "",
 			"summary": "Wraps the .NET SDK for Azure Cosmos DB abstracting away the complexity, exposing a simple CRUD-based repository pattern",
 			"primaryLanguage": "C#",
@@ -187,12 +223,13 @@
 			"endDate": "",
 			"entity": "",
 			"type": "",
-			"displayName": "sql-docs",
+			"displayName": "Microsoft SQL Server Technical Documentation",
 			"website": "",
 			"summary": "Technical documentation for Microsoft SQL Server, tools such as SQL Server Management Studio (SSMS) ,  SQL Server Data Tools (SSDT) etc.",
-			"primaryLanguage": "PowerShell",
+			"primaryLanguage": "Markdown",
 			"languages": [
-				"PowerShell"
+				"Markdown",
+				"SQL"
 			],
 			"libraries": [],
 			"githubUrl": "https://github.com/MicrosoftDocs/sql-docs",
@@ -212,7 +249,7 @@
 		},
 		{
 			"name": "pyaudioanalysis",
-			"description": "",
+			"description": "Added support for an optional output directory, running analysis over a directory, and providing min/max bounds for durations.",
 			"url": "",
 			"highlights": [],
 			"keywords": [],
@@ -236,6 +273,42 @@
 			"libraries": [],
 			"githubUrl": "https://github.com/BeigeBadger/pyAudioAnalysis",
 			"repositoryUrl": "https://github.com/BeigeBadger/pyAudioAnalysis",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
+		{
+			"name": "zen-audio-player",
+			"description": "Added support for retrieving and conditionally showing the description for a video.",
+			"url": "",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Zen Audio Player",
+			"website": "",
+			"summary": "Listen to YouTube videos, without the distracting visuals.",
+			"primaryLanguage": "JavaScript",
+			"languages": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/zen-audio-player/zen-audio-player.github.io",
+			"repositoryUrl": "https://github.com/zen-audio-player/zen-audio-player.github.io",
 			"start": {
 				"year": null,
 				"month": null,
