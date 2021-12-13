@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { Resume } from './models/resume/resume';
 
 
-function App() {
+const App = () => {
 	useEffect(() => {
 		async function LoadResumeDetailsFromLocalFile() {
 			const resumeFileName = "resume.json";
