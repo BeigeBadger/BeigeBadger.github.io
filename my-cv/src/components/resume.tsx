@@ -279,21 +279,19 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					{
 						props.resumeData.references.map((reference, index) => {
 							return (
-								<>
-									<div key={index}>
-										<div>
-											{
-												reference.role
-											}
-										</div>
-
-										<div>
-											{
-												reference.details
-											}
-										</div>
+								<div key={index}>
+									<div>
+										{
+											reference.role
+										}
 									</div>
-								</>
+
+									<div>
+										{
+											reference.details
+										}
+									</div>
+								</div>
 							);
 						})
 					}
