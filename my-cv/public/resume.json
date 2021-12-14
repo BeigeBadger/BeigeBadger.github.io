@@ -142,8 +142,115 @@
 			"videos": []
 		},
 		{
+			"name": "msteams-docs",
+			"description": "Fixed broken links in the documentation.",
+			"url": "https://github.com/MicrosoftDocs/msteams-docs",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Microsoft Teams Docs",
+			"website": "https://github.com/MicrosoftDocs/msteams-docs",
+			"summary": "Documentation on how to use Microsoft Teams",
+			"primaryLanguage": "Markdown",
+			"languages": [
+				"Markdown"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/MicrosoftDocs/msteams-docs",
+			"repositoryUrl": "https://github.com/MicrosoftDocs/msteams-docs",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
+		{
+			"name": "botframework-solutions",
+			"description": "Fixed incorrect path issue in code and broken link in the documentation.",
+			"url": "https://github.com/microsoft/botframework-solutions",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Microsoft Bot Framework Solutions",
+			"website": "https://github.com/microsoft/botframework-solutions",
+			"summary": "This repository is the home for a set of templates and solutions to help build conversational experiences using Azure Bot Service and Bot Framework.",
+			"primaryLanguage": "C#",
+			"languages": [
+				"C#",
+				"Markdown"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/microsoft/botframework-solutions",
+			"repositoryUrl": "https://github.com/microsoft/botframework-solutions",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
+		{
+			"name": "botbuilder-tools",
+			"description": "Fixed grammar and improved formatting within the documentation.",
+			"url": "https://github.com/microsoft/botbuilder-tools",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Microsoft Bot Builder Tools",
+			"website": "https://github.com/microsoft/botbuilder-tools",
+			"summary": "The Bot Framework SDK team is happy to announce the General Availability of the consolidated bot framework CLI tool bf-cli. ",
+			"primaryLanguage": "C#",
+			"languages": [
+				"C#",
+				"Markdown",
+				"PowerShell",
+				"JavaScript",
+				"TypeScript"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/microsoft/botbuilder-tools",
+			"repositoryUrl": "https://github.com/microsoft/botbuilder-tools",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
+		{
 			"name": "azure-docs",
-			"description": "Improved the clarity, raised issues, and fixed various typos.",
+			"description": "Improved the clarity of the documentation, fixed various typos and other mistakes as I came across them. Updated example scripts to pass missing arguments, contributed updates for sample code that had errors in it.",
 			"url": "https://docs.microsoft.com/azure",
 			"highlights": [],
 			"keywords": [],
@@ -212,7 +319,7 @@
 		},
 		{
 			"name": "sql-docs",
-			"description": "",
+			"description": "Fixed typos in the documentation.",
 			"url": "",
 			"highlights": [],
 			"keywords": [],
@@ -246,6 +353,41 @@
 			"videos": []
 		},
 		{
+			"name": "AzureTipsAndTricks",
+			"description": "Fixed typos in the documentation.",
+			"url": "",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Azure Tips and Tricks",
+			"website": "Welcome to Azure Tips and Tricks, this site is a special collection hundreds of tips in form of blog posts and videos that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that we've encountered (along with the community) while using Azure. Feel free to jump in and come back weekly for new tips!",
+			"primaryLanguage": "Markdown",
+			"languages": [
+				"Markdown",
+				"Vue",
+				"JavaScript"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/microsoft/AzureTipsAndTricks",
+			"repositoryUrl": "https://github.com/microsoft/AzureTipsAndTricks",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
+		{
 			"name": "pyaudioanalysis",
 			"description": "Added support for an optional output directory, running analysis over a directory, and providing min/max bounds for durations.",
 			"url": "",
@@ -256,7 +398,7 @@
 			"endDate": "",
 			"entity": "",
 			"type": "",
-			"displayName": "pyAudioAnalysis",
+			"displayName": "Python Audio Analysis",
 			"website": "",
 			"summary": "Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications",
 			"primaryLanguage": "Python",
@@ -623,123 +765,114 @@
 			"details": "Available by request"
 		}
 	],
-	"certificates": [
+	"tooling": [
 		{
 			"name": "Languages",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "C#, HTML, CSS, SASS, SQL, JavaScript, Python, TypeScript, PowerShell",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"C#",
+				"HTML",
+				"CSS",
+				"SASS",
+				"SQL",
+				"JavaScript",
+				"Python",
+				"TypeScript",
+				"PowerShell"
+			],
+			"historical": []
 		},
 		{
 			"name": "Frameworks/Tools",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Entity Framework, ASP.NET Core (Web API, Razor pages), React, Redux, Debezium, Bootstrap, Notebooks (Jupyter, SQL), Docker, Power Apps, Microsoft Bot Framework\n\nHistorical:\njQuery, ASP.NET (MVC, Web API), Selenium",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"Entity Framework", "ASP.NET Core (Web API, Razor pages)",
+				"React",
+				"Redux",
+				"Debezium",
+				"Bootstrap",
+				"Notebooks (Jupyter, SQL)",
+				"Docker",
+				"Power Apps",
+				"Microsoft Bot Framework"
+			],
+			"historical": [
+				"jQuery",
+				"ASP.NET (MVC, Web API)",
+				"Selenium"
+			]
 		},
 		{
 			"name": "Source Control",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Git\n\nHistorical\nSVN",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"Git"
+			],
+			"historical": [
+				"SVN"
+			]
 		},
 		{
 			"name": "Continuous Integration, Delivery, and Deployment",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Azure Pipelines, GitHub Actions.\n\nHistorical\nTeamCity, Octopus Deploy.",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"Azure Pipelines",
+				"GitHub Actions"
+			],
+			"historical": [
+				"TeamCity",
+				"Octopus Deploy",
+				"AppVeyor"
+			]
 		},
 		{
 			"name": "Cloud Experience",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Azure",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"Azure"
+			],
+			"historical": []
 		},
 		{
-			"name": "Project Management Tooling",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Azure Boards, GitHub Projects, JIRA\n\nHistorical:\nMiro, Redmine, Trello",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"name": "Project Management",
+			"current": [
+				"Azure Boards",
+				"GitHub Projects",
+				"JIRA",
+				"Miro"
+			],
+			"historical": [
+				"Redmine",
+				"Trello",
+				"Confluence"
+			]
 		},
 		{
 			"name": "Databases",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "SQL Server, Cosmos DB, Azure Table Storage\n\nHistorical:\nSQLite, PostgreSQL",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"SQL Server",
+				"Cosmos DB",
+				"Azure Table Storage"
+			],
+			"historical": [
+				"SQLite",
+				"PostgreSQL"
+			]
 		},
 		{
 			"name": "Infrastructure as Code",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "ARM, Bicep",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"ARM",
+				"Bicep"
+			],
+			"historical": []
 		},
 		{
 			"name": "Enterprise",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Azure, Azure Active Directory, Office 365\n\nHistorical:\nActive Directory, Microsoft Exchange",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"Azure",
+				"Azure Active Directory",
+				"Office 365"
+			],
+			"historical": [
+				"Active Directory",
+				"Microsoft Exchange"
+			]
 		}
 	],
 	"meta": {
