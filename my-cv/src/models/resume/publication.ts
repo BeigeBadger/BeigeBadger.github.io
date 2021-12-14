@@ -5,6 +5,7 @@ export interface IPublication {
 	publisher: string;
 	releaseDate: string;
 	url: string;
+	authors: string[];
 	summary: string;
 	fullReleaseDate: IFullReleaseDate;
 	website: string;

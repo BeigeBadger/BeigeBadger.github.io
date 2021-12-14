@@ -2,7 +2,7 @@ import { IAward } from "./award";
 import { IBasics } from "./basics";
 import { ICertificate } from "./certificate";
 import { IEducation } from "./education";
-import { IInterest } from "./interest";
+import { IValueProposition } from "./valueProposition";
 import { ILanguage } from "./language";
 import { IProject } from "./project";
 import { IPublication } from "./publication";
@@ -20,7 +20,7 @@ export interface IResume {
 	volunteer: any[];
 	awards: IAward[];
 	languages: ILanguage[];
-	interests: IInterest[];
+	valuePropositions: IValueProposition[];
 	references: IReference[];
 	certificates: ICertificate[];
 }

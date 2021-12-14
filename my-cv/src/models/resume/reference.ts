@@ -1,4 +1,4 @@
 export interface IReference {
-	name: string;
-	reference: string;
+	role: string;
+	details: string;
 }

@@ -7,7 +7,7 @@ export interface IEducation {
 	studyType: string;
 	startDate: string;
 	endDate: string;
-	score: string;
+	endorsement: string;
 	courses: any[];
 	description: string;
 	activities: string;
