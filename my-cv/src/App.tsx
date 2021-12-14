@@ -7,7 +7,7 @@ import Resume from './components/resume';
 
 const App = () => {
 	const [resumeData, setResumeData] = useState<IResume | null>(null)
-	const [isUnderConstruction, setIsUnderContruction] = useState<boolean>(false);
+	const [isUnderConstruction, setIsUnderConstruction] = useState<boolean>(false);
 
 	useEffect(() => {
 		async function LoadResumeDetailsFromLocalFile() {
