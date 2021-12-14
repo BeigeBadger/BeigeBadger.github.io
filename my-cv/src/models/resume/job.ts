@@ -1,14 +1,12 @@
 import { IYearMonth } from "./yearMonth";
 
-export interface IWork {
-	name: string;
+export interface IJob {
 	location: string;
 	description: string;
 	position: string;
 	url: string;
 	startDate: string;
 	endDate: string;
-	summary: string;
 	highlights: string[];
 	isCurrentRole: boolean;
 	start: IYearMonth;

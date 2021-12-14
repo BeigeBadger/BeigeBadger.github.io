@@ -8,13 +8,13 @@ import { IProject } from "./project";
 import { IPublication } from "./publication";
 import { IReference } from "./reference";
 import { ISkill } from "./skill";
-import { IWork } from "./work";
+import { IJob } from "./job";
 
 export interface IResume {
 	basics: IBasics;
 	skills: ISkill[];
 	openSourceProjects: IProject[];
-	work: IWork[];
+	jobHistory: IJob[];
 	publications: IPublication[];
 	education: IEducation[];
 	volunteer: any[];

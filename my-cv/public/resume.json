@@ -463,16 +463,14 @@
 			"videos": []
 		}
 	],
-	"work": [
+	"jobHistory": [
 		{
-			"name": "Aware Group",
 			"location": "Hamilton, New Zealand",
-			"description": "",
 			"position": "Senior Software Engineer",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2020-11-01",
 			"endDate": "",
-			"summary": "Continued delivering solutions using the Azure platform and DevOps best practices. Scoped and designed the architecture and the security posture for new pieces of work. Shifted into a leadership role, independently ran projects and managed team members across multiple disciplines to ensure that deliverables were on time and met the requirements. Heavily involved in the onboarding, including performing inductions for engineering staff both inside and outside of the software engineering discipline, and ensuring that new-hires were set up for success. Learned and practiced candidate evaluation skills for technical hires, gained practical experience with pre/post-interview tasks. Undertook training to further develop leadership and coaching skills, so that difference approaches could be used to meet different needs. Developed content for team standards, style guides, templates, and onboarding collateral to ensure that a standardized approach was taken to building solutions. Demonstrated flexibility and acquired new skills in the data platform space by working outside of my core role for an extended period of time. Gave back to the development community by contributing code to open-source projects and answering questions on developer forums.",
+			"description": "Continued delivering solutions using the Azure platform and DevOps best practices. Scoped and designed the architecture and the security posture for new pieces of work. Shifted into a leadership role, independently ran projects and managed team members across multiple disciplines to ensure that deliverables were on time and met the requirements. Heavily involved in the onboarding, including performing inductions for engineering staff both inside and outside of the software engineering discipline, and ensuring that new-hires were set up for success. Learned and practiced candidate evaluation skills for technical hires, gained practical experience with pre/post-interview tasks. Undertook training to further develop leadership and coaching skills, so that difference approaches could be used to meet different needs. Developed content for team standards, style guides, templates, and onboarding collateral to ensure that a standardized approach was taken to building solutions. Demonstrated flexibility and acquired new skills in the data platform space by working outside of my core role for an extended period of time. Gave back to the development community by contributing code to open-source projects and answering questions on developer forums.",
 			"highlights": [
 				"Created a data platform solution - Worked with a data platform engineer and the client to design and deliver a data lake and associated pipelines to ingest and reconcile data for a major transportation hub on a daily basis. This reporting data store replaced a legacy on-premises store with one hosted in Azure which was faster, more reliable, cheaper, and more accurate. Introduced new tools to the team that were instrumental in demonstrating milestones had been achieved, and sharing knowledge across the team.",
 				"Developed an integration solution using streaming architecture - Created two streaming pipelines to handle different  scenarios for the same client. One for ingesting changes from an on-premises SQL Server database into an Azure SQL database in near realtime. The second used a serverless approach for receiving different events from an online store, validating their schema, and passing them on to an existing customer endpoint. Both of these pipelines were engineered in a way that allowed them to be easily extended to handle additional tables and event types.",
@@ -490,14 +488,12 @@
 			"website": "https://www.awaregroup.com/"
 		},
 		{
-			"name": "Aware Group",
 			"location": "",
-			"description": "",
 			"position": "Software Engineer",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2019-02-01",
 			"endDate": "2020-10-01",
-			"summary": "Worked as part of a small software engineering team to deliver primarily web-based solutions that are built using the PaaS and IaaS offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work, in addition to short and long-term engagements. Took ownership of being the technical authority on ChatBots, Form Recognizer, Power Apps, speech (Speech to Text) and language (LUIS and QnA Maker) cognitive services. Worked with Microsoft product teams to test new and upcoming features, and had multiple pull requests accepted for documentation across various Microsoft services and technologies. Successfully delivered projects whether working independently, collaborating with team members, or as an embedded resource within a client team (remote and in person). Mentored and supported team members across professional practices, to share knowledge throughout the business.",
+			"description": "Worked as part of a small software engineering team to deliver primarily web-based solutions that are built using the PaaS and IaaS offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work, in addition to short and long-term engagements. Took ownership of being the technical authority on ChatBots, Form Recognizer, Power Apps, speech (Speech to Text) and language (LUIS and QnA Maker) cognitive services. Worked with Microsoft product teams to test new and upcoming features, and had multiple pull requests accepted for documentation across various Microsoft services and technologies. Successfully delivered projects whether working independently, collaborating with team members, or as an embedded resource within a client team (remote and in person). Mentored and supported team members across professional practices, to share knowledge throughout the business.",
 			"highlights": [
 				"Planned and delivered customer workshops - Successfully led multi-day workshops and events for customers. Operated as the sole presenter for company-specific events and collaborated as part of a team of coaches at events that were open to the public. These events covered a variety of topics and technologies, which could span multiple disciplines. This involved designing, writing, reviewing, and testing event content practical exercises; usually on short notice, with limited preparation time, and occasionally for others to deliver.",
 				"Developed an Automated Ad Serving solution - Successfully architected and delivered a project, using a new language and unfamiliar technologies. Interacted directly with technical and non-technical staff on the client-side to; confirm requirements, prevent scope creep, sign-off milestones, and exceed client expectations. The end deliverable significantly improved the client’s go-live process, provided increased visibility of changes, and is readily extensible.",
@@ -516,9 +512,7 @@
 			"website": "https://www.awaregroup.com/"
 		},
 		{
-			"name": "Smartrak",
 			"location": "",
-			"description": "",
 			"position": "Software Engineer",
 			"url": "https://smartrak.com/",
 			"startDate": "2016-06-01",
@@ -543,14 +537,12 @@
 			"website": "https://smartrak.com/"
 		},
 		{
-			"name": "Smartrak",
 			"location": "",
-			"description": "",
 			"position": "Junior Software Engineer/IT Administrator",
 			"url": "https://smartrak.com/",
 			"startDate": "2014-01-01",
 			"endDate": "2016-05-01",
-			"summary": "Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System and Smart Fleet Management System solutions to Fonterra using .NET and open-source technologies. Willingly undertook training as an IT Administrator; this role involved managing relationships with internal staff, external contractors and third-party vendors to ensure hardware + software systems ran smoothly, and licenses remained current.",
+			"description": "Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System and Smart Fleet Management System solutions to Fonterra using .NET and open-source technologies. Willingly undertook training as an IT Administrator; this role involved managing relationships with internal staff, external contractors and third-party vendors to ensure hardware + software systems ran smoothly, and licenses remained current.",
 			"highlights": [
 				"Developed multi-platform systems - Helpers develop the ICS application that ran on a tablet, along with the Smart FMS portal. Used WPF, Razor, ReactJS, SQLite, and PostgreSQL.",
 				"Fonterra hardware rollout support - Independently researched, developed and\nimplemented the processes for the setup of Fonterra hardware. In addition to this, a solution\nthat allowed support staff to remotely control the device in each truck through a web\napplication was implemented."
@@ -568,14 +560,12 @@
 			"website": "https://smartrak.com/"
 		},
 		{
-			"name": "Smartrak",
 			"location": "",
-			"description": "",
 			"position": "Software Engineer Intern",
 			"url": "https://smartrak.com/",
 			"startDate": "2012-11-01",
 			"endDate": "2013-12-01",
-			"summary": "Assisted with maintenance of core web applications. Focused on bringing user experience\nimprovements to internal systems and learning real-world software engineering best practices.",
+			"description": "Assisted with maintenance of core web applications. Focused on bringing user experience\nimprovements to internal systems and learning real-world software engineering best practices.",
 			"highlights": [
 				"Updated customer-facing Admin website - Updated an ASP.NET Web Forms site with over 30 pages that was using legacy styling to use a responsive framework which enabled staff, customers, and our vendors to use it on their portable devices."
 			],

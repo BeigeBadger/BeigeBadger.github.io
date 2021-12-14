@@ -42,6 +42,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					</div>
 				</div>
 
+				<hr />
+
 				<div className="networks">
 					{
 						props.resumeData.basics.profiles.map((profile, index) => {
@@ -68,6 +70,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 						})
 					}
 				</div>
+
+				<hr />
 			</div>
 
 			<div className="neck">
@@ -76,6 +80,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 						props.resumeData.basics.summary
 					}
 				</div>
+
+				<hr />
 
 				<div className="skills">
 					{
@@ -107,6 +113,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					}
 				</div>
 
+				<hr />
+
 				<div className="what-i-bring">
 					{
 						props.resumeData.valuePropositions.map((valueProposition, index) => {
@@ -127,9 +135,57 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 			</div>
 
 			<div className="content">
-				<div className="work-history">
+				<hr />
 
+				<div className="work-history">
+					{
+						props.resumeData.jobHistory.map((job, index) => {
+							return (
+								<div key={index}>
+									<div>
+										{
+											job.isCurrentRole
+												? `${job.startDate}-Present`
+												: `${job.startDate}-${job.endDate}`
+										}
+									</div>
+
+									<div>
+										{
+											job.position
+										}
+									</div>
+
+									<div>
+										{
+											<a href={job.website}>
+												{
+													job.company
+												}
+											</a>
+										}
+									</div>
+
+									<div>
+										{
+											`Achievements: ${job.highlights}`
+										}
+									</div>
+
+									<div>
+										{
+											`Description: ${job.description}`
+										}
+									</div>
+
+									<br/>
+								</div>
+							)
+						})
+					}
 				</div>
+
+				<hr />
 
 				<div className="tooling">
 					{
@@ -158,6 +214,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 						})
 					}
 				</div>
+
+				<hr />
 
 				<div className="open-source-development">
 					{
@@ -191,6 +249,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 						})
 					}
 				</div>
+
+				<hr />
 
 				<div className="awards">
 					{
@@ -239,6 +299,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					}
 				</div>
 
+				<hr />
+
 				<div className="publications">
 					{
 						props.resumeData.publications.map((publication, index) => {
@@ -282,6 +344,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 						})
 					}
 				</div>
+
+				<hr />
 
 				<div className="education">
 					{
@@ -327,6 +391,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					}
 				</div>
 
+				<hr />
+
 				<div className="references">
 					{
 						props.resumeData.references.map((reference, index) => {
@@ -348,6 +414,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 						})
 					}
 				</div>
+
+				<hr />
 			</div>
 
 			<div className="footer">
