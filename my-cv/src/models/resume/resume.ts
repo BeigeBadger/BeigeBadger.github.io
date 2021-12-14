@@ -1,6 +1,6 @@
 import { IAward } from "./award";
 import { IBasics } from "./basics";
-import { ICertificate } from "./certificate";
+import { ITooling } from "./tooling";
 import { IEducation } from "./education";
 import { IValueProposition } from "./valueProposition";
 import { ILanguage } from "./language";
@@ -22,5 +22,5 @@ export interface IResume {
 	languages: ILanguage[];
 	valuePropositions: IValueProposition[];
 	references: IReference[];
-	certificates: ICertificate[];
+	tooling: ITooling[];
 }
