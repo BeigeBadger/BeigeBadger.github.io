@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IResume } from "../models/resume/resume";
 import { faGithub, faLinkedin, faStackOverflow, faRebel } from "@fortawesome/free-brands-svg-icons";
-import { faAward, faBook, faGraduationCap, faMapMarker, faTrophy } from "@fortawesome/free-solid-svg-icons";
+import { faAward, faBook, faGraduationCap, faHandHoldingHeart, faMapMarker, faTrophy } from "@fortawesome/free-solid-svg-icons";
 interface IResumeProps {
 	resumeData: IResume
 };
@@ -127,17 +127,69 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 			</div>
 
 			<div className="content">
-
 				<div className="work-history">
 
 				</div>
 
 				<div className="tooling">
+					{
+						props.resumeData.tooling.map((tool, index) => {
+							return (
+								<div key={index}>
+									<div>
+										{
+											tool.name
+										}
+									</div>
 
+									<div>
+										{
+											`Current: ${tool.current.join(", ")}`
+										}
+									</div>
+
+									<div>
+										{
+											tool.historical.length > 0 && `Historical: ${tool.historical.join(", ")}`
+										}
+									</div>
+								</div>
+							)
+						})
+					}
 				</div>
 
 				<div className="open-source-development">
+					{
+						props.resumeData.openSourceProjects.map((project, index) => {
+							return (
+								<div key={index}>
+									<FontAwesomeIcon icon={faHandHoldingHeart} />
 
+									<div>
+										{
+											project.displayName
+										}
+									</div>
+
+									<div>
+										{
+											project.description
+										}
+									</div>
+
+									<div>
+										{
+											project.githubUrl &&
+											<a href={project.githubUrl}>
+												Project homepage
+											</a>
+										}
+									</div>
+								</div>
+							)
+						})
+					}
 				</div>
 
 				<div className="awards">
