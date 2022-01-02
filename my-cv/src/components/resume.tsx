@@ -1,19 +1,11 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IResume } from "../models/resume/resume";
-import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap";
 import BasicInfo from "./basicInfo";
 import Profiles from "./profiles";
 import PersonalSummary from "./personalSummary";
 import Skills from "./skills";
-import ValuePropositions from "./valuePropositions";
 import WorkHistory from "./workHistory";
-import Tooling from "./tooling";
-import OpenSourceProjects from "./openSourceProjects";
-import Awards from "./awards";
-import Publications from "./publications";
-import Qualifications from "./qualifications";
-import References from "./references";
+import SideContent from "./sideContent";
 
 interface IResumeProps {
 	resumeData: IResume
@@ -33,11 +25,11 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 
 				<Container fluid>
 					<Row>
-						<Col>
+						<Col xs={12} sm={8} className="text-sm-center text-md-start">
 							<BasicInfo basics={props.resumeData.basics} />
 						</Col>
 
-						<Col>
+						<Col xs={12} sm={4} className="text-sm-center text-md-start">
 							<Profiles profiles={props.resumeData.basics.profiles} />
 						</Col>
 					</Row>
@@ -71,84 +63,18 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 			<div className="content">
 				<Container fluid>
 					<Row>
-						<Col>
-							<ValuePropositions valuePropositions={props.resumeData.valuePropositions} />
-						</Col>
-					</Row>
-				</Container>
-
-				<hr />
-
-				<Container fluid>
-					<Row>
-						<Col>
+						<Col xs={12} md={7} lg={7}>
 							<WorkHistory jobHistory={props.resumeData.jobHistory} />
 						</Col>
-					</Row>
-				</Container>
 
-				<hr />
-
-				<Container fluid>
-					<Row>
-						<Col>
-							<Tooling tooling={props.resumeData.tooling} />
+						<Col xs={12} md={5} lg={5}>
+							<SideContent resumeData={props.resumeData} />
 						</Col>
 					</Row>
+
+					<hr />
+
 				</Container>
-
-				<hr />
-
-				<Container fluid>
-					<Row>
-						<Col>
-							<OpenSourceProjects projects={props.resumeData.openSourceProjects} />
-						</Col>
-					</Row>
-				</Container>
-
-				<hr />
-
-				<Container fluid>
-					<Row>
-						<Col>
-							<Awards awards={props.resumeData.awards} />
-						</Col>
-					</Row>
-				</Container>
-
-				<hr />
-
-				<Container fluid>
-					<Row>
-						<Col>
-							<Publications publications={props.resumeData.publications} />
-						</Col>
-					</Row>
-				</Container>
-
-				<hr />
-
-				<Container fluid>
-					<Row>
-						<Col>
-							<Qualifications qualifications={props.resumeData.qualifications} />
-						</Col>
-					</Row>
-				</Container>
-
-				<hr />
-
-				<Container fluid>
-					<Row>
-						<Col>
-							<References references={props.resumeData.references} />
-						</Col>
-					</Row>
-				</Container>
-
-				<hr />
-
 			</div>
 
 			<div className="footer">
