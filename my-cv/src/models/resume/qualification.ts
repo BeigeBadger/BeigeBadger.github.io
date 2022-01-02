@@ -1,6 +1,6 @@
 import { IYearMonth } from "./yearMonth";
 
-export interface IEducation {
+export interface IQualification {
 	institution: string;
 	url: string;
 	area: string;

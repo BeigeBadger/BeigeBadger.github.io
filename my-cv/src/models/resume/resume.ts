@@ -1,7 +1,7 @@
 import { IAward } from "./award";
 import { IBasics } from "./basics";
 import { ITooling } from "./tooling";
-import { IEducation } from "./education";
+import { IQualification } from "./qualification";
 import { IValueProposition } from "./valueProposition";
 import { ILanguage } from "./language";
 import { IProject } from "./project";
@@ -16,7 +16,7 @@ export interface IResume {
 	openSourceProjects: IProject[];
 	jobHistory: IJob[];
 	publications: IPublication[];
-	education: IEducation[];
+	qualifications: IQualification[];
 	volunteer: any[];
 	awards: IAward[];
 	languages: ILanguage[];
