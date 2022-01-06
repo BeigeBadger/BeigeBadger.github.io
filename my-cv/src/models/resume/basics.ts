@@ -12,6 +12,7 @@ export interface IBasics {
 	headline: string;
 	blog?: any;
 	yearsOfExperience: number;
+	fullTimeExperienceStartDate: string;
 	username: string;
 	locationAsString: string;
 	location: string;

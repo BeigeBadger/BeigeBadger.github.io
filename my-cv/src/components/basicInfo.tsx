@@ -2,12 +2,26 @@ import { Col, Container, Row } from "react-bootstrap";
 import { IBasics } from "../models/resume/basics";
 import { faMapMarker } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import dayjs from "dayjs";
+import { useEffect, useState } from "react";
 
 interface IBasicInfoProps {
 	basics: IBasics
 };
 
 const BasicInfo: React.FC<IBasicInfoProps> = (props: IBasicInfoProps) => {
+	const [yearsOfFullTimeExperience, setYearsOfFullTimeExperience] = useState<number | null>(null)
+
+	useEffect(() => {
+		const startDate = dayjs(props.basics.fullTimeExperienceStartDate);
+		const now = dayjs();
+
+		// https://day.js.org/docs/en/display/difference#docsNav
+		const difference = now.diff(startDate, "years");
+
+		setYearsOfFullTimeExperience(difference);
+	}, [props.basics.fullTimeExperienceStartDate]);
+
 	return (
 		<>
 			<Container>
@@ -31,7 +45,7 @@ const BasicInfo: React.FC<IBasicInfoProps> = (props: IBasicInfoProps) => {
 					<Row>
 						<Col>
 							{
-								`${props.basics.yearsOfExperience} years of experience`
+								`${yearsOfFullTimeExperience} years of experience`
 							}
 						</Col>
 					</Row>
