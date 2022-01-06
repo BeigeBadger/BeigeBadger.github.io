@@ -1,7 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { IBasics } from "../models/resume/basics";
-import { faMapMarker } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import dayjs from "dayjs";
 import { useEffect, useState } from "react";
 
