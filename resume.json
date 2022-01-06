@@ -1,45 +1,44 @@
 {
 	"basics": {
 		"name": "Matt Stannett",
-		"label": "Senior Software Engineer | Aware Group",
-		"image": "https://avatars.githubusercontent.com/u/8124536?v=4",
+		"jobTitle": "Senior Software Engineer",
+		"image": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200",
 		"email": "matt.stannett@gmail.com",
 		"phone": "",
 		"url": null,
 		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that satisfy client needs. Believes in producing elegant, extensible, and well-documented deliverables. Highly motivated to overcome challenges that foster personal growth and development. An avid reader, amateur military historian and scale model builder. Keeps active through football (indoor, six-a-side, and outdoor), and mountain biking hobbies.",
 		"profiles": [
 			{
-				"network": "gitconnected",
-				"username": "BeigeBadger",
-				"url": "https://gitconnected.com/BeigeBadger"
-			},
-			{
 				"network": "GitHub",
 				"username": "BeigeBadger",
-				"url": "https://github.com/BeigeBadger"
-			},
-			{
-				"network": "LinkedIn",
-				"url": "https://www.linkedin.com/in/matt-stannett-404a63b7/",
-				"username": "matt-stannett-404a63b7"
+				"url": "https://github.com/BeigeBadger",
+				"iconName": "github"
 			},
 			{
 				"network": "Stack Overflow",
 				"url": "https://stackoverflow.com/users/5209435/matt-stannett",
-				"username": "matt-stannett"
+				"username": "matt-stannett",
+				"iconName": "stack-overflow"
+			},
+			{
+				"network": "LinkedIn",
+				"url": "https://www.linkedin.com/in/matt-stannett-404a63b7/",
+				"username": "Matt Stannett",
+				"iconName": "linkedin"
 			}
 		],
 		"headline": "",
 		"blog": null,
 		"yearsOfExperience": 8,
+		"fullTimeExperienceStartDate": "2014-01-01",
 		"username": "BeigeBadger",
 		"locationAsString": "Hamilton, New Zealand",
-		"region": "Hamilton, New Zealand",
+		"location": "Hamilton, New Zealand",
 		"karma": 14,
 		"id": "c8a9f100-0c01-403e-9c0f-cd64cd7deb54",
 		"followers": 3,
 		"following": 0,
-		"picture": "https://avatars.githubusercontent.com/u/8124536?v=4",
+		"picture": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200",
 		"website": null
 	},
 	"skills": [
@@ -107,10 +106,152 @@
 			"yearsOfExperience": 4
 		}
 	],
-	"projects": [
+	"openSourceProjects": [
+		{
+			"name": "AzureMapsCodeSamples",
+			"description": "Fixed typos in the GitHub Issue template.",
+			"url": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Azure Maps Code Samples",
+			"website": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
+			"summary": "A collection of over a hundred code samples for the Azure Maps Web SDK.",
+			"primaryLanguage": "C#",
+			"languages": [
+				"C#",
+				"Markdown"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
+			"repositoryUrl": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
+		{
+			"name": "msteams-docs",
+			"description": "Fixed broken links in the documentation.",
+			"url": "https://github.com/MicrosoftDocs/msteams-docs",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Microsoft Teams Docs",
+			"website": "https://github.com/MicrosoftDocs/msteams-docs",
+			"summary": "Documentation on how to use Microsoft Teams",
+			"primaryLanguage": "Markdown",
+			"languages": [
+				"Markdown"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/MicrosoftDocs/msteams-docs",
+			"repositoryUrl": "https://github.com/MicrosoftDocs/msteams-docs",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
+		{
+			"name": "botframework-solutions",
+			"description": "Fixed incorrect path issue in code and broken link in the documentation.",
+			"url": "https://github.com/microsoft/botframework-solutions",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Microsoft Bot Framework Solutions",
+			"website": "https://github.com/microsoft/botframework-solutions",
+			"summary": "This repository is the home for a set of templates and solutions to help build conversational experiences using Azure Bot Service and Bot Framework.",
+			"primaryLanguage": "C#",
+			"languages": [
+				"C#",
+				"Markdown"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/microsoft/botframework-solutions",
+			"repositoryUrl": "https://github.com/microsoft/botframework-solutions",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
+		{
+			"name": "botbuilder-tools",
+			"description": "Fixed grammar and improved formatting within the documentation.",
+			"url": "https://github.com/microsoft/botbuilder-tools",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Microsoft Bot Builder Tools",
+			"website": "https://github.com/microsoft/botbuilder-tools",
+			"summary": "The Bot Framework SDK team is happy to announce the General Availability of the consolidated bot framework CLI tool bf-cli. ",
+			"primaryLanguage": "C#",
+			"languages": [
+				"C#",
+				"Markdown",
+				"PowerShell",
+				"JavaScript",
+				"TypeScript"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/microsoft/botbuilder-tools",
+			"repositoryUrl": "https://github.com/microsoft/botbuilder-tools",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
 		{
 			"name": "azure-docs",
-			"description": "",
+			"description": "Improved the clarity of the documentation, fixed various typos and other mistakes as I came across them. Updated example scripts to pass missing arguments, contributed updates for sample code that had errors in it.",
 			"url": "https://docs.microsoft.com/azure",
 			"highlights": [],
 			"keywords": [],
@@ -119,12 +260,13 @@
 			"endDate": "",
 			"entity": "",
 			"type": "",
-			"displayName": "azure-docs",
+			"displayName": "Azure Docs",
 			"website": "https://docs.microsoft.com/azure",
 			"summary": "Open source documentation of Microsoft Azure",
-			"primaryLanguage": "PowerShell",
+			"primaryLanguage": "Markdown",
 			"languages": [
-				"PowerShell"
+				"PowerShell",
+				"Markdown"
 			],
 			"libraries": [],
 			"githubUrl": "https://github.com/MicrosoftDocs/azure-docs",
@@ -144,7 +286,7 @@
 		},
 		{
 			"name": "azure-cosmos-dotnet-repository",
-			"description": "",
+			"description": "Added support for using Managed Identities to authenticate. Added tests to ensure correct behaviour and prevent regressions.",
 			"url": "",
 			"highlights": [],
 			"keywords": [],
@@ -153,7 +295,7 @@
 			"endDate": "",
 			"entity": "",
 			"type": "",
-			"displayName": "azure-cosmos-dotnet-repository",
+			"displayName": "Azure Cosmos DB Repository .NET SDK",
 			"website": "",
 			"summary": "Wraps the .NET SDK for Azure Cosmos DB abstracting away the complexity, exposing a simple CRUD-based repository pattern",
 			"primaryLanguage": "C#",
@@ -178,7 +320,7 @@
 		},
 		{
 			"name": "sql-docs",
-			"description": "",
+			"description": "Fixed typos in the documentation.",
 			"url": "",
 			"highlights": [],
 			"keywords": [],
@@ -187,12 +329,13 @@
 			"endDate": "",
 			"entity": "",
 			"type": "",
-			"displayName": "sql-docs",
+			"displayName": "Microsoft SQL Server Technical Documentation",
 			"website": "",
 			"summary": "Technical documentation for Microsoft SQL Server, tools such as SQL Server Management Studio (SSMS) ,  SQL Server Data Tools (SSDT) etc.",
-			"primaryLanguage": "PowerShell",
+			"primaryLanguage": "Markdown",
 			"languages": [
-				"PowerShell"
+				"Markdown",
+				"SQL"
 			],
 			"libraries": [],
 			"githubUrl": "https://github.com/MicrosoftDocs/sql-docs",
@@ -211,8 +354,8 @@
 			"videos": []
 		},
 		{
-			"name": "pyaudioanalysis",
-			"description": "",
+			"name": "AzureTipsAndTricks",
+			"description": "Fixed typos in the documentation.",
 			"url": "",
 			"highlights": [],
 			"keywords": [],
@@ -221,7 +364,42 @@
 			"endDate": "",
 			"entity": "",
 			"type": "",
-			"displayName": "pyAudioAnalysis",
+			"displayName": "Azure Tips and Tricks",
+			"website": "Welcome to Azure Tips and Tricks, this site is a special collection hundreds of tips in form of blog posts and videos that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that we've encountered (along with the community) while using Azure. Feel free to jump in and come back weekly for new tips!",
+			"primaryLanguage": "Markdown",
+			"languages": [
+				"Markdown",
+				"Vue",
+				"JavaScript"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/microsoft/AzureTipsAndTricks",
+			"repositoryUrl": "https://github.com/microsoft/AzureTipsAndTricks",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
+		},
+		{
+			"name": "pyaudioanalysis",
+			"description": "Added support for an optional output directory, running analysis over a directory, and providing min/max bounds for durations.",
+			"url": "",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Python Audio Analysis",
 			"website": "",
 			"summary": "Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications",
 			"primaryLanguage": "Python",
@@ -248,18 +426,52 @@
 			},
 			"images": [],
 			"videos": []
+		},
+		{
+			"name": "zen-audio-player",
+			"description": "Added support for retrieving and conditionally showing the description for a video.",
+			"url": "",
+			"highlights": [],
+			"keywords": [],
+			"roles": [],
+			"startDate": "",
+			"endDate": "",
+			"entity": "",
+			"type": "",
+			"displayName": "Zen Audio Player",
+			"website": "",
+			"summary": "Listen to YouTube videos, without the distracting visuals.",
+			"primaryLanguage": "JavaScript",
+			"languages": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"libraries": [],
+			"githubUrl": "https://github.com/zen-audio-player/zen-audio-player.github.io",
+			"repositoryUrl": "https://github.com/zen-audio-player/zen-audio-player.github.io",
+			"start": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"end": {
+				"year": null,
+				"month": null,
+				"day": null
+			},
+			"images": [],
+			"videos": []
 		}
 	],
-	"work": [
+	"jobHistory": [
 		{
-			"name": "Aware Group",
 			"location": "Hamilton, New Zealand",
-			"description": "",
 			"position": "Senior Software Engineer",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2020-11-01",
 			"endDate": "",
-			"summary": "Continued delivering solutions using the Azure platform and DevOps best practices. Scoped and designed the architecture and the security posture for new pieces of work. Shifted into a leadership role, independently ran projects and managed team members across multiple disciplines to ensure that deliverables were on time and met the requirements. Heavily involved in the onboarding, including performing inductions for engineering staff both inside and outside of the software engineering discipline, and ensuring that new-hires were set up for success. Learned and practiced candidate evaluation skills for technical hires, gained practical experience with pre/post-interview tasks. Undertook training to further develop leadership and coaching skills, so that difference approaches could be used to meet different needs. Developed content for team standards, style guides, templates, and onboarding collateral to ensure that a standardized approach was taken to building solutions. Demonstrated flexibility and acquired new skills in the data platform space by working outside of my core role for an extended period of time. Gave back to the development community by contributing code to open-source projects and answering questions on developer forums.",
+			"description": "Continued delivering solutions using the Azure platform and DevOps best practices. Scoped and designed the architecture and the security posture for new pieces of work. Shifted into a leadership role, independently ran projects and managed team members across multiple disciplines to ensure that deliverables were on time and met the requirements. Heavily involved in the onboarding, including performing inductions for engineering staff both inside and outside of the software engineering discipline, and ensuring that new-hires were set up for success. Learned and practiced candidate evaluation skills for technical hires, gained practical experience with pre/post-interview tasks. Undertook training to further develop leadership and coaching skills, so that difference approaches could be used to meet different needs. Developed content for team standards, style guides, templates, and onboarding collateral to ensure that a standardized approach was taken to building solutions. Demonstrated flexibility and acquired new skills in the data platform space by working outside of my core role for an extended period of time. Gave back to the development community by contributing code to open-source projects and answering questions on developer forums.",
 			"highlights": [
 				"Created a data platform solution - Worked with a data platform engineer and the client to design and deliver a data lake and associated pipelines to ingest and reconcile data for a major transportation hub on a daily basis. This reporting data store replaced a legacy on-premises store with one hosted in Azure which was faster, more reliable, cheaper, and more accurate. Introduced new tools to the team that were instrumental in demonstrating milestones had been achieved, and sharing knowledge across the team.",
 				"Developed an integration solution using streaming architecture - Created two streaming pipelines to handle different  scenarios for the same client. One for ingesting changes from an on-premises SQL Server database into an Azure SQL database in near realtime. The second used a serverless approach for receiving different events from an online store, validating their schema, and passing them on to an existing customer endpoint. Both of these pipelines were engineered in a way that allowed them to be easily extended to handle additional tables and event types.",
@@ -277,14 +489,12 @@
 			"website": "https://www.awaregroup.com/"
 		},
 		{
-			"name": "Aware Group",
 			"location": "",
-			"description": "",
 			"position": "Software Engineer",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2019-02-01",
 			"endDate": "2020-10-01",
-			"summary": "Worked as part of a small software engineering team to deliver primarily web-based solutions that are built using the PaaS and IaaS offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work, in addition to short and long-term engagements. Took ownership of being the technical authority on ChatBots, Form Recognizer, Power Apps, speech (Speech to Text) and language (LUIS and QnA Maker) cognitive services. Worked with Microsoft product teams to test new and upcoming features, and had multiple pull requests accepted for documentation across various Microsoft services and technologies. Successfully delivered projects whether working independently, collaborating with team members, or as an embedded resource within a client team (remote and in person). Mentored and supported team members across professional practices, to share knowledge throughout the business.",
+			"description": "Worked as part of a small software engineering team to deliver primarily web-based solutions that are built using the PaaS and IaaS offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work, in addition to short and long-term engagements. Took ownership of being the technical authority on ChatBots, Form Recognizer, Power Apps, speech (Speech to Text) and language (LUIS and QnA Maker) cognitive services. Worked with Microsoft product teams to test new and upcoming features, and had multiple pull requests accepted for documentation across various Microsoft services and technologies. Successfully delivered projects whether working independently, collaborating with team members, or as an embedded resource within a client team (remote and in person). Mentored and supported team members across professional practices, to share knowledge throughout the business.",
 			"highlights": [
 				"Planned and delivered customer workshops - Successfully led multi-day workshops and events for customers. Operated as the sole presenter for company-specific events and collaborated as part of a team of coaches at events that were open to the public. These events covered a variety of topics and technologies, which could span multiple disciplines. This involved designing, writing, reviewing, and testing event content practical exercises; usually on short notice, with limited preparation time, and occasionally for others to deliver.",
 				"Developed an Automated Ad Serving solution - Successfully architected and delivered a project, using a new language and unfamiliar technologies. Interacted directly with technical and non-technical staff on the client-side to; confirm requirements, prevent scope creep, sign-off milestones, and exceed client expectations. The end deliverable significantly improved the client’s go-live process, provided increased visibility of changes, and is readily extensible.",
@@ -303,9 +513,7 @@
 			"website": "https://www.awaregroup.com/"
 		},
 		{
-			"name": "Smartrak",
 			"location": "",
-			"description": "",
 			"position": "Software Engineer",
 			"url": "https://smartrak.com/",
 			"startDate": "2016-06-01",
@@ -330,14 +538,12 @@
 			"website": "https://smartrak.com/"
 		},
 		{
-			"name": "Smartrak",
 			"location": "",
-			"description": "",
 			"position": "Junior Software Engineer/IT Administrator",
 			"url": "https://smartrak.com/",
 			"startDate": "2014-01-01",
 			"endDate": "2016-05-01",
-			"summary": "Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System and Smart Fleet Management System solutions to Fonterra using .NET and open-source technologies. Willingly undertook training as an IT Administrator; this role involved managing relationships with internal staff, external contractors and third-party vendors to ensure hardware + software systems ran smoothly, and licenses remained current.",
+			"description": "Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System and Smart Fleet Management System solutions to Fonterra using .NET and open-source technologies. Willingly undertook training as an IT Administrator; this role involved managing relationships with internal staff, external contractors and third-party vendors to ensure hardware + software systems ran smoothly, and licenses remained current.",
 			"highlights": [
 				"Developed multi-platform systems - Helpers develop the ICS application that ran on a tablet, along with the Smart FMS portal. Used WPF, Razor, ReactJS, SQLite, and PostgreSQL.",
 				"Fonterra hardware rollout support - Independently researched, developed and\nimplemented the processes for the setup of Fonterra hardware. In addition to this, a solution\nthat allowed support staff to remotely control the device in each truck through a web\napplication was implemented."
@@ -355,14 +561,12 @@
 			"website": "https://smartrak.com/"
 		},
 		{
-			"name": "Smartrak",
 			"location": "",
-			"description": "",
 			"position": "Software Engineer Intern",
 			"url": "https://smartrak.com/",
 			"startDate": "2012-11-01",
 			"endDate": "2013-12-01",
-			"summary": "Assisted with maintenance of core web applications. Focused on bringing user experience\nimprovements to internal systems and learning real-world software engineering best practices.",
+			"description": "Assisted with maintenance of core web applications. Focused on bringing user experience\nimprovements to internal systems and learning real-world software engineering best practices.",
 			"highlights": [
 				"Updated customer-facing Admin website - Updated an ASP.NET Web Forms site with over 30 pages that was using legacy styling to use a responsive framework which enabled staff, customers, and our vendors to use it on their portable devices."
 			],
@@ -385,7 +589,12 @@
 			"publisher": "The University of Waikato",
 			"releaseDate": "2013-01-01",
 			"url": "https://researchcommons.waikato.ac.nz/handle/10289/8410",
-			"summary": "Stannett, M., Legg, C. & Sarjant, S. (2013). Massive ontology interface. Paper presented at CHINZ 2013: 14th Annual Conference of the New Zealand Chapter of the ACM Special Interest Group on Computer-Human Interaction, 15-16 November 2013 — Christchurch, New Zealand.",
+			"authors": [
+				"Stannett, M.",
+				"Legg, C.",
+				"Sarjant, S."
+			],
+			"summary": "Paper presented at CHINZ 2013: 14th Annual Conference of the New Zealand Chapter of the ACM Special Interest Group on Computer-Human Interaction, 15-16 November 2013 — Christchurch, New Zealand.",
 			"fullReleaseDate": {
 				"year": 2013,
 				"month": null,
@@ -394,24 +603,24 @@
 			"website": "https://researchcommons.waikato.ac.nz/handle/10289/8410"
 		}
 	],
-	"education": [
+	"qualifications": [
 		{
 			"institution": "University of Waikato",
 			"url": "https://www.waikato.ac.nz/",
 			"area": "Computer Science",
-			"studyType": "Bachelors of Computing and Mathematical Sciences (First Class Honours)",
-			"startDate": "2014-01-01",
-			"endDate": "2010-01-01",
-			"score": "First Class Honours",
+			"studyType": "Bachelors of Computing and Mathematical Sciences",
+			"startDate": "2010-01-01",
+			"endDate": "2014-01-01",
+			"endorsement": "First Class Honours",
 			"courses": [],
 			"description": "",
 			"activities": "",
 			"start": {
-				"year": 2014,
+				"year": 2010,
 				"month": 1
 			},
 			"end": {
-				"year": 2010,
+				"year": 2014,
 				"month": 1
 			},
 			"website": "https://www.waikato.ac.nz/",
@@ -421,8 +630,45 @@
 	"volunteer": [],
 	"awards": [
 		{
+			"title": "Digital & Application Innovation Award",
+			"date": "2021-12-06",
+			"type": "trophy",
+			"awarder": "Microsoft",
+			"summary": "I delivered an independent component of, and was part of the team that deliver the Olympics@Ryman solution and event for (Ryman Healthcare) at the New Zealand Microsoft Partner Awards.",
+			"fullDate": {
+				"year": 2021,
+				"month": 12
+			},
+			"link": "https://www.msnzpartnerawards.co.nz/"
+		},
+		{
+			"title": "Best Active Ageing Programme - Residential",
+			"date": "2021-12-03",
+			"type": "trophy",
+			"awarder": "Ageing Asia",
+			"summary": "I delivered an independent component of, and was part of the team that deliver the Olympics@Ryman solution and event for (Ryman Healthcare) at the Asia Pacific Eldercare Innovation Awards.",
+			"fullDate": {
+				"year": 2021,
+				"month": 12
+			},
+			"link": "https://ageingasia.com/industry-programmes/awards2021/"
+		},
+		{
+			"title": "Azure Innovate Award",
+			"date": "2019-10-18",
+			"type": "trophy",
+			"awarder": "Microsoft",
+			"summary": "I was part of the team that delivered the Port Otago solution that won an award at the New Zealand Microsoft Partner Awards.",
+			"fullDate": {
+				"year": 2019,
+				"month": 10
+			},
+			"link": "https://news.microsoft.com/en-nz/2019/10/18/microsoft-announces-2019-new-zealand-partner-awards-winners/"
+		},
+		{
 			"title": "Employee of the month",
 			"date": "2017-03-01",
+			"type": "award",
 			"awarder": "Smartrak Ltd",
 			"summary": "I was awarded employee of the month.",
 			"fullDate": {
@@ -433,6 +679,7 @@
 		{
 			"title": "Development Team MVP for 2016",
 			"date": "2016-12-01",
+			"type": "trophy",
 			"awarder": "Smartrak Ltd",
 			"summary": "I was awarded the MVP award for 2016 by my peers in the Development Team.",
 			"fullDate": {
@@ -443,6 +690,7 @@
 		{
 			"title": "Employee of the month",
 			"date": "2015-05-01",
+			"type": "award",
 			"awarder": "Smartrak Ltd",
 			"summary": "I was awarded employee of the month.",
 			"fullDate": {
@@ -453,6 +701,7 @@
 		{
 			"title": "Best Honours Project Presentation",
 			"date": "2013-11-01",
+			"type": "trophy",
 			"awarder": "University of Waikato Computer Science Department",
 			"summary": "I was awarded the best presentation for my cohort (~50 students).",
 			"fullDate": {
@@ -467,171 +716,154 @@
 			"fluency": "Native"
 		}
 	],
-	"interests": [
+	"valuePropositions": [
 		{
-			"name": "Experienced Software Engineer with the ability to develop full-stack applications that utilize design patterns, a variety of languages, and leverage the cloud to deliver innovative solutions for end users.",
-			"keywords": []
+			"description": "Experienced Software Engineer with the ability to develop full-stack applications that utilize design patterns, a variety of languages, and leverage the cloud to deliver innovative solutions for end users."
 		},
 		{
-			"name": "Over eight years software engineering experience delivering predominantly web-based applications, primarily using .NET/C#.",
-			"keywords": []
+			"description": "Over eight years software engineering experience delivering predominantly web-based applications, primarily using .NET/C#."
 		},
 		{
-			"name": "Strong emphasis on multi-layered testing using both unit, integration, and functional tests to ensure reliability and prevent regressions.",
-			"keywords": []
+			"description": "Strong emphasis on multi-layered testing using both unit, integration, and functional tests to ensure reliability and prevent regressions."
 		},
 		{
-			"name": "Actively seeks to improve the software delivery process through automation, ChatOps, and discussion of best practices and new ideas.",
-			"keywords": []
+			"description": "Actively seeks to improve the software delivery process through automation, ChatOps, and discussion of best practices and new ideas."
 		},
 		{
-			"name": "Values a strong team culture. Encourages team members to develop a shared sense of identity and purpose.",
-			"keywords": []
+			"description": "Values a strong team culture. Encourages team members to develop a shared sense of identity and purpose."
 		},
 		{
-			"name": "Enjoys playing an active role in fostering a fun, friendly, and collaborative environment where mentoring others is valued and planned for.",
-			"keywords": []
+			"description": "Enjoys playing an active role in fostering a fun, friendly, and collaborative environment where mentoring others is valued and planned for."
 		},
 		{
-			"name": "Comfortable working directly with clients, has experience leading projects and running workshops.",
-			"keywords": []
+			"description": "Comfortable working directly with clients, has experience leading projects and running workshops."
 		},
 		{
-			"name": "Excellent written communication skills. Advocates for knowledge sharing through documenting processes, system architecture, and functionality overviews.",
-			"keywords": []
+			"description": "Excellent written communication skills. Advocates for knowledge sharing through documenting processes, system architecture, and functionality overviews."
 		}
 	],
 	"references": [
 		{
-			"name": "Team Leader",
-			"reference": "Available by request"
+			"role": "Team Leader",
+			"details": "Available by request"
 		},
 		{
-			"name": "Project Manager",
-			"reference": "Available by request"
+			"role": "Project Manager",
+			"details": "Available by request"
 		},
 		{
-			"name": "Colleague",
-			"reference": "Available by request"
+			"role": "Colleague",
+			"details": "Available by request"
 		}
 	],
-	"certificates": [
+	"tooling": [
 		{
 			"name": "Languages",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "C#, HTML, CSS, SASS, SQL, JavaScript, Python, TypeScript, PowerShell",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"C#",
+				"HTML",
+				"CSS",
+				"SASS",
+				"SQL",
+				"JavaScript",
+				"Python",
+				"TypeScript",
+				"PowerShell"
+			],
+			"historical": []
 		},
 		{
 			"name": "Frameworks/Tools",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Entity Framework, ASP.NET Core (Web API, Razor pages), React, Redux, Debezium, Bootstrap, Notebooks (Jupyter, SQL), Docker, Power Apps, Microsoft Bot Framework\n\nHistorical:\njQuery, ASP.NET (MVC, Web API), Selenium",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"Entity Framework", "ASP.NET Core (Web API, Razor pages)",
+				"React",
+				"Redux",
+				"Debezium",
+				"Bootstrap",
+				"Notebooks (Jupyter, SQL)",
+				"Docker",
+				"Power Apps",
+				"Microsoft Bot Framework"
+			],
+			"historical": [
+				"jQuery",
+				"ASP.NET (MVC, Web API)",
+				"Selenium"
+			]
 		},
 		{
 			"name": "Source Control",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Git\n\nHistorical\nSVN",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"Git"
+			],
+			"historical": [
+				"SVN"
+			]
 		},
 		{
 			"name": "Continuous Integration, Delivery, and Deployment",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Azure Pipelines, GitHub Actions.\n\nHistorical\nTeamCity, Octopus Deploy.",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"Azure Pipelines",
+				"GitHub Actions"
+			],
+			"historical": [
+				"TeamCity",
+				"Octopus Deploy",
+				"AppVeyor"
+			]
 		},
 		{
 			"name": "Cloud Experience",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Azure",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"Azure"
+			],
+			"historical": []
 		},
 		{
-			"name": "Project Management Tooling",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Azure Boards, GitHub Projects, JIRA\n\nHistorical:\nMiro, Redmine, Trello",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"name": "Project Management",
+			"current": [
+				"Azure Boards",
+				"GitHub Projects",
+				"JIRA",
+				"Miro"
+			],
+			"historical": [
+				"Redmine",
+				"Trello",
+				"Confluence"
+			]
 		},
 		{
 			"name": "Databases",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "SQL Server, Cosmos DB, Azure Table Storage\n\nHistorical:\nSQLite, PostgreSQL",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"SQL Server",
+				"Cosmos DB",
+				"Azure Table Storage"
+			],
+			"historical": [
+				"SQLite",
+				"PostgreSQL"
+			]
 		},
 		{
 			"name": "Infrastructure as Code",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "ARM, Bicep",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"ARM",
+				"Bicep"
+			],
+			"historical": []
 		},
 		{
 			"name": "Enterprise",
-			"issuer": "",
-			"date": "",
-			"url": "",
-			"summary": "Azure, Azure Active Directory, Office 365\n\nHistorical:\nActive Directory, Microsoft Exchange",
-			"fullDate": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"website": ""
+			"current": [
+				"Azure",
+				"Azure Active Directory",
+				"Office 365"
+			],
+			"historical": [
+				"Active Directory",
+				"Microsoft Exchange"
+			]
 		}
 	],
 	"meta": {
