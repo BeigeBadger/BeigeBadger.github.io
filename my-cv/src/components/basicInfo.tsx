@@ -29,14 +29,6 @@ const BasicInfo: React.FC<IBasicInfoProps> = (props: IBasicInfoProps) => {
 					<Row>
 						<Col>
 							{
-								props.basics.name
-							}
-						</Col>
-					</Row>
-
-					<Row>
-						<Col>
-							{
 								props.basics.jobTitle
 							}
 						</Col>
@@ -52,8 +44,6 @@ const BasicInfo: React.FC<IBasicInfoProps> = (props: IBasicInfoProps) => {
 
 					<Row>
 						<Col>
-							<FontAwesomeIcon icon={faMapMarker} className="me-2" />
-
 							{
 								props.basics.location
 							}

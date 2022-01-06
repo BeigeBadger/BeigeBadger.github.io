@@ -25,11 +25,23 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 
 				<Container fluid>
 					<Row>
-						<Col xs={12} sm={8} className="text-sm-center text-md-start">
+						<Col>
+							<h1>
+								{
+									props.resumeData.basics.name
+								}
+							</h1>
+						</Col>
+					</Row>
+				</Container>
+
+				<Container fluid>
+					<Row>
+						<Col xs={12} sm={{ span: 6 }} md={{ span: 4, offset: 2 }} className="text-sm-center text-md-end">
 							<BasicInfo basics={props.resumeData.basics} />
 						</Col>
 
-						<Col xs={12} sm={4} className="text-sm-center text-md-start">
+						<Col xs={12} sm={6} md={4} className="text-sm-center text-md-start">
 							<Profiles profiles={props.resumeData.basics.profiles} />
 						</Col>
 					</Row>
