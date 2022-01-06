@@ -25,8 +25,8 @@ const Skills: React.FC<ISkillsProps> = (props: ISkillsProps) => {
 									{
 										props.skills.map((skill, index) => {
 											return (
-												<Col xs={12} sm={6} md={3}>
-													<div key={index}>
+												<Col key={index} xs={12} sm={6} md={3}>
+													<div >
 														<div>
 															<h5>
 																{
