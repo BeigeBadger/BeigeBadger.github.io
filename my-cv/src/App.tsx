@@ -35,25 +35,23 @@ const App = () => {
 
 	return (
 		<div className="App">
-			<header className="App-header">
-				{
-					isUnderConstruction
-						?
-							<>
-								<img src={logo} className="App-logo" alt="logo" />
-								<p>
-									Under construction, check back soon.
-								</p>
-							</>
-						: null
-				}
+			{
+				isUnderConstruction
+					?
+					<>
+						<img src={logo} className="App-logo" alt="logo" />
+						<p>
+							Under construction, check back soon.
+						</p>
+					</>
+					: null
+			}
 
-				{
-					resumeData !== null && !isUnderConstruction
-						? <Resume resumeData={resumeData} />
-						: null
-				}
-			</header>
+			{
+				resumeData !== null && !isUnderConstruction
+					? <Resume resumeData={resumeData} />
+					: null
+			}
 		</div>
 	);
 };
