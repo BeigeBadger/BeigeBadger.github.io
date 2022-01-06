@@ -1,5 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { ISkill } from "../models/resume/skill";
+import { Rating } from 'react-simple-star-rating'
+import { FaFileCode } from 'react-icons/fa';
+
 
 interface ISkillsProps {
 	skills: ISkill[];
@@ -12,34 +15,61 @@ const Skills: React.FC<ISkillsProps> = (props: ISkillsProps) => {
 				<Row>
 					<Col>
 						<div className="skills">
-							{/* TODO: Could use a stack here? */}
-							{
-								props.skills.map((skill, index) => {
-									return (
-										<div key={index}>
-											<label>
-												<span>
-													{
-														skill.name
-													}
-												</span>
+							<h3>
+								Skills
+							</h3>
 
-												<span>
-													{
-														`${skill.yearsOfExperience} years of experience`
-													}
-												</span>
+							<Container fluid>
+								<Row>
+									{/* TODO: Could use a stack here? */}
+									{
+										props.skills.map((skill, index) => {
+											return (
+												<Col xs={12} sm={6} md={3}>
+													<div key={index}>
+														<div>
+															<h5>
+																{
+																	skill.name
+																}
+															</h5>
+														</div>
 
-												<span>
-													{
-														skill.level
-													}
-												</span>
-											</label>
-										</div>
-									);
-								})
-							}
+														<div>
+															<Rating
+																ratingValue={skill.rating * 20}
+																readonly={true}
+																allowHover={false}
+																fillColor="currentColor"
+																emptyIcon={<FaFileCode size={25} />}
+																fullIcon={<FaFileCode size={25} />}
+															/>
+														</div>
+
+														<div>
+															<p>
+																<label>
+																	{
+																		skill.level
+																	}
+																</label>
+
+																<br />
+
+																<label>
+																	{
+																		`${skill.yearsOfExperience} ${skill.yearsOfExperience !== 1 ? `years` : `year`} of experience`
+																	}
+																</label>
+															</p>
+														</div>
+													</div>
+												</Col>
+											);
+										})
+									}
+								</Row>
+							</Container>
 						</div>
 					</Col>
 				</Row>
