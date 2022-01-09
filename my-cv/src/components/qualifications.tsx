@@ -1,7 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { IQualification } from "../models/resume/qualification";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SectionTitle from "./shared/sectionTitle";
 
 
