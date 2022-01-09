@@ -2,6 +2,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import { ISkill } from "../models/resume/skill";
 import { Rating } from 'react-simple-star-rating'
 import { FaFileCode } from 'react-icons/fa';
+import SectionTitle from "../components/shared/sectionTitle";
+import { faHatWizard } from "@fortawesome/free-solid-svg-icons";
 
 
 interface ISkillsProps {
@@ -15,9 +17,7 @@ const Skills: React.FC<ISkillsProps> = (props: ISkillsProps) => {
 				<Row>
 					<Col>
 						<div className="skills">
-							<h3>
-								Skills
-							</h3>
+							<SectionTitle title="Skills" icon={faHatWizard} />
 
 							<Container fluid>
 								<Row>

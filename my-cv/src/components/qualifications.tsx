@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { IQualification } from "../models/resume/qualification";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SectionTitle from "./shared/sectionTitle";
 
 
 interface IQualificationsProps {
@@ -15,12 +16,12 @@ const Qualifications: React.FC<IQualificationsProps> = (props: IQualificationsPr
 				<Row>
 					<Col>
 						<div className="qualifications">
+							<SectionTitle title="Qualifications" icon={faGraduationCap} />
+
 							{
 								props.qualifications.map((qualification, index) => {
 									return (
-										<div key={index}>
-											<FontAwesomeIcon icon={faGraduationCap} />
-
+										<div key={index} className="mb-3">
 											<div>
 												{
 													`${qualification.start.year}-${qualification.end.year}`

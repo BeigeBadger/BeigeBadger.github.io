@@ -639,10 +639,11 @@
 				"year": 2021,
 				"month": 12
 			},
-			"link": "https://www.msnzpartnerawards.co.nz/"
+			"link": "https://www.msnzpartnerawards.co.nz/",
+			"display": true
 		},
 		{
-			"title": "Best Active Ageing Programme - Residential",
+			"title": "Best Active Ageing Programme (Residential Living)",
 			"date": "2021-12-03",
 			"type": "trophy",
 			"awarder": "Ageing Asia",
@@ -651,7 +652,8 @@
 				"year": 2021,
 				"month": 12
 			},
-			"link": "https://ageingasia.com/industry-programmes/awards2021/"
+			"link": "https://ageingasia.com/industry-programmes/awards2021/",
+			"display": true
 		},
 		{
 			"title": "Azure Innovate Award",
@@ -663,7 +665,8 @@
 				"year": 2019,
 				"month": 10
 			},
-			"link": "https://news.microsoft.com/en-nz/2019/10/18/microsoft-announces-2019-new-zealand-partner-awards-winners/"
+			"link": "https://news.microsoft.com/en-nz/2019/10/18/microsoft-announces-2019-new-zealand-partner-awards-winners/",
+			"display": true
 		},
 		{
 			"title": "Employee of the month",
@@ -674,7 +677,8 @@
 			"fullDate": {
 				"year": 2017,
 				"month": 3
-			}
+			},
+			"display": false
 		},
 		{
 			"title": "Development Team MVP for 2016",
@@ -685,7 +689,8 @@
 			"fullDate": {
 				"year": 2016,
 				"month": 12
-			}
+			},
+			"display": false
 		},
 		{
 			"title": "Employee of the month",
@@ -696,7 +701,8 @@
 			"fullDate": {
 				"year": 2015,
 				"month": 5
-			}
+			},
+			"display": false
 		},
 		{
 			"title": "Best Honours Project Presentation",
@@ -707,7 +713,8 @@
 			"fullDate": {
 				"year": 2013,
 				"month": 11
-			}
+			},
+			"display": true
 		}
 	],
 	"languages": [

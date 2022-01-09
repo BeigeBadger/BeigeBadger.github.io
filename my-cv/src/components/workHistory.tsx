@@ -1,5 +1,7 @@
+import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap"
 import { IJob } from "../models/resume/job";
+import SectionTitle from "./shared/sectionTitle";
 
 interface IWorkHistoryProps {
 	jobHistory: IJob[];
@@ -12,10 +14,12 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 				<Row>
 					<Col>
 						<div className="work-history">
+							<SectionTitle title="Work History" icon={faLaptopCode} />
+
 							{
 								props.jobHistory.map((job, index) => {
 									return (
-										<div key={index}>
+										<div key={index} className="mb-3">
 											<div>
 												{
 													job.isCurrentRole

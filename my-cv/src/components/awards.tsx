@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { IAward } from "../models/resume/award";
-import { faAward, faTrophy } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAward } from "@fortawesome/free-solid-svg-icons";
+import SectionTitle from "./shared/sectionTitle";
 
 
 interface IAwardProps {
@@ -15,49 +15,50 @@ const Awards: React.FC<IAwardProps> = (props: IAwardProps) => {
 				<Row>
 					<Col>
 						<div className="awards">
+							<SectionTitle title="Awards" icon={faAward} />
+
 							{
-								props.awards.map((award, index) => {
-									const icon = award.type === "trophy"
-										? faTrophy
-										: faAward;
+								props.awards
+									.filter(award => award.display)
+									.map((award, index) => {
 
-									return (
-										<div key={index}>
-											<FontAwesomeIcon icon={icon} />
+										return (
+											<div key={index} className="mb-3">
+												<div>
+													<span>
+														{
+															` ${award.date}`
+														}
+													</span>
+												</div>
 
-											<div>
-												{
-													award.date
-												}
+												<div>
+													{
+														award.title
+													}
+												</div>
+
+												<div>
+													{
+														`Awarded by ${award.awarder}`
+													}
+												</div>
+
+												<div>
+													{
+														award.summary
+													}
+												</div>
+
+												<div>
+													{
+														award.link && <a href={award.link}>Link</a>
+													}
+												</div>
+
 											</div>
-
-											<div>
-												{
-													award.title
-												}
-											</div>
-
-											<div>
-												{
-													award.awarder
-												}
-											</div>
-
-											<div>
-												{
-													award.summary
-												}
-											</div>
-
-											<div>
-												{
-													award.link && <a href={award.link}>Link</a>
-												}
-											</div>
-
-										</div>
-									)
-								})
+										)
+									})
 							}
 						</div>
 					</Col>

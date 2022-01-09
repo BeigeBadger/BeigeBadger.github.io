@@ -1,5 +1,7 @@
+import { faToolbox } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap";
 import { ITooling } from "../models/resume/tooling";
+import SectionTitle from "./shared/sectionTitle";
 
 
 interface IToolingProps {
@@ -13,10 +15,12 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 				<Row>
 					<Col>
 						<div className="tooling">
+							<SectionTitle title="Tooling" icon={faToolbox} />
+
 							{
 								props.tooling.map((tool, index) => {
 									return (
-										<div key={index}>
+										<div key={index} className="mb-3">
 											<div>
 												{
 													tool.name

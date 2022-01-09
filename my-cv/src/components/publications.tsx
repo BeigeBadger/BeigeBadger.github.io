@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { IPublication } from "../models/resume/publication";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SectionTitle from "./shared/sectionTitle";
 
 interface IPublicationProps {
 	publications: IPublication[]
@@ -14,11 +14,12 @@ const Publications: React.FC<IPublicationProps> = (props: IPublicationProps) => 
 				<Row>
 					<Col>
 						<div className="publications">
+							<SectionTitle title="Publications" icon={faBook} />
+
 							{
 								props.publications.map((publication, index) => {
 									return (
-										<div key={index}>
-											<FontAwesomeIcon icon={faBook} />
+										<div key={index} className="mb-3">
 
 											<div>
 												{

@@ -8,4 +8,5 @@ export interface IAward {
 	summary: string;
 	fullDate: IYearMonthDay;
 	link: string;
+	display: boolean;
 }

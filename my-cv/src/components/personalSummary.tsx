@@ -1,5 +1,6 @@
+import { faBookReader } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap";
-
+import SectionTitle from "./shared/sectionTitle";
 
 interface IPersonalSummaryProps {
 	personalSummary: string
@@ -12,6 +13,8 @@ const PersonalSummary: React.FC<IPersonalSummaryProps> = (props: IPersonalSummar
 				<Row>
 					<Col>
 						<div className="personal-summary">
+							<SectionTitle title="Personal Statement" icon={faBookReader} />
+
 							{
 								props.personalSummary
 							}
