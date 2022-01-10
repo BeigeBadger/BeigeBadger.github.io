@@ -8,7 +8,7 @@ interface ISectionTitleProps {
 
 const SectionTitle: React.FC<ISectionTitleProps> = (props: ISectionTitleProps) => {
 	return (
-		<h3 className="mt-3 mb-2">
+		<h3 className="my-3 mb-4">
 			{
 				props.icon && <FontAwesomeIcon icon={props.icon} className="me-2" />
 			}

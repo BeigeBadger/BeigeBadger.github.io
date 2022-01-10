@@ -13,7 +13,7 @@ const References: React.FC<IReferencesProps> = (props: IReferencesProps) => {
 			<Container>
 				<Row>
 					<Col>
-						<div className="references">
+						<div className="references mb-3">
 							<SectionTitle title="References" icon={faUserCheck} />
 
 							{

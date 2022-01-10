@@ -18,7 +18,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 				<Container fluid>
 					<Row>
 						<Col>
-							<img src={props.resumeData.basics.picture} alt="avatar" />
+							<img className="mt-4" src={props.resumeData.basics.picture} alt="avatar" />
 						</Col>
 					</Row>
 				</Container>
@@ -26,7 +26,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 				<Container fluid>
 					<Row>
 						<Col>
-							<h1>
+							<h1 className="my-3">
 								{
 									props.resumeData.basics.name
 								}

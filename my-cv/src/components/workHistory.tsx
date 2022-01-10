@@ -13,28 +13,30 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 			<Container>
 				<Row>
 					<Col>
-						<div className="work-history">
+						<div className="work-history mb-3">
 							<SectionTitle title="Work History" icon={faLaptopCode} />
 
 							{
 								props.jobHistory.map((job, index) => {
 									return (
-										<div key={index} className="mb-3">
-											<div>
+										<div key={index} className="mb-5">
+											<div >
+												<h5>
 												{
 													job.isCurrentRole
-														? `${job.startDate}-Present`
-														: `${job.startDate}-${job.endDate}`
+														? `${job.startDate} to Present`
+														: `${job.startDate} to ${job.endDate}`
 												}
+												</h5>
 											</div>
 
-											<div>
+											<div className="fst-italic">
 												{
 													job.position
 												}
 											</div>
 
-											<div>
+											<div className="mb-3">
 												{
 													<a href={job.website}>
 														{

@@ -23,7 +23,7 @@ const BasicInfo: React.FC<IBasicInfoProps> = (props: IBasicInfoProps) => {
 	return (
 		<>
 			<Container>
-				<div className="basic-info">
+				<div className="basic-info mb-sm-3">
 					<Row>
 						<Col>
 							{

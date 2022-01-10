@@ -13,21 +13,20 @@ const Publications: React.FC<IPublicationProps> = (props: IPublicationProps) => 
 			<Container>
 				<Row>
 					<Col>
-						<div className="publications">
+						<div className="publications mb-3">
 							<SectionTitle title="Publications" icon={faBook} />
 
 							{
 								props.publications.map((publication, index) => {
 									return (
 										<div key={index} className="mb-3">
-
-											<div>
+											<div className="fw-bold">
 												{
 													publication.fullReleaseDate.year
 												}
 											</div>
 
-											<div>
+											<div className="fst-italic">
 												{
 													publication.name
 												}

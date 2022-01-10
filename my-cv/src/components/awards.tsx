@@ -14,7 +14,7 @@ const Awards: React.FC<IAwardProps> = (props: IAwardProps) => {
 			<Container>
 				<Row>
 					<Col>
-						<div className="awards">
+						<div className="awards mb-3">
 							<SectionTitle title="Awards" icon={faAward} />
 
 							{
@@ -24,15 +24,13 @@ const Awards: React.FC<IAwardProps> = (props: IAwardProps) => {
 
 										return (
 											<div key={index} className="mb-3">
-												<div>
-													<span>
-														{
-															` ${award.date}`
-														}
-													</span>
+												<div className="fw-bold">
+													{
+														` ${award.date}`
+													}
 												</div>
 
-												<div>
+												<div className="fst-italic">
 													{
 														award.title
 													}

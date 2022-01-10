@@ -16,7 +16,7 @@ const Skills: React.FC<ISkillsProps> = (props: ISkillsProps) => {
 			<Container>
 				<Row>
 					<Col>
-						<div className="skills">
+						<div className="skills mb-3">
 							<SectionTitle title="Skills" icon={faHatWizard} />
 
 							<Container fluid>

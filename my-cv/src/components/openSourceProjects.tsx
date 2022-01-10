@@ -13,14 +13,14 @@ const OpenSourceProjects: React.FC<IOpenSourceProjectsProps> = (props: IOpenSour
 			<Container>
 				<Row>
 					<Col>
-						<div className="open-source-development">
+						<div className="open-source-development mb-3">
 							<SectionTitle title="Open Source Contributions" icon={faHandHoldingHeart} />
 
 							{
 								props.projects.map((project, index) => {
 									return (
 										<div key={index} className="mb-3">
-											<div>
+											<div className="fw-bold">
 												{
 													project.displayName
 												}

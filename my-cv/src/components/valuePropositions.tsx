@@ -13,7 +13,7 @@ const ValuePropositions: React.FC<IValuePropositionProps> = (props: IValuePropos
 			<Container>
 				<Row>
 					<Col>
-						<div className="values">
+						<div className="values mb-3">
 							<SectionTitle title="Value Proposition" icon={faBalanceScale} />
 
 							{

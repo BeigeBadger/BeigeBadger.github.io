@@ -14,20 +14,20 @@ const Qualifications: React.FC<IQualificationsProps> = (props: IQualificationsPr
 			<Container>
 				<Row>
 					<Col>
-						<div className="qualifications">
+						<div className="qualifications mb-3">
 							<SectionTitle title="Qualifications" icon={faGraduationCap} />
 
 							{
 								props.qualifications.map((qualification, index) => {
 									return (
 										<div key={index} className="mb-3">
-											<div>
+											<div className="fw-bold">
 												{
 													`${qualification.start.year}-${qualification.end.year}`
 												}
 											</div>
 
-											<div>
+											<div className="fst-italic">
 												{
 													qualification.endorsement
 														?
