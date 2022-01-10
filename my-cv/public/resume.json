@@ -518,7 +518,7 @@
 			"url": "https://smartrak.com/",
 			"startDate": "2016-06-01",
 			"endDate": "2019-01-01",
-			"summary": "Served as a key member of the software development team charged with maintaining and iterating upon core web applications used both internally and externally. Collaborated with stakeholders across departments to assist with the delivery of innovative new products and solutions that met client requirements and matched the Smartrak vision. Volunteered to mentor Junior Software Engineers and interns, for mutual benefit. Wrote robust,reusable, and well-tested code; that adhered to design patterns and social contracts within the team.",
+			"description": "Served as a key member of the software development team charged with maintaining and iterating upon core web applications used both internally and externally. Collaborated with stakeholders across departments to assist with the delivery of innovative new products and solutions that met client requirements and matched the Smartrak vision. Volunteered to mentor Junior Software Engineers and interns, for mutual benefit. Wrote robust,reusable, and well-tested code; that adhered to design patterns and social contracts within the team.",
 			"highlights": [
 				"Improved soft skills - Gave technical presentations on testing and software engineering principles to the development team. Attended Agile training, which led to running daily stand-ups and sprint retrospectives for the team.",
 				"Developed an authentication proxy - Worked with a Senior Software Engineer to scope, plan, then independently implement a crucial middleware component that helped deliver an API solution, that used JWT authentication tokens, Entity Framework, and OWIN.",
