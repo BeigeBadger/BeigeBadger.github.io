@@ -6,6 +6,7 @@ import PersonalSummary from "./personalSummary";
 import Skills from "./skills";
 import WorkHistory from "./workHistory";
 import SideContent from "./sideContent";
+import Awards from "./awards";
 
 interface IResumeProps {
 	resumeData: IResume
@@ -77,6 +78,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					<Row>
 						<Col xs={12} md={7} lg={7}>
 							<WorkHistory jobHistory={props.resumeData.jobHistory} />
+
+							<Awards awards={props.resumeData.awards} />
 						</Col>
 
 						<Col xs={12} md={5} lg={5}>

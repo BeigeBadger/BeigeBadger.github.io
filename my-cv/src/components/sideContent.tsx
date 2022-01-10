@@ -3,7 +3,6 @@ import { IResume } from "../models/resume/resume";
 import ValuePropositions from "./valuePropositions";
 import Tooling from "./tooling";
 import OpenSourceProjects from "./openSourceProjects";
-import Awards from "./awards";
 import Publications from "./publications";
 import Qualifications from "./qualifications";
 import References from "./references";
@@ -35,14 +34,6 @@ const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 				<Row>
 					<Col>
 						<OpenSourceProjects projects={props.resumeData.openSourceProjects} />
-					</Col>
-				</Row>
-
-				<hr />
-
-				<Row>
-					<Col>
-						<Awards awards={props.resumeData.awards} />
 					</Col>
 				</Row>
 
