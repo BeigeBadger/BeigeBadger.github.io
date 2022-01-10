@@ -16,7 +16,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 	return (
 		<>
 			<div className="header">
-				<Container fluid>
+				<Container>
 					<Row>
 						<Col>
 							<img className="mt-4" src={props.resumeData.basics.picture} alt="avatar" />
@@ -24,7 +24,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					</Row>
 				</Container>
 
-				<Container fluid>
+				<Container>
 					<Row>
 						<Col>
 							<h1 className="my-3">
@@ -36,13 +36,13 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					</Row>
 				</Container>
 
-				<Container fluid>
+				<Container>
 					<Row>
-						<Col xs={12} sm={{ span: 6 }} md={{ span: 4, offset: 2 }} className="text-sm-center text-md-end">
+						<Col xs={12} sm={{ span: 6 }} md={{ span: 4, offset: 2 }} className="text-center text-sm-end">
 							<BasicInfo basics={props.resumeData.basics} />
 						</Col>
 
-						<Col xs={12} sm={6} md={4} className="text-sm-center text-md-start">
+						<Col xs={12} sm={6} md={4} className="text-center text-sm-start">
 							<Profiles profiles={props.resumeData.basics.profiles} />
 						</Col>
 					</Row>
@@ -52,8 +52,8 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 				</Container>
 			</div >
 
-			<div className="neck">
-				<Container fluid>
+			<div >
+				<Container>
 					<Row>
 						<Col>
 							<PersonalSummary personalSummary={props.resumeData.basics.summary} />
@@ -74,6 +74,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 			</div>
 
 			<div className="content text-start">
+				<Container>
 					<Row>
 						<Col xs={12} md={7} lg={7}>
 							<WorkHistory jobHistory={props.resumeData.jobHistory} />

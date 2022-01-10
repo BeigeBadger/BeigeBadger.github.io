@@ -14,7 +14,7 @@ interface ISideContentProps {
 const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 	return (
 		<>
-			<Container fluid>
+			<Container>
 				<Row>
 					<Col>
 						<ValuePropositions valuePropositions={props.resumeData.valuePropositions} />

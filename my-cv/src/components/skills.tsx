@@ -19,7 +19,7 @@ const Skills: React.FC<ISkillsProps> = (props: ISkillsProps) => {
 						<div className="skills mb-3">
 							<SectionTitle title="Skills" icon={faHatWizard} />
 
-							<Container fluid>
+							<Container>
 								<Row>
 									{/* TODO: Could use a stack here? */}
 									{
