@@ -518,7 +518,7 @@
 			"url": "https://smartrak.com/",
 			"startDate": "2016-06-01",
 			"endDate": "2019-01-01",
-			"summary": "Served as a key member of the software development team charged with maintaining and iterating upon core web applications used both internally and externally. Collaborated with stakeholders across departments to assist with the delivery of innovative new products and solutions that met client requirements and matched the Smartrak vision. Volunteered to mentor Junior Software Engineers and interns, for mutual benefit. Wrote robust,reusable, and well-tested code; that adhered to design patterns and social contracts within the team.",
+			"description": "Served as a key member of the software development team charged with maintaining and iterating upon core web applications used both internally and externally. Collaborated with stakeholders across departments to assist with the delivery of innovative new products and solutions that met client requirements and matched the Smartrak vision. Volunteered to mentor Junior Software Engineers and interns, for mutual benefit. Wrote robust,reusable, and well-tested code; that adhered to design patterns and social contracts within the team.",
 			"highlights": [
 				"Improved soft skills - Gave technical presentations on testing and software engineering principles to the development team. Attended Agile training, which led to running daily stand-ups and sprint retrospectives for the team.",
 				"Developed an authentication proxy - Worked with a Senior Software Engineer to scope, plan, then independently implement a crucial middleware component that helped deliver an API solution, that used JWT authentication tokens, Entity Framework, and OWIN.",
@@ -630,29 +630,42 @@
 	"volunteer": [],
 	"awards": [
 		{
-			"title": "Digital & Application Innovation Award",
-			"date": "2021-12-06",
-			"type": "trophy",
-			"awarder": "Microsoft",
-			"summary": "I delivered an independent component of, and was part of the team that deliver the Olympics@Ryman solution and event for (Ryman Healthcare) at the New Zealand Microsoft Partner Awards.",
-			"fullDate": {
-				"year": 2021,
-				"month": 12
-			},
-			"link": "https://www.msnzpartnerawards.co.nz/",
-			"display": true
-		},
-		{
 			"title": "Best Active Ageing Programme (Residential Living)",
 			"date": "2021-12-03",
 			"type": "trophy",
 			"awarder": "Ageing Asia",
-			"summary": "I delivered an independent component of, and was part of the team that deliver the Olympics@Ryman solution and event for (Ryman Healthcare) at the Asia Pacific Eldercare Innovation Awards.",
+			"summary": "I worked as part of the wider teams to independently deliver the quiznastics component of the Olympics@Ryman event (for Ryman Healthcare) that won an award at the Ageing Asia Awards.",
 			"fullDate": {
 				"year": 2021,
 				"month": 12
 			},
 			"link": "https://ageingasia.com/industry-programmes/awards2021/",
+			"display": true
+		},
+		{
+			"title": "Business Transformation through Digital and IT Award (finalist - pending March 2022)",
+			"date": "2021-07-29",
+			"type": "award",
+			"awarder": "CIO Awards New Zealand",
+			"summary": "I worked with group subject-matter experts at Auckland Airport, and as part of a small internal team to deliver a modern, cloud-hosted Data Platform that was a finalist for the 2021 New Zealand CIO Summit Awards.",
+			"fullDate": {
+				"year": 2021,
+				"month": 7
+			},
+			"link": "https://www.ciosummit.co.nz/awards/finalists",
+			"display": true
+		},
+		{
+			"title": "Digital & Application Innovation Award",
+			"date": "2021-12-06",
+			"type": "trophy",
+			"awarder": "Microsoft",
+			"summary": "I worked as part of the wider teams to independently deliver the quiznastics component of the Olympics@Ryman event (for Ryman Healthcare) that won an award at the New Zealand Microsoft Partner Awards.",
+			"fullDate": {
+				"year": 2021,
+				"month": 12
+			},
+			"link": "https://www.msnzpartnerawards.co.nz/",
 			"display": true
 		},
 		{
