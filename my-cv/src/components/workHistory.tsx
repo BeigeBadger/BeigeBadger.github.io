@@ -61,10 +61,7 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 													{
 														job.highlights.map((highlight, index) => {
 															return (
-																<li key={index}>
-																	{
-																		highlight
-																	}
+																<li key={index} dangerouslySetInnerHTML={{ __html: highlight }}>
 																</li>
 															)
 														})
