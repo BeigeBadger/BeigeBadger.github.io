@@ -46,17 +46,15 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 
 											<div>
 												{
-													`Achievements: ${job.highlights}`
+													`Description: ${job.description}`
 												}
 											</div>
 
 											<div>
 												{
-													`Description: ${job.description}`
+													`Achievements: ${job.highlights}`
 												}
 											</div>
-
-											<br />
 										</div>
 									)
 								})
