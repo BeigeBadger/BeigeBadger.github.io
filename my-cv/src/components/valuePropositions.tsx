@@ -20,13 +20,7 @@ const ValuePropositions: React.FC<IValuePropositionProps> = (props: IValuePropos
 								props.valuePropositions.map((valueProposition, index) => {
 									return (
 										<div key={index} className="mb-3">
-											<label>
-												<span>
-													{
-														valueProposition.description
-													}
-												</span>
-											</label>
+											<label dangerouslySetInnerHTML={{ __html: valueProposition.description}} />
 										</div>
 									);
 								})

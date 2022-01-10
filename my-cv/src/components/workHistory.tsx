@@ -24,8 +24,8 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 												<h5>
 													{
 														job.isCurrentRole
-															? `${job.startDate} to Present`
-															: `${job.startDate} to ${job.endDate}`
+															? `${job.start} to Present`
+															: `${job.start} to ${job.end}`
 													}
 												</h5>
 											</div>

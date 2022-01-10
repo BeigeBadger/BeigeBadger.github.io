@@ -1,5 +1,3 @@
-import { IYearMonth } from "./yearMonth";
-
 export interface IJob {
 	location: string;
 	description: string;
@@ -9,8 +7,8 @@ export interface IJob {
 	endDate: string;
 	highlights: string[];
 	isCurrentRole: boolean;
-	start: IYearMonth;
-	end: IYearMonth;
+	start: string;
+	end: string;
 	company: string;
 	website: string;
 }
