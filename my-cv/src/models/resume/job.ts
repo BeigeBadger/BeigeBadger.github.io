@@ -1,6 +1,6 @@
 export interface IJob {
 	location: string;
-	description: string;
+	responsibilities: string[];
 	position: string;
 	url: string;
 	startDate: string;

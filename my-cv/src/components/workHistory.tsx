@@ -48,7 +48,15 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 
 											<div className="mb-3">
 												{
-													job.description
+													job.responsibilities.map((responsibility, index) => {
+														return (
+															<p key={index}>
+																{
+																	responsibility
+																}
+															</p>
+														)
+													})
 												}
 											</div>
 
