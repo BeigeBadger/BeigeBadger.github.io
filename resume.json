@@ -480,11 +480,8 @@
 				"Heavily involved in development of workshop materials - Created technical content and exemplars for attendees to work through as part of Microsoft funded two day events. This content was the core focus of an on-going series of events throughout Asia-Pacific that are run remotely to educate the community on Microsoft product and workflows; such as DevOps and GitHub or Deploying Open-Source Software and tools on Azure. Reviewed, tested, and oversaw the development of content packs created by others."
 			],
 			"isCurrentRole": true,
-			"start": {
-				"year": 2020,
-				"month": 11
-			},
-			"end": {},
+			"start": "October 2020",
+			"end": "",
 			"company": "Aware Group",
 			"website": "https://www.awaregroup.com/"
 		},
@@ -501,14 +498,8 @@
 				"Championed team improvements - Designed and implements a pull request template for a frequently changing repository. Regularly shared development of new tools, functionality, productivity tips, and other announcements with team members to encourage continuous improvement. Created and shared lab exercises, and a standardized template for workshop."
 			],
 			"isCurrentRole": false,
-			"start": {
-				"year": 2019,
-				"month": 2
-			},
-			"end": {
-				"year": 2020,
-				"month": 10
-			},
+			"start": "February 2019",
+			"end": "October 2020",
 			"company": "Aware Group",
 			"website": "https://www.awaregroup.com/"
 		},
@@ -517,7 +508,7 @@
 			"position": "Software Engineer",
 			"url": "https://smartrak.com/",
 			"startDate": "2016-06-01",
-			"endDate": "2019-01-01",
+			"endDate": "2019-01-31",
 			"description": "Served as a key member of the software development team charged with maintaining and iterating upon core web applications used both internally and externally. Collaborated with stakeholders across departments to assist with the delivery of innovative new products and solutions that met client requirements and matched the Smartrak vision. Volunteered to mentor Junior Software Engineers and interns, for mutual benefit. Wrote robust,reusable, and well-tested code; that adhered to design patterns and social contracts within the team.",
 			"highlights": [
 				"Improved soft skills - Gave technical presentations on testing and software engineering principles to the development team. Attended Agile training, which led to running daily stand-ups and sprint retrospectives for the team.",
@@ -526,14 +517,8 @@
 				"Introduced new ways of testing - Developed an integration test suite that covers critical\nfunctionality across core systems, using Selenium WebDriver to test user interface behaviour, and to prevent regressions."
 			],
 			"isCurrentRole": false,
-			"start": {
-				"year": 2016,
-				"month": 6
-			},
-			"end": {
-				"year": 2019,
-				"month": 1
-			},
+			"start": "May 2016",
+			"end": "February 2019",
 			"company": "Smartrak",
 			"website": "https://smartrak.com/"
 		},
@@ -541,22 +526,16 @@
 			"location": "",
 			"position": "Junior Software Engineer/IT Administrator",
 			"url": "https://smartrak.com/",
-			"startDate": "2014-01-01",
-			"endDate": "2016-05-01",
+			"startDate": "2013-12-31",
+			"endDate": "2016-05-31",
 			"description": "Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System and Smart Fleet Management System solutions to Fonterra using .NET and open-source technologies. Willingly undertook training as an IT Administrator; this role involved managing relationships with internal staff, external contractors and third-party vendors to ensure hardware + software systems ran smoothly, and licenses remained current.",
 			"highlights": [
 				"Developed multi-platform systems - Helpers develop the ICS application that ran on a tablet, along with the Smart FMS portal. Used WPF, Razor, ReactJS, SQLite, and PostgreSQL.",
 				"Fonterra hardware rollout support - Independently researched, developed and\nimplemented the processes for the setup of Fonterra hardware. In addition to this, a solution\nthat allowed support staff to remotely control the device in each truck through a web\napplication was implemented."
 			],
 			"isCurrentRole": false,
-			"start": {
-				"year": 2014,
-				"month": 1
-			},
-			"end": {
-				"year": 2016,
-				"month": 5
-			},
+			"start": "December 2014",
+			"end": "May 2016",
 			"company": "Smartrak",
 			"website": "https://smartrak.com/"
 		},
@@ -565,20 +544,14 @@
 			"position": "Software Engineer Intern",
 			"url": "https://smartrak.com/",
 			"startDate": "2012-11-01",
-			"endDate": "2013-12-01",
+			"endDate": "2013-12-31",
 			"description": "Assisted with maintenance of core web applications. Focused on bringing user experience\nimprovements to internal systems and learning real-world software engineering best practices.",
 			"highlights": [
 				"Updated customer-facing Admin website - Updated an ASP.NET Web Forms site with over 30 pages that was using legacy styling to use a responsive framework which enabled staff, customers, and our vendors to use it on their portable devices."
 			],
 			"isCurrentRole": false,
-			"start": {
-				"year": 2012,
-				"month": 11
-			},
-			"end": {
-				"year": 2013,
-				"month": 12
-			},
+			"start": "November 2012",
+			"end": "December 2013",
 			"company": "Smartrak",
 			"website": "https://smartrak.com/"
 		}
@@ -738,28 +711,28 @@
 	],
 	"valuePropositions": [
 		{
-			"description": "Experienced Software Engineer with the ability to develop full-stack applications that utilize design patterns, a variety of languages, and leverage the cloud to deliver innovative solutions for end users."
+			"description": "<strong>Experienced Software Engineer</strong> with the ability to develop full-stack applications that utilize design patterns, a variety of languages, and leverage the cloud to deliver innovative solutions for end users."
 		},
 		{
-			"description": "Over eight years software engineering experience delivering predominantly web-based applications, primarily using .NET/C#."
+			"description": "<strong>Over eight years software engineering experience</strong> delivering predominantly web-based applications, primarily using .NET/C#."
 		},
 		{
-			"description": "Strong emphasis on multi-layered testing using both unit, integration, and functional tests to ensure reliability and prevent regressions."
+			"description": "Strong emphasis on <strong>multi-layered testing</strong> using both unit, integration, and functional tests to ensure reliability and prevent regressions."
 		},
 		{
-			"description": "Actively seeks to improve the software delivery process through automation, ChatOps, and discussion of best practices and new ideas."
+			"description": "<strong>Actively seeks to improve</strong> the software delivery process through automation, ChatOps, and discussion of best practices and new ideas."
 		},
 		{
-			"description": "Values a strong team culture. Encourages team members to develop a shared sense of identity and purpose."
+			"description": "<strong>Values a strong team culture</strong>. Encourages team members to develop a shared sense of identity and purpose."
 		},
 		{
-			"description": "Enjoys playing an active role in fostering a fun, friendly, and collaborative environment where mentoring others is valued and planned for."
+			"description": "Enjoys playing an active role in fostering a fun, friendly, and collaborative environment where <strong>mentoring others is valued</strong> and accepted as part of an employee's responsibilities."
 		},
 		{
-			"description": "Comfortable working directly with clients, has experience leading projects and running workshops."
+			"description": "<strong>Comfortable working directly with clients</strong>, has experience leading projects and running workshops."
 		},
 		{
-			"description": "Excellent written communication skills. Advocates for knowledge sharing through documenting processes, system architecture, and functionality overviews."
+			"description": "<strong>Excellent written communication skills</strong>. Advocates for knowledge sharing through documenting processes, system architecture, and functionality overviews."
 		}
 	],
 	"references": [
