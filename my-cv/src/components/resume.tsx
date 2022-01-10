@@ -73,8 +73,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 				</Container>
 			</div>
 
-			<div className="content">
-				<Container fluid>
+			<div className="content text-start">
 					<Row>
 						<Col xs={12} md={7} lg={7}>
 							<WorkHistory jobHistory={props.resumeData.jobHistory} />

@@ -12,7 +12,7 @@ const PersonalSummary: React.FC<IPersonalSummaryProps> = (props: IPersonalSummar
 			<Container>
 				<Row>
 					<Col>
-						<div className="personal-summary mb-3">
+						<div className="personal-summary mb-3 text-start">
 							<SectionTitle title="Personal Statement" icon={faBookReader} />
 
 							{
