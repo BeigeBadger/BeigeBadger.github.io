@@ -630,29 +630,42 @@
 	"volunteer": [],
 	"awards": [
 		{
-			"title": "Digital & Application Innovation Award",
-			"date": "2021-12-06",
-			"type": "trophy",
-			"awarder": "Microsoft",
-			"summary": "I delivered an independent component of, and was part of the team that deliver the Olympics@Ryman solution and event for (Ryman Healthcare) at the New Zealand Microsoft Partner Awards.",
-			"fullDate": {
-				"year": 2021,
-				"month": 12
-			},
-			"link": "https://www.msnzpartnerawards.co.nz/",
-			"display": true
-		},
-		{
 			"title": "Best Active Ageing Programme (Residential Living)",
 			"date": "2021-12-03",
 			"type": "trophy",
 			"awarder": "Ageing Asia",
-			"summary": "I delivered an independent component of, and was part of the team that deliver the Olympics@Ryman solution and event for (Ryman Healthcare) at the Asia Pacific Eldercare Innovation Awards.",
+			"summary": "I worked as part of the wider teams to independently deliver the quiznastics component of the Olympics@Ryman event (for Ryman Healthcare) that won an award at the Ageing Asia Awards.",
 			"fullDate": {
 				"year": 2021,
 				"month": 12
 			},
 			"link": "https://ageingasia.com/industry-programmes/awards2021/",
+			"display": true
+		},
+		{
+			"title": "Business Transformation through Digital and IT Award (finalist - pending March 2022)",
+			"date": "2021-07-29",
+			"type": "award",
+			"awarder": "CIO Awards New Zealand",
+			"summary": "I worked with group subject-matter experts at Auckland Airport, and as part of a small internal team to deliver a modern, cloud-hosted Data Platform that was a finalist for the 2021 New Zealand CIO Summit Awards.",
+			"fullDate": {
+				"year": 2021,
+				"month": 7
+			},
+			"link": "https://www.ciosummit.co.nz/awards/finalists",
+			"display": true
+		},
+		{
+			"title": "Digital & Application Innovation Award",
+			"date": "2021-12-06",
+			"type": "trophy",
+			"awarder": "Microsoft",
+			"summary": "I worked as part of the wider teams to independently deliver the quiznastics component of the Olympics@Ryman event (for Ryman Healthcare) that won an award at the New Zealand Microsoft Partner Awards.",
+			"fullDate": {
+				"year": 2021,
+				"month": 12
+			},
+			"link": "https://www.msnzpartnerawards.co.nz/",
 			"display": true
 		},
 		{
