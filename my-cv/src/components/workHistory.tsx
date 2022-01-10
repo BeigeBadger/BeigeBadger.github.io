@@ -62,6 +62,9 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 						</div>
 					</Col>
 				</Row>
+
+				<hr />
+
 			</Container>
 		</>
 	)

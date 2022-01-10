@@ -22,11 +22,15 @@ const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 					</Col>
 				</Row>
 
+				<hr />
+
 				<Row>
 					<Col>
 						<Tooling tooling={props.resumeData.tooling} />
 					</Col>
 				</Row>
+
+				<hr />
 
 				<Row>
 					<Col>
@@ -34,11 +38,15 @@ const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 					</Col>
 				</Row>
 
+				<hr />
+
 				<Row>
 					<Col>
 						<Awards awards={props.resumeData.awards} />
 					</Col>
 				</Row>
+
+				<hr />
 
 				<Row>
 					<Col>
@@ -46,17 +54,24 @@ const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 					</Col>
 				</Row>
 
+				<hr />
+
 				<Row>
 					<Col>
 						<Qualifications qualifications={props.resumeData.qualifications} />
 					</Col>
 				</Row>
 
+				<hr />
+
 				<Row>
 					<Col>
 						<References references={props.resumeData.references} />
 					</Col>
 				</Row>
+
+				<hr />
+
 			</Container>
 		</>
 	);

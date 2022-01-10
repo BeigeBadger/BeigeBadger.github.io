@@ -83,9 +83,6 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 							<SideContent resumeData={props.resumeData} />
 						</Col>
 					</Row>
-
-					<hr />
-
 				</Container>
 			</div>
 
