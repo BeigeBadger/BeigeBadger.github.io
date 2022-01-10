@@ -22,11 +22,11 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 										<div key={index} className="mb-5">
 											<div >
 												<h5>
-												{
-													job.isCurrentRole
-														? `${job.startDate} to Present`
-														: `${job.startDate} to ${job.endDate}`
-												}
+													{
+														job.isCurrentRole
+															? `${job.startDate} to Present`
+															: `${job.startDate} to ${job.endDate}`
+													}
 												</h5>
 											</div>
 
@@ -46,19 +46,33 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 												}
 											</div>
 
-											<div>
+											<div className="mb-3">
 												{
-													`Description: ${job.description}`
+													job.description
 												}
 											</div>
 
+											<div className="fw-bold">
+												Achievements
+											</div>
+
 											<div>
-												{
-													`Achievements: ${job.highlights}`
-												}
+												<ul>
+													{
+														job.highlights.map((highlight, index) => {
+															return (
+																<li>
+																	{
+																		highlight
+																	}
+																</li>
+															)
+														})
+													}
+												</ul>
 											</div>
 										</div>
-									)
+									);
 								})
 							}
 						</div>
