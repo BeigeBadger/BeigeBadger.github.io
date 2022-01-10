@@ -25,20 +25,14 @@ const Awards: React.FC<IAwardProps> = (props: IAwardProps) => {
 										return (
 											<div key={index} className="mb-3">
 												<div className="fw-bold">
-													{
-														` ${award.date}`
+												{
+														award.title
 													}
 												</div>
 
 												<div className="fst-italic">
 													{
-														award.title
-													}
-												</div>
-
-												<div>
-													{
-														`Awarded by ${award.awarder}`
+														`Awarded by ${award.awarder} on ${award.date}`
 													}
 												</div>
 
