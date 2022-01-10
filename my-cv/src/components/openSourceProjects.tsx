@@ -8,6 +8,21 @@ interface IOpenSourceProjectsProps {
 }
 
 const OpenSourceProjects: React.FC<IOpenSourceProjectsProps> = (props: IOpenSourceProjectsProps) => {
+	function nameSort(projectA: IProject, projectB: IProject) {
+		const projectAName: string = projectA.displayName;
+		const projectBName: string = projectB.displayName;
+
+		if (projectAName < projectBName) {
+			return -1;
+		}
+		else if (projectAName > projectBName) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
+	};
+
 	return (
 		<>
 			<Container>
@@ -17,7 +32,9 @@ const OpenSourceProjects: React.FC<IOpenSourceProjectsProps> = (props: IOpenSour
 							<SectionTitle title="Open Source Contributions" icon={faHandHoldingHeart} />
 
 							{
-								props.projects.map((project, index) => {
+								props.projects
+									.sort((a,b) => nameSort(a, b))
+									.map((project, index) => {
 									return (
 										<div key={index} className="mb-3">
 											<div className="fw-bold">
