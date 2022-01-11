@@ -50,9 +50,9 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					<hr />
 
 				</Container>
-			</div >
+			</div>
 
-			<div >
+			<div className="neck">
 				<Container>
 					<Row>
 						<Col>
