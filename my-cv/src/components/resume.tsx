@@ -19,7 +19,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 				<Container>
 					<Row>
 						<Col>
-							<img className="mt-4" src={props.resumeData.basics.picture} alt="avatar" />
+							<img className="mt-4" src={props.resumeData.basics.picture} alt="Matt Stannett's avatar" />
 						</Col>
 					</Row>
 				</Container>
