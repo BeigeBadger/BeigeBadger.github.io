@@ -7,12 +7,15 @@ import Skills from "./skills";
 import WorkHistory from "./workHistory";
 import SideContent from "./sideContent";
 import Awards from "./awards";
+import dayjs from "dayjs";
 
 interface IResumeProps {
 	resumeData: IResume
 };
 
 const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
+	const footerText = `© Copyright ${dayjs().year()} Matt Stannett`;
+
 	return (
 		<>
 			<div className="header">
@@ -90,6 +93,17 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 			</div>
 
 			<div className="footer">
+				<Container>
+					<Row>
+						<Col>
+							<div className="my-4">
+								{
+									footerText
+								}
+							</div>
+						</Col>
+					</Row>
+				</Container>
 			</div>
 		</>
 	);
