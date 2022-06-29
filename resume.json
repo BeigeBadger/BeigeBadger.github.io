@@ -594,8 +594,8 @@
 		{
 			"institution": "Microsoft via Pearson VUE",
 			"url": "https://www.credly.com/badges/790f8dd7-0f12-4f98-908c-d6c49092bc46/public_url",
-			"area": "Microsoft Certified: Azure Fundamentals",
-			"studyType": "",
+			"area": "",
+			"studyType": "Microsoft Certified: Azure Fundamentals",
 			"startDate": "2022-06-30",
 			"endDate": "2022-06-30",
 			"endorsement": "",
