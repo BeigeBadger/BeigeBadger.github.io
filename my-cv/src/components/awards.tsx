@@ -14,7 +14,7 @@ const Awards: React.FC<IAwardProps> = (props: IAwardProps) => {
 			<Container>
 				<Row>
 					<Col>
-						<div className="awards mb-3">
+						<div className="awards">
 							<SectionTitle title="Awards" icon={faAward} />
 
 							{
