@@ -467,6 +467,28 @@
 	"jobHistory": [
 		{
 			"location": "Hamilton, New Zealand",
+			"position": "Product Technical Lead (Secondment)",
+			"url": "https://www.awaregroup.com/",
+			"startDate": "2022-09-05",
+			"endDate": "2023-03-07",
+			"responsibilities": [
+				"Provided technical and people leadership to the newly formed Product team that was responsible for further development on several existing MVP solutions which would enable them to move into the scale stage of their lifecycle. Worked with the Director of Product to ideate, design, architect, and deliver hardware and SaaS solutions to customers. Acted as a role model for the team and attached resources by personally demonstrating the processes and behaviours required to successfully deliver value in a timely manner, while still maintaining a focus on quality. Actively contributed to the growth of team members through mentoring, regular one-on-ones, setting goals and having career conversations. Empowered people to take ownership and be accountable for deliverables, while providing appropriate levels of emotional and technical support.",
+				"Collaborated with others to understand requirements and technical challenges, then evaluated potential solutions and presented prioritised actions to management for approval. Proactively raised concerns and implemented process improvements. Participated in peer-programming and mobbing sessions which enabled opportunities for two-way mentoring, knowledge-sharing, and increased team cohesion. Oversaw and provided technical guidance on the delivery of multiple parallel workstreams (Web, Data Platform, Embedded Development, Model Training Pipelines, and Operational tasks). Took responsibility for the technical direction, priority, and delivery of both technical and operational tasks."
+			],
+			"highlights": [
+				"<strong>Improved the onboarding/new developer experience</strong> - Was a driving force behind the creation of both technical and non-technical documentation for all areas of the Pathways product. Stressed the importance and benefits of documentation, and having a single-source of the truth that the team and attached resources could refer to. Lead by example through the creation of documentation and architecture diagrams, delegated this task to subject matter experts where appropriate and to help ingrain it within the team culture. Comprehensive documentation was created for the set up of development environments, the use of common tools, and how to perform various operational tasks.",
+				"<strong>Gained further embedded software development experience</strong> - Worked with team members to up-skill where necessary. Expanded knowledge of embedded software development to Linux services backed by Python code and running on various Raspberry Pi models. Learnt how to interact with and troubleshoot hardware, use various tools to debug embedded applications, and work within the constraints of limited resources.",
+				"<strong>Implemented processes to improve team performance</strong> - Consulted with internal and external stakeholders to get buy-in for implementing new processes. These processes introduced engineering and operational rigour to a previously unstructured way of working, improved team efficiency, and reduced errors. Advocated for and implemented regular team ceremonies such as daily stand-ups with the sprint board as the centerpiece, sprint planning, sprint retrospective, and backlog refinement. Ensured continued engagement with and adherence to processes by using social contracts and fostering a culture of continuous improvement.",
+				"<strong>Increased traceability, accountability, and visibility</strong> - Carried out initiatives to improve oversight in various areas of the delivery lifecycle. Added tags to artifacts so that they could easily be connected back to the commit and pipeline run. Introduced pull request templates to standardize our approach and ensure that important steps and context were not overlooked. Integrated notification with common tooling and regularly communicated with stakeholders outside of the team to improve the visibility of work. Sourced materials for hardware storage and designed a sign-in/out process to increase traceability. Helped create relevant and achievable sprint goals, ensured that work in the sprint related to the goals and had a primary person responsible for achieving it, and reflected on whether or not the goals were achieved.",
+			],
+			"isCurrentRole": false,
+			"start": "September 2022",
+			"end": "March 2023",
+			"company": "Aware Group",
+			"website": "https://www.awaregroup.com/"
+		},
+		{
+			"location": "Hamilton, New Zealand",
 			"position": "Senior Software Engineer",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2020-11-01",
