@@ -481,9 +481,9 @@
 				"<strong>Delivered an Internet of Things (IoT) platform</strong> - Integrated third-party devices with Azure IoT Hub for a major telecommunications company, the solution utilised Lambda architecture for event storage. In a technical leadership capacity: advised the client and internal staff on cloud and IoT best practices. Created a readily-extensible framework to allow for the integration of devices from other vendors and reporting on device behaviour. Set up an API endpoint with serverless backend to allow developer access to device information and telemetry data that had been ingested whilst minimizing costs. Created Infrastructure-as-Code (IaC) templates to ensure consistency between environments and that future environments could be easily created.",
 				"<strong>Heavily involved in development of workshop materials</strong> - Created technical content and exemplars for attendees to work through as part of Microsoft-funded events. This content was the core focus of an on-going series of multi-day events throughout Asia-Pacific that are run remotely to educate the community on Microsoft products and workflows; such as DevOps and GitHub or Deploying Open-Source Software and tools on Azure. Reviewed, tested, and oversaw the development of content packs created by others."
 			],
-			"isCurrentRole": true,
+			"isCurrentRole": false,
 			"start": "October 2020",
-			"end": "",
+			"end": "September 2022",
 			"company": "Aware Group",
 			"website": "https://www.awaregroup.com/"
 		},
