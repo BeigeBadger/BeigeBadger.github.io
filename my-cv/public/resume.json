@@ -804,7 +804,8 @@
 		{
 			"name": "Frameworks/Tools",
 			"current": [
-				"Entity Framework", "ASP.NET Core (Web API, Razor pages)",
+				"Entity Framework",
+				"ASP.NET Core (Web API, Razor pages)",
 				"React",
 				"Redux",
 				"Debezium",
