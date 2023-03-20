@@ -6,7 +6,7 @@
 		"email": "matt.stannett@gmail.com",
 		"phone": "",
 		"url": null,
-		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that satisfy client needs. Believes in producing elegant, extensible, and well-documented deliverables. Highly motivated to overcome challenges that foster personal growth and development. An avid reader, amateur military historian and scale model builder. Keeps active through football (indoor, six-a-side, and outdoor), and mountain biking hobbies.",
+		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that satisfy client needs. Believes in producing elegant, extensible, and well-documented deliverables. Highly motivated to overcome challenges that foster personal growth and development. An avid consumer of books, documentaries and podcasts, also an amateur military historian. Keeps active through football (all forms), mountain biking, and running around after a one year old daughter.",
 		"profiles": [
 			{
 				"network": "GitHub",
@@ -486,13 +486,13 @@
 			"startDate": "2023-03-08",
 			"endDate": "",
 			"responsibilities": [
-				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions had support agreements in place.Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
-				"Continued developing my skills in other technical practices through use of my professional development time and volunteering to work outside of my technical practice. Assisted colleagues in their development by providing mentoring, upskilling, and technical guidance."
+				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions had support agreements in place. Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
+				"Continued developing skills in other technical practices through use of professional development time and volunteering to work outside of the Software Engineering practice. Assisted colleagues in their personal and professional development by providing mentoring, emotional support, and technical guidance."
 			],
 			"highlights": [
-				"<strong>Planned and delivered customer workshops</strong> - Successfully lead both single day and multi-day workshops and events. These sessions varied from one-on-one coaching to facilitating activities for larger groups. A pragmatic and flexible approach was used throughout to overcome technical and environmental roadblocks during these workshops. The vast majority of these events were conducted in different timezones with customers for whom English was not their primary language.",
-				"<strong>Increased proficiency with Infrastructure as Code solutions</strong> - Completed several Infrastructure as Code projects, client requirements dictated the tooling, all solutions used either Bicep or Terraform. Continued to develop expertise in this area by keeping across the latest developments and best practices. Provided guidance and support for colleagues who had less experience in this area.",
-				"<strong>Heavily involved in development of workshop materials</strong> - Created technical content and exemplars for attendees to work through as part of Microsoft-funded events. This content was the core focus of an on-going series of multi-day events throughout Asia-Pacific that are run remotely to educate the community on Microsoft products and workflows; such as DevOps and GitHub or Deploying Open-Source Software and tools on Azure. Reviewed, tested, and oversaw the development of content packs created by others."
+				"<strong>Planned and delivered customer workshops</strong> - Successfully led both single day and multi-day workshops and events. These sessions varied from one-on-one coaching to facilitating activities for larger groups. A pragmatic and flexible approach was used throughout to overcome technical and environmental roadblocks during these workshops. The vast majority of these events were conducted in different timezones with customers for whom English was not their primary language.",
+				"<strong>Increased proficiency with Infrastructure as Code solutions</strong> - Completed several Infrastructure as Code projects; client requirements dictated the tooling, all solutions used either Bicep or Terraform. Continued to develop expertise in this area by keeping across the latest developments and best practices. Provided guidance and support for colleagues who had less experience in this area.",
+				"<strong>Heavily involved in development of workshop materials</strong> - Created technical content and exemplars for attendees to work through as part of Microsoft-funded events. This content was the core focus of an on-going series of multi-day events throughout Asia-Pacific that were run remotely to educate the community on Microsoft products and workflows; such as DevOps and GitHub or Deploying Open-Source Software and tools on Azure. Reviewed, tested, and oversaw the development of content packs created by others."
 			],
 			"isCurrentRole": true,
 			"start": "March 2023",
@@ -507,7 +507,7 @@
 			"startDate": "2022-09-05",
 			"endDate": "2023-03-07",
 			"responsibilities": [
-				"Provided technical and people leadership to the newly formed Product team that was responsible for further development on several existing MVP solutions which would enable them to move into the scale stage of their lifecycle. Worked with the Director of Product to ideate, design, architect, and deliver hardware and SaaS solutions to customers. Acted as a role model for the team and attached resources by personally demonstrating the processes and behaviours required to successfully deliver value in a timely manner, while still maintaining a focus on quality. Worked with stakeholders to assess the suitability of and plan for the future integration of other offerings in the product solution portfolio. Actively contributed to the growth of team members through mentoring, regular one-on-ones, setting goals and having career conversations. Empowered people to take ownership and be accountable for deliverables, while providing appropriate levels of emotional and technical support.",
+				"Provided technical and people leadership to the newly formed Product team that was responsible for further development on several existing MVP solutions which would enable them to move into the scale stage of their lifecycle. Worked with the Director of Product to ideate, design, architect, and deliver hardware and SaaS solutions to customers. Acted as a role model for the team and those in the wider business by personally demonstrating the processes and behaviours required to successfully deliver value in a timely manner, while still maintaining a focus on quality. Worked with stakeholders to assess the suitability of, and plan for, the future integration of other offerings in the product solution portfolio. Actively contributed to the growth of team members through mentoring, regular one-on-ones, setting goals and having career conversations. Empowered people to take ownership and be accountable for deliverables, while providing appropriate levels of emotional and technical support.",
 				"Collaborated with others to understand requirements and technical challenges, then evaluated potential solutions and presented prioritised actions to management for approval. Proactively raised concerns and implemented process improvements. Participated in peer-programming and mobbing sessions which enabled opportunities for two-way mentoring, knowledge-sharing, and increased team cohesion. Oversaw and provided technical guidance on the delivery of multiple parallel workstreams (Web, Data Platform, Embedded Development, Model Training Pipelines, and Operational tasks). Took responsibility for the technical direction, priority, and delivery of both technical and operational tasks."
 			],
 			"highlights": [
@@ -530,7 +530,7 @@
 			"endDate": "2022-09-02",
 			"responsibilities": [
 				"Continued delivering solutions using the Azure platform and DevOps best practices. Scoped and designed the architecture and the security posture for new pieces of work. Shifted into a leadership role, independently ran projects and managed team members across multiple disciplines to ensure that deliverables were on time and met the requirements. Heavily involved in the onboarding process, including performing inductions for engineering staff both inside and outside of the software engineering discipline, and ensuring that new-hires were set up for success. Learned and practiced candidate evaluation skills for technical hires, gained practical experience with pre/post-interview tasks.",
-				"Utilised professional development time to undergo training to further develop leadership and coaching skills, so that different styles could be utilized, depending on the situation. Developed content for team standards, style guides, templates, and onboarding collateral to ensure that a consistent approach was taken to building solutions. Demonstrated flexibility and acquired new skills in the data platform space by working outside of my core role for an extended period of time. Gave back to the development community by contributing to open-source projects and answering questions on developer forums."
+				"Utilised professional development time to undergo training to further develop leadership and coaching skills, so that different styles could be utilized, depending on the situation. Developed content for team standards, style guides, templates, and onboarding collateral to ensure that a consistent approach was taken to building solutions. Demonstrated flexibility and acquired new skills by completing an extended placement as a Data Platform Engineer. Gave back to the development community by contributing to open-source projects and answering questions on developer forums."
 			],
 			"highlights": [
 				"<strong>Created a data platform</strong> - Worked with a Data Platform Engineer and the client to design and deliver a Data Lake and associated pipelines for a major transportation hub to ingest and reconcile movement data on a daily basis. This reporting data store replaced a legacy on-premises store with one hosted in Azure which was faster, more reliable, cheaper, and more accurate. Introduced new tools to the team that were instrumental in demonstrating milestones had been achieved and sharing knowledge across the team.",
@@ -552,7 +552,7 @@
 			"startDate": "2019-02-01",
 			"endDate": "2020-10-01",
 			"responsibilities": [
-				"Worked as part of a small Software Engineering team to deliver primarily web-based solutions that are built using the Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work for both short and long-term engagements. Took ownership of being the technical authority on ChatBots, Form Recognizer, Power Apps, and the speech (Speech to Text) and language (LUIS and QnA Maker) Cognitive Services.",
+				"Worked as part of a small Software Engineering team to deliver primarily web-based solutions that were built using the Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work for both short and long-term engagements. Took ownership of being the technical authority on ChatBots, Form Recognizer, Power Apps, and the speech (Speech to Text) and language (LUIS and QnA Maker) Cognitive Services.",
 				"Collaborated with Microsoft product teams to test new and upcoming features, and had multiple pull requests accepted for documentation across various Microsoft services and technologies. Successfully delivered projects whether working independently, collaborating with team members, or as an embedded resource within a client team (remote and in-person). Mentored and supported team members across professional practices, sharing knowledge throughout the business, and improving soft skills."
 			],
 			"highlights": [
@@ -747,42 +747,6 @@
 			},
 			"link": "https://news.microsoft.com/en-nz/2019/10/18/microsoft-announces-2019-new-zealand-partner-awards-winners/",
 			"display": true
-		},
-		{
-			"title": "Employee of the month",
-			"date": "2017-03-01",
-			"type": "award",
-			"awarder": "Smartrak Ltd",
-			"summary": "I was awarded employee of the month.",
-			"fullDate": {
-				"year": 2017,
-				"month": 3
-			},
-			"display": false
-		},
-		{
-			"title": "Development Team MVP for 2016",
-			"date": "2016-12-01",
-			"type": "trophy",
-			"awarder": "Smartrak Ltd",
-			"summary": "I was awarded the MVP award for 2016 by my peers in the Development Team.",
-			"fullDate": {
-				"year": 2016,
-				"month": 12
-			},
-			"display": false
-		},
-		{
-			"title": "Employee of the month",
-			"date": "2015-05-01",
-			"type": "award",
-			"awarder": "Smartrak Ltd",
-			"summary": "I was awarded employee of the month.",
-			"fullDate": {
-				"year": 2015,
-				"month": 5
-			},
-			"display": false
 		},
 		{
 			"title": "Best Honours Project Presentation",
