@@ -104,6 +104,20 @@
 			"keywords": [],
 			"rating": 3,
 			"yearsOfExperience": 4
+		},
+		{
+			"name": "Infrastructure as Code",
+			"level": "Intermediate",
+			"keywords": [],
+			"rating": 3,
+			"yearsOfExperience": 3
+		},
+		{
+			"name": "Data Platforms",
+			"level": "Beginner-Intermediate",
+			"keywords": [],
+			"rating": 2.5,
+			"yearsOfExperience": 1
 		}
 	],
 	"openSourceProjects": [
@@ -923,7 +937,8 @@
 			"name": "Infrastructure as Code",
 			"current": [
 				"ARM",
-				"Bicep"
+				"Bicep",
+				"Terraform"
 			],
 			"historical": []
 		},
