@@ -749,42 +749,6 @@
 			"display": true
 		},
 		{
-			"title": "Employee of the month",
-			"date": "2017-03-01",
-			"type": "award",
-			"awarder": "Smartrak Ltd",
-			"summary": "I was awarded employee of the month.",
-			"fullDate": {
-				"year": 2017,
-				"month": 3
-			},
-			"display": false
-		},
-		{
-			"title": "Development Team MVP for 2016",
-			"date": "2016-12-01",
-			"type": "trophy",
-			"awarder": "Smartrak Ltd",
-			"summary": "I was awarded the MVP award for 2016 by my peers in the Development Team.",
-			"fullDate": {
-				"year": 2016,
-				"month": 12
-			},
-			"display": false
-		},
-		{
-			"title": "Employee of the month",
-			"date": "2015-05-01",
-			"type": "award",
-			"awarder": "Smartrak Ltd",
-			"summary": "I was awarded employee of the month.",
-			"fullDate": {
-				"year": 2015,
-				"month": 5
-			},
-			"display": false
-		},
-		{
 			"title": "Best Honours Project Presentation",
 			"date": "2013-11-01",
 			"type": "trophy",
