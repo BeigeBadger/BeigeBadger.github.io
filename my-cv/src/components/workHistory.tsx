@@ -18,9 +18,11 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 
 							{
 								props.jobHistory.map((job, index) => {
+									const className = `job-history-entry ${index === props.jobHistory.length - 1 ? "" : "mb-5"})`;
+
 									return (
 										/* Do no apply the bottom margin on the last element, could also use CSS selectors to do this */
-										<div key={index} className={index === props.jobHistory.length - 1 ? "" : "mb-5"}>
+										<div key={index} className={className}>
 											<div >
 												<h5>
 													{

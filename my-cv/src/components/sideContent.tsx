@@ -31,21 +31,21 @@ const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 
 				<hr />
 
-				<Row>
+				<Row className="no-print">
 					<Col>
 						<OpenSourceProjects projects={props.resumeData.openSourceProjects} />
 					</Col>
 				</Row>
 
-				<hr />
+				<hr className="no-print" />
 
-				<Row>
+				<Row className="no-print">
 					<Col>
 						<Publications publications={props.resumeData.publications} />
 					</Col>
 				</Row>
 
-				<hr />
+				<hr className="no-print" />
 
 				<Row>
 					<Col>

@@ -19,7 +19,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 	return (
 		<>
 			<div className="header">
-				<Container>
+				<Container className="no-print">
 					<Row>
 						<Col>
 							<img className="mt-4" src={props.resumeData.basics.picture} alt="Matt Stannett's avatar" />
@@ -65,13 +65,13 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 
 					<hr />
 
-					<Row>
+					<Row className="no-print">
 						<Col>
 							<Skills skills={props.resumeData.skills} />
 						</Col>
 					</Row>
 
-					<hr />
+					<hr className="no-print" />
 
 				</Container>
 			</div>

@@ -1,0 +1,11 @@
+/* All your print styles go here */
+@media print {
+	.no-print {
+	  display: none !important;
+	}
+
+	/* Add spacing before date headers */
+	.job-history-entry {
+		margin-top: 1rem;
+	}
+  }

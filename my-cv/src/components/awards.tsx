@@ -11,7 +11,7 @@ interface IAwardProps {
 const Awards: React.FC<IAwardProps> = (props: IAwardProps) => {
 	return (
 		<>
-			<Container>
+			<Container className="no-print">
 				<Row>
 					<Col>
 						<div className="awards">
