@@ -907,11 +907,12 @@
 		{
 			"name": "Infrastructure as Code",
 			"current": [
-				"ARM",
 				"Bicep",
 				"Terraform"
 			],
-			"historical": []
+			"historical": [
+				"ARM"
+			]
 		},
 		{
 			"name": "Enterprise",
