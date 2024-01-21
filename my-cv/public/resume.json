@@ -118,6 +118,13 @@
 			"keywords": [],
 			"rating": 2.5,
 			"yearsOfExperience": 2
+		},
+		{
+			"name": "Prompt Engineering",
+			"level": "Intermediate",
+			"keywords": [],
+			"rating": 3,
+			"yearsOfExperience": 1
 		}
 	],
 	"openSourceProjects": [
