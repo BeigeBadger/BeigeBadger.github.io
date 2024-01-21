@@ -842,7 +842,8 @@
 				"Notebooks (Jupyter, SQL)",
 				"Docker",
 				"Power Apps",
-				"Microsoft Bot Framework"
+				"Microsoft Bot Framework",
+				"Power BI"
 			],
 			"historical": [
 				"jQuery",
