@@ -125,6 +125,13 @@
 			"keywords": [],
 			"rating": 3,
 			"yearsOfExperience": 1
+		},
+		{
+			"name": "Documentation",
+			"level": "Advanced",
+			"keywords": [],
+			"rating": 4,
+			"yearsOfExperience": 8
 		}
 	],
 	"openSourceProjects": [
@@ -798,7 +805,7 @@
 			"description": "<strong>Comfortable working directly with clients</strong>, has experience leading projects, running in-person and remote workshops, and working as an embedded resource."
 		},
 		{
-			"description": "<strong>Excellent written communication skills</strong>. Advocates for knowledge sharing through documenting processes, system architecture, and functionality overviews."
+			"description": "<strong>Excellent written communication skills</strong>. Advocates for knowledge sharing through documentation, demonstrations, and hands-on training. Vast experience documenting processes, system architecture, technical walkthroughs, and functionality overviews for technical and non-technical staff."
 		}
 	],
 	"references": [
