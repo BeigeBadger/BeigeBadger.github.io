@@ -886,12 +886,12 @@
 				"Azure Boards",
 				"GitHub Projects",
 				"JIRA",
+				"Confluence",
 				"Miro"
 			],
 			"historical": [
 				"Redmine",
-				"Trello",
-				"Confluence"
+				"Trello"
 			]
 		},
 		{
