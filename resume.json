@@ -46,7 +46,7 @@
 			"name": "Event-Driven",
 			"level": "Intermediate",
 			"keywords": [],
-			"rating": 3,
+			"rating": 4,
 			"yearsOfExperience": 1
 		},
 		{
@@ -54,35 +54,35 @@
 			"level": "Advanced",
 			"keywords": [],
 			"rating": 4,
-			"yearsOfExperience": 3
+			"yearsOfExperience": 4
 		},
 		{
 			"name": "Web Applications",
 			"level": "Advanced",
 			"keywords": [],
 			"rating": 4,
-			"yearsOfExperience": 8
+			"yearsOfExperience": 10
 		},
 		{
 			"name": "Databases",
 			"level": "Intermediate",
 			"keywords": [],
 			"rating": 3,
-			"yearsOfExperience": 8
+			"yearsOfExperience": 10
 		},
 		{
 			"name": "Cloud Architecture",
 			"level": "Advanced",
 			"keywords": [],
 			"rating": 4,
-			"yearsOfExperience": 3
+			"yearsOfExperience": 4
 		},
 		{
 			"name": "IoT (Internet of Things)",
 			"level": "Intermediate",
 			"keywords": [],
 			"rating": 3,
-			"yearsOfExperience": 2
+			"yearsOfExperience": 3
 		},
 		{
 			"name": "Unit Testing",
@@ -96,7 +96,7 @@
 			"level": "Advanced",
 			"keywords": [],
 			"rating": 4,
-			"yearsOfExperience": 8
+			"yearsOfExperience": 9
 		},
 		{
 			"name": "Mentoring/Coaching",
@@ -107,9 +107,9 @@
 		},
 		{
 			"name": "Infrastructure as Code",
-			"level": "Intermediate",
+			"level": "Advanced",
 			"keywords": [],
-			"rating": 3,
+			"rating": 4,
 			"yearsOfExperience": 3
 		},
 		{
@@ -117,6 +117,13 @@
 			"level": "Beginner-Intermediate",
 			"keywords": [],
 			"rating": 2.5,
+			"yearsOfExperience": 2
+		},
+		{
+			"name": "Prompt Engineering",
+			"level": "Intermediate",
+			"keywords": [],
+			"rating": 3,
 			"yearsOfExperience": 1
 		}
 	],
@@ -487,12 +494,13 @@
 			"endDate": "",
 			"responsibilities": [
 				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions had support agreements in place. Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
-				"Continued developing skills in other technical practices through use of professional development time and volunteering to work outside of the Software Engineering practice. Assisted colleagues in their personal and professional development by providing mentoring, emotional support, and technical guidance."
+				"Continued developing skills in other technical practices through use of professional development time, volunteering to work outside of the Software Engineering practice, and being assigned to non-Software projects. Assisted colleagues in their personal and professional development by providing mentoring, emotional support, and technical guidance."
 			],
 			"highlights": [
 				"<strong>Planned and delivered customer workshops</strong> - Successfully led both single day and multi-day workshops and events. These sessions varied from one-on-one coaching to facilitating activities for larger groups. A pragmatic and flexible approach was used throughout to overcome technical and environmental roadblocks during these workshops. The vast majority of these events were conducted in different timezones with customers for whom English was not their primary language.",
-				"<strong>Increased proficiency with Infrastructure as Code solutions</strong> - Completed several Infrastructure as Code projects; client requirements dictated the tooling, all solutions used either Bicep or Terraform. Continued to develop expertise in this area by keeping across the latest developments and best practices. Provided guidance and support for colleagues who had less experience in this area.",
-				"<strong>Heavily involved in development of workshop materials</strong> - Created technical content and exemplars for attendees to work through as part of Microsoft-funded events. This content was the core focus of an on-going series of multi-day events throughout Asia-Pacific that were run remotely to educate the community on Microsoft products and workflows; such as DevOps and GitHub or Deploying Open-Source Software and tools on Azure. Reviewed, tested, and oversaw the development of content packs created by others."
+				"<strong>Increased proficiency with Infrastructure as Code solutions</strong> - Completed several Infrastructure as Code projects; client requirements dictated the tooling, all solutions used either Bicep or Terraform. Continued to develop expertise in this area by keeping across the latest developments and best practices. Provided guidance and support for colleagues who had less experience in this area. Used various frameworks, development methodologies, and tools to build and deploy solutions.",
+				"<strong>Heavily involved in development of workshop materials</strong> - Created technical content and exemplars for attendees to work through as part of Microsoft-funded events. This content was the core focus of an on-going series of multi-day events throughout Asia-Pacific that were run remotely to educate the community on Microsoft products and workflows; such as DevOps and GitHub or Deploying Open-Source Software and tools on Azure. Reviewed, tested, and oversaw the development of content packs created by others.",
+				"<strong>Developed OpenAI solutions for clients</strong> - Delivered several solutions for clients that leveraged OpenAI models to provide a private and secure ChatGPT experience for their staff. Both traditional Web Applications and Microsoft Teams bots used to provide access to the chat interface. A separate solution used an OpenAI model in conjunction with OCR and Form Recognition tools to extract and format data from photos and documents, this data was then ingested by a client system."
 			],
 			"isCurrentRole": true,
 			"start": "March 2023",
@@ -787,7 +795,7 @@
 			"description": "Enjoys playing an active role in fostering a fun, friendly, and collaborative environment where <strong>mentoring others is valued</strong> and accepted as part of an employee's responsibilities."
 		},
 		{
-			"description": "<strong>Comfortable working directly with clients</strong>, has experience leading projects and running workshops."
+			"description": "<strong>Comfortable working directly with clients</strong>, has experience leading projects, running in person and remote workshops, and working as an embedded resource."
 		},
 		{
 			"description": "<strong>Excellent written communication skills</strong>. Advocates for knowledge sharing through documenting processes, system architecture, and functionality overviews."
@@ -835,7 +843,8 @@
 				"Notebooks (Jupyter, SQL)",
 				"Docker",
 				"Power Apps",
-				"Microsoft Bot Framework"
+				"Microsoft Bot Framework",
+				"Power BI"
 			],
 			"historical": [
 				"jQuery",
@@ -900,18 +909,20 @@
 		{
 			"name": "Infrastructure as Code",
 			"current": [
-				"ARM",
 				"Bicep",
 				"Terraform"
 			],
-			"historical": []
+			"historical": [
+				"ARM"
+			]
 		},
 		{
 			"name": "Enterprise",
 			"current": [
 				"Azure",
 				"Azure Active Directory",
-				"Office 365"
+				"Office 365",
+				"Microsoft Teams"
 			],
 			"historical": [
 				"Active Directory",
