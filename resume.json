@@ -6,7 +6,7 @@
 		"email": "matt.stannett@gmail.com",
 		"phone": "",
 		"url": null,
-		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that satisfy client needs. Believes in producing elegant, extensible, and well-documented deliverables. Highly motivated to overcome challenges that foster personal growth and development. An avid consumer of books, documentaries and podcasts, also an amateur military historian. Keeps active through football (all forms), mountain biking, and running around after a one year old daughter.",
+		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that satisfy client needs. Believes in producing elegant, extensible, and well-documented deliverables. Highly motivated to overcome challenges that foster personal growth and development. An avid consumer of books, documentaries and podcasts, also an amateur military historian. Keeps active through football (indoor, six-a-side, and full field), mountain biking, and running around after a two year old daughter.",
 		"profiles": [
 			{
 				"network": "GitHub",
@@ -125,6 +125,13 @@
 			"keywords": [],
 			"rating": 3,
 			"yearsOfExperience": 1
+		},
+		{
+			"name": "Documentation",
+			"level": "Advanced",
+			"keywords": [],
+			"rating": 4,
+			"yearsOfExperience": 8
 		}
 	],
 	"openSourceProjects": [
@@ -500,7 +507,7 @@
 				"<strong>Planned and delivered customer workshops</strong> - Successfully led both single day and multi-day workshops and events. These sessions varied from one-on-one coaching to facilitating activities for larger groups. A pragmatic and flexible approach was used throughout to overcome technical and environmental roadblocks during these workshops. The vast majority of these events were conducted in different timezones with customers for whom English was not their primary language.",
 				"<strong>Increased proficiency with Infrastructure as Code solutions</strong> - Completed several Infrastructure as Code projects; client requirements dictated the tooling, all solutions used either Bicep or Terraform. Continued to develop expertise in this area by keeping across the latest developments and best practices. Provided guidance and support for colleagues who had less experience in this area. Used various frameworks, development methodologies, and tools to build and deploy solutions.",
 				"<strong>Heavily involved in development of workshop materials</strong> - Created technical content and exemplars for attendees to work through as part of Microsoft-funded events. This content was the core focus of an on-going series of multi-day events throughout Asia-Pacific that were run remotely to educate the community on Microsoft products and workflows; such as DevOps and GitHub or Deploying Open-Source Software and tools on Azure. Reviewed, tested, and oversaw the development of content packs created by others.",
-				"<strong>Developed OpenAI solutions for clients</strong> - Delivered several solutions for clients that leveraged OpenAI models to provide a private and secure ChatGPT experience for their staff. Both traditional Web Applications and Microsoft Teams bots used to provide access to the chat interface. A separate solution used an OpenAI model in conjunction with OCR and Form Recognition tools to extract and format data from photos and documents, this data was then ingested by a client system."
+				"<strong>Developed OpenAI solutions for clients</strong> - Delivered several solutions for clients that leveraged OpenAI models to provide a private and secure ChatGPT experience for their staff. Both traditional Web Applications and Microsoft Teams bots were used to provide access to the chat interface. A separate solution used an OpenAI model in conjunction with OCR and Form Recognition tools to extract and format data from photos and documents, this data was then ingested by a client system."
 			],
 			"isCurrentRole": true,
 			"start": "March 2023",
@@ -795,10 +802,10 @@
 			"description": "Enjoys playing an active role in fostering a fun, friendly, and collaborative environment where <strong>mentoring others is valued</strong> and accepted as part of an employee's responsibilities."
 		},
 		{
-			"description": "<strong>Comfortable working directly with clients</strong>, has experience leading projects, running in person and remote workshops, and working as an embedded resource."
+			"description": "<strong>Comfortable working directly with clients</strong>, has experience leading projects, running in-person and remote workshops, and working as an embedded resource."
 		},
 		{
-			"description": "<strong>Excellent written communication skills</strong>. Advocates for knowledge sharing through documenting processes, system architecture, and functionality overviews."
+			"description": "<strong>Excellent written communication skills</strong>. Advocates for knowledge sharing through documentation, demonstrations, and hands-on training. Vast experience documenting processes, system architecture, technical walkthroughs, and functionality overviews for technical and non-technical staff."
 		}
 	],
 	"references": [
@@ -886,24 +893,24 @@
 				"Azure Boards",
 				"GitHub Projects",
 				"JIRA",
+				"Confluence",
 				"Miro"
 			],
 			"historical": [
 				"Redmine",
-				"Trello",
-				"Confluence"
+				"Trello"
 			]
 		},
 		{
 			"name": "Databases",
 			"current": [
 				"SQL Server",
-				"Cosmos DB",
-				"Azure Table Storage"
+				"Cosmos DB (NoSQL/Document DB)"
 			],
 			"historical": [
 				"SQLite",
-				"PostgreSQL"
+				"PostgreSQL",
+				"Azure Table Storage"
 			]
 		},
 		{
