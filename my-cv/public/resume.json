@@ -46,7 +46,7 @@
 			"name": "Event-Driven",
 			"level": "Intermediate",
 			"keywords": [],
-			"rating": 3,
+			"rating": 4,
 			"yearsOfExperience": 1
 		},
 		{
@@ -54,35 +54,35 @@
 			"level": "Advanced",
 			"keywords": [],
 			"rating": 4,
-			"yearsOfExperience": 3
+			"yearsOfExperience": 4
 		},
 		{
 			"name": "Web Applications",
 			"level": "Advanced",
 			"keywords": [],
 			"rating": 4,
-			"yearsOfExperience": 8
+			"yearsOfExperience": 10
 		},
 		{
 			"name": "Databases",
 			"level": "Intermediate",
 			"keywords": [],
 			"rating": 3,
-			"yearsOfExperience": 8
+			"yearsOfExperience": 10
 		},
 		{
 			"name": "Cloud Architecture",
 			"level": "Advanced",
 			"keywords": [],
 			"rating": 4,
-			"yearsOfExperience": 3
+			"yearsOfExperience": 4
 		},
 		{
 			"name": "IoT (Internet of Things)",
 			"level": "Intermediate",
 			"keywords": [],
 			"rating": 3,
-			"yearsOfExperience": 2
+			"yearsOfExperience": 3
 		},
 		{
 			"name": "Unit Testing",
@@ -96,7 +96,7 @@
 			"level": "Advanced",
 			"keywords": [],
 			"rating": 4,
-			"yearsOfExperience": 8
+			"yearsOfExperience": 9
 		},
 		{
 			"name": "Mentoring/Coaching",
@@ -109,7 +109,7 @@
 			"name": "Infrastructure as Code",
 			"level": "Intermediate",
 			"keywords": [],
-			"rating": 3,
+			"rating": 4,
 			"yearsOfExperience": 3
 		},
 		{
@@ -117,7 +117,7 @@
 			"level": "Beginner-Intermediate",
 			"keywords": [],
 			"rating": 2.5,
-			"yearsOfExperience": 1
+			"yearsOfExperience": 2
 		}
 	],
 	"openSourceProjects": [
