@@ -898,12 +898,12 @@
 			"name": "Databases",
 			"current": [
 				"SQL Server",
-				"Cosmos DB",
-				"Azure Table Storage"
+				"Cosmos DB (NoSQL/Document DB)"
 			],
 			"historical": [
 				"SQLite",
-				"PostgreSQL"
+				"PostgreSQL",
+				"Azure Table Storage"
 			]
 		},
 		{
