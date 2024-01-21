@@ -107,14 +107,14 @@
 		},
 		{
 			"name": "Infrastructure as Code",
-			"level": "Intermediate",
+			"level": "Advanced",
 			"keywords": [],
 			"rating": 4,
 			"yearsOfExperience": 3
 		},
 		{
 			"name": "Data Platforms",
-			"level": "Beginner-Intermediate",
+			"level": "Intermediate",
 			"keywords": [],
 			"rating": 2.5,
 			"yearsOfExperience": 2
