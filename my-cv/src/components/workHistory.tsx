@@ -5,11 +5,12 @@ import SectionTitle from "./shared/sectionTitle";
 
 interface IWorkHistoryProps {
 	jobHistory: IJob[];
+	customClass: string;
 }
 
 const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 	return (
-		<>
+		<div className={props.customClass}>
 			<Container>
 				<Row>
 					<Col className="col-print-12">
@@ -83,7 +84,10 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 					</Col>
 				</Row>
 			</Container>
-		</>
+
+			{/* Since this component is moved below the value props component when printing, we need to add an HR to separate it from the next element */}
+			<hr className="col-print-12 only-show-when-printing" />
+		</div>
 	)
 }
 

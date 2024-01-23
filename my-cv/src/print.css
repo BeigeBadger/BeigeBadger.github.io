@@ -4,6 +4,10 @@
 	  display: none !important;
 	}
 
+	.only-show-when-printing {
+		display: block;
+	}
+
 	/* Add spacing before date headers */
 	.job-history-entry {
 		margin-top: 1rem;

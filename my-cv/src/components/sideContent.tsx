@@ -14,7 +14,7 @@ interface ISideContentProps {
 const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 	return (
 		<>
-			<ValuePropositions valuePropositions={props.resumeData.valuePropositions} />
+			<ValuePropositions valuePropositions={props.resumeData.valuePropositions} customClass="no-print" />
 
 			<Tooling tooling={props.resumeData.tooling} />
 

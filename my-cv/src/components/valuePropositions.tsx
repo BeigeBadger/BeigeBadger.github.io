@@ -4,12 +4,13 @@ import { IValueProposition } from "../models/resume/valueProposition";
 import SectionTitle from "./shared/sectionTitle";
 
 interface IValuePropositionProps {
-	valuePropositions: IValueProposition[]
+	valuePropositions: IValueProposition[];
+	customClass: string;
 }
 
 const ValuePropositions: React.FC<IValuePropositionProps> = (props: IValuePropositionProps) => {
 	return (
-		<>
+		<div className={props.customClass}>
 			<Container>
 				<Row>
 					<Col className="col-print-12">
@@ -31,7 +32,7 @@ const ValuePropositions: React.FC<IValuePropositionProps> = (props: IValuePropos
 			</Container>
 
 			<hr className="col-print-12" />
-		</>
+		</div>
 	);
 }
 

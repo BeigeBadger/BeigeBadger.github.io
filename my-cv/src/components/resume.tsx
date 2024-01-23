@@ -7,6 +7,7 @@ import Skills from "./skills";
 import WorkHistory from "./workHistory";
 import SideContent from "./sideContent";
 import dayjs from "dayjs";
+import ValuePropositions from "./valuePropositions";
 
 interface IResumeProps {
 	resumeData: IResume
@@ -78,8 +79,10 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 			<div className="content text-start">
 				<Container>
 					<Row>
-						<Col xs={12} md={7} lg={7} className="col-print-12">
-							<WorkHistory jobHistory={props.resumeData.jobHistory} />
+						<Col xs={12} md={7} lg={7} className="col-print-12 d-flex flex-column">
+							<WorkHistory jobHistory={props.resumeData.jobHistory} customClass="print-order-2" />
+
+							<ValuePropositions valuePropositions={props.resumeData.valuePropositions} customClass="only-show-when-printing print-order-1" />
 						</Col>
 
 						<Col xs={12} md={5} lg={5} className="col-print-12">
