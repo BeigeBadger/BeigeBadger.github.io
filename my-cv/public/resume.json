@@ -834,7 +834,8 @@
 				"JavaScript",
 				"Python",
 				"TypeScript",
-				"PowerShell"
+				"PowerShell",
+				"Bash"
 			],
 			"historical": []
 		},
