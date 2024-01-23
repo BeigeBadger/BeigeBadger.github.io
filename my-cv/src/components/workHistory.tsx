@@ -19,7 +19,8 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 							{
 								props.jobHistory.map((job, index) => {
 									return (
-										<div key={index} className="job-history-entry mb-5">
+										// The page break class is a cludge to make things print nicely
+										<div key={index} className={`job-history-entry mb-5 ${index === 1 ? `page-break-before-always` : ``}`}>
 											<div >
 												<h5>
 													{

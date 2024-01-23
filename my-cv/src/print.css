@@ -115,4 +115,12 @@
 	.print-flex-direction-row {
 		flex-direction: row !important;
 	}
+
+	.page-break-after-always {
+		page-break-after: always;
+	}
+
+	.page-break-before-always {
+		page-break-before: always;
+	}
 }
