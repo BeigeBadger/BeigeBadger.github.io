@@ -12,7 +12,7 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 		<>
 			<Container>
 				<Row>
-					<Col>
+					<Col className="col-print-12">
 						<div className="work-history mb-3">
 							<SectionTitle title="Work History" icon={faLaptopCode} />
 
@@ -86,10 +86,9 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 						</div>
 					</Col>
 				</Row>
-
-				<hr />
-
 			</Container>
+
+			<hr />
 		</>
 	)
 }

@@ -29,7 +29,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 
 				<Container>
 					<Row>
-						<Col>
+						<Col className="col-print-12">
 							<h1 className="my-3">
 								{
 									props.resumeData.basics.name
@@ -41,11 +41,11 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 
 				<Container>
 					<Row>
-						<Col xs={12} sm={{ span: 6 }} md={{ span: 4, offset: 2 }} className="text-center text-sm-end">
+						<Col xs={12} sm={{ span: 6 }} md={{ span: 4, offset: 2 }} className="text-center text-sm-end col-print-4">
 							<BasicInfo basics={props.resumeData.basics} />
 						</Col>
 
-						<Col xs={12} sm={6} md={4} className="text-center text-sm-start">
+						<Col xs={12} sm={6} md={4} className="text-center text-sm-start col-print-4">
 							<Profiles profiles={props.resumeData.basics.profiles} />
 						</Col>
 					</Row>
@@ -58,7 +58,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 			<div className="neck">
 				<Container>
 					<Row>
-						<Col>
+						<Col className="col-print-12">
 							<PersonalSummary personalSummary={props.resumeData.basics.summary} />
 						</Col>
 					</Row>
@@ -79,13 +79,13 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 			<div className="content text-start">
 				<Container>
 					<Row>
-						<Col xs={12} md={7} lg={7}>
+						<Col xs={12} md={7} lg={7} className="col-print-12">
 							<WorkHistory jobHistory={props.resumeData.jobHistory} />
 
 							<Awards awards={props.resumeData.awards} />
 						</Col>
 
-						<Col xs={12} md={5} lg={5}>
+						<Col xs={12} md={5} lg={5} className="col-print-12">
 							<SideContent resumeData={props.resumeData} />
 						</Col>
 					</Row>
