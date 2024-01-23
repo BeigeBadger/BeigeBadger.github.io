@@ -20,9 +20,9 @@ const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 
 			<OpenSourceProjects projects={props.resumeData.openSourceProjects} />
 
-			<Publications publications={props.resumeData.publications} />
-
 			<Awards awards={props.resumeData.awards} />
+
+			<Publications publications={props.resumeData.publications} />
 
 			<Qualifications qualifications={props.resumeData.qualifications} />
 
