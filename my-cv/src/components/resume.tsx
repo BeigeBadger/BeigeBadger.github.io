@@ -91,6 +91,10 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 
 			<div className="footer">
 				<Container>
+					<hr />
+				</Container>
+
+				<Container>
 					<Row>
 						<Col>
 							<div className="my-4">
