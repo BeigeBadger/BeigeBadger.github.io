@@ -881,7 +881,8 @@
 			"historical": [
 				"TeamCity",
 				"Octopus Deploy",
-				"AppVeyor"
+				"AppVeyor",
+				"GitLab"
 			],
 			"printOrder": 6
 		},
