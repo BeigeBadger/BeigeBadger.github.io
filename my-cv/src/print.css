@@ -123,4 +123,9 @@
 	.page-break-before-always {
 		page-break-before: always;
 	}
+
+	/* To override .offset-md-2 in the basic info section */
+	.print-no-offset {
+		margin-left: 0px !important;
+	}
 }

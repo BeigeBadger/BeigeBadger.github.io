@@ -41,11 +41,11 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 
 				<Container>
 					<Row>
-						<Col xs={12} sm={{ span: 6 }} md={{ span: 4, offset: 2 }} className="text-center text-sm-end col-print-4">
+						<Col xs={12} sm={{ span: 6 }} md={{ span: 4, offset: 2 }} className="text-center text-sm-end col-print-6 print-no-offset">
 							<BasicInfo basics={props.resumeData.basics} />
 						</Col>
 
-						<Col xs={12} sm={6} md={4} className="text-center text-sm-start col-print-4">
+						<Col xs={12} sm={6} md={4} className="text-center text-sm-start col-print-6">
 							<Profiles profiles={props.resumeData.basics.profiles} />
 						</Col>
 					</Row>
@@ -80,7 +80,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 				<Container>
 					<Row>
 						<Col xs={12} md={7} lg={7} className="col-print-12 d-flex flex-column">
-							<WorkHistory jobHistory={props.resumeData.jobHistory} customClass="print-order-2" />
+							<WorkHistory jobHistory={props.resumeData.jobHistory} customClass="print-order-2 page-break-before-always" />
 
 							<ValuePropositions valuePropositions={props.resumeData.valuePropositions} customClass="only-show-when-printing print-order-1" />
 						</Col>
