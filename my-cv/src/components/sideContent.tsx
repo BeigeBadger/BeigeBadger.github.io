@@ -5,6 +5,7 @@ import OpenSourceProjects from "./openSourceProjects";
 import Publications from "./publications";
 import Qualifications from "./qualifications";
 import References from "./references";
+import Awards from "./awards";
 
 interface ISideContentProps {
 	resumeData: IResume
@@ -20,6 +21,8 @@ const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 			<OpenSourceProjects projects={props.resumeData.openSourceProjects} />
 
 			<Publications publications={props.resumeData.publications} />
+
+			<Awards awards={props.resumeData.awards} />
 
 			<Qualifications qualifications={props.resumeData.qualifications} />
 

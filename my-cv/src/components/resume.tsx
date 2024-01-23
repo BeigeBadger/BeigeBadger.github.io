@@ -6,7 +6,6 @@ import PersonalSummary from "./personalSummary";
 import Skills from "./skills";
 import WorkHistory from "./workHistory";
 import SideContent from "./sideContent";
-import Awards from "./awards";
 import dayjs from "dayjs";
 
 interface IResumeProps {
@@ -81,8 +80,6 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					<Row>
 						<Col xs={12} md={7} lg={7} className="col-print-12">
 							<WorkHistory jobHistory={props.resumeData.jobHistory} />
-
-							<Awards awards={props.resumeData.awards} />
 						</Col>
 
 						<Col xs={12} md={5} lg={5} className="col-print-12">
