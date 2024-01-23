@@ -846,20 +846,23 @@
 				"Entity Framework",
 				"ASP.NET Core (Web API, Razor pages)",
 				"React",
-				"Redux",
-				"Debezium",
 				"Bootstrap",
 				"Notebooks (Jupyter, SQL)",
 				"Docker",
-				"Power Apps",
 				"Microsoft Bot Framework",
 				"Power BI",
-				"Microsoft Teams"
+				"Microsoft Teams",
+				"Next.JS",
+				"Open AI models"
 			],
 			"historical": [
 				"jQuery",
 				"ASP.NET (MVC, Web API)",
-				"Selenium"
+				"Selenium",
+				"Redux",
+				"Debezium",
+				"Power Apps",
+				"Dapper"
 			],
 			"printOrder": 3
 		},
