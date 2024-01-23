@@ -834,9 +834,11 @@
 				"JavaScript",
 				"Python",
 				"TypeScript",
-				"PowerShell"
+				"PowerShell",
+				"Bash"
 			],
-			"historical": []
+			"historical": [],
+			"printOrder": 1
 		},
 		{
 			"name": "Frameworks/Tools",
@@ -844,20 +846,25 @@
 				"Entity Framework",
 				"ASP.NET Core (Web API, Razor pages)",
 				"React",
-				"Redux",
-				"Debezium",
 				"Bootstrap",
 				"Notebooks (Jupyter, SQL)",
 				"Docker",
-				"Power Apps",
 				"Microsoft Bot Framework",
-				"Power BI"
+				"Power BI",
+				"Microsoft Teams",
+				"Next.JS",
+				"Open AI models"
 			],
 			"historical": [
 				"jQuery",
 				"ASP.NET (MVC, Web API)",
-				"Selenium"
-			]
+				"Selenium",
+				"Redux",
+				"Debezium",
+				"Power Apps",
+				"Dapper"
+			],
+			"printOrder": 3
 		},
 		{
 			"name": "Source Control",
@@ -866,7 +873,8 @@
 			],
 			"historical": [
 				"SVN"
-			]
+			],
+			"printOrder": 2
 		},
 		{
 			"name": "Continuous Integration, Delivery, and Deployment",
@@ -877,15 +885,21 @@
 			"historical": [
 				"TeamCity",
 				"Octopus Deploy",
-				"AppVeyor"
-			]
+				"AppVeyor",
+				"GitLab"
+			],
+			"printOrder": 4
 		},
 		{
 			"name": "Cloud Experience",
 			"current": [
 				"Azure"
 			],
-			"historical": []
+			"historical": [
+				"Google Cloud Platform",
+				"Amazon Web Services"
+			],
+			"printOrder": 6
 		},
 		{
 			"name": "Project Management",
@@ -899,7 +913,8 @@
 			"historical": [
 				"Redmine",
 				"Trello"
-			]
+			],
+			"printOrder": 5
 		},
 		{
 			"name": "Databases",
@@ -911,7 +926,8 @@
 				"SQLite",
 				"PostgreSQL",
 				"Azure Table Storage"
-			]
+			],
+			"printOrder": 7
 		},
 		{
 			"name": "Infrastructure as Code",
@@ -921,20 +937,8 @@
 			],
 			"historical": [
 				"ARM"
-			]
-		},
-		{
-			"name": "Enterprise",
-			"current": [
-				"Azure",
-				"Azure Active Directory",
-				"Office 365",
-				"Microsoft Teams"
 			],
-			"historical": [
-				"Active Directory",
-				"Microsoft Exchange"
-			]
+			"printOrder": 8
 		}
 	],
 	"meta": {
