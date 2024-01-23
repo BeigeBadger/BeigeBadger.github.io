@@ -97,7 +97,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					<hr />
 				</Container>
 
-				<Container>
+				<Container className="no-print">
 					<Row>
 						<Col>
 							<div className="my-4">
