@@ -10,9 +10,9 @@ interface IReferencesProps {
 const References: React.FC<IReferencesProps> = (props: IReferencesProps) => {
 	return (
 		<>
-			<Container>
+			<Container className="col-print-6">
 				<Row>
-					<Col className="col-print-12">
+					<Col>
 						<div className="references mb-3">
 							<SectionTitle title="References" icon={faUserCheck} />
 
@@ -42,7 +42,8 @@ const References: React.FC<IReferencesProps> = (props: IReferencesProps) => {
 				</Row>
 			</Container>
 
-			<hr className="col-print-12" />
+			{/* HR is omitted in print mode to avoid double HRs at the bottom of the page (one from the footer and one from this component */}
+			<hr className="no-print" />
 		</>
 	);
 }

@@ -11,9 +11,9 @@ interface IQualificationsProps {
 const Qualifications: React.FC<IQualificationsProps> = (props: IQualificationsProps) => {
 	return (
 		<>
-			<Container>
+			<Container className="col-print-6">
 				<Row>
-					<Col className="col-print-12">
+					<Col>
 						<div className="qualifications mb-3">
 							<SectionTitle title="Qualifications" icon={faGraduationCap} />
 
@@ -61,7 +61,8 @@ const Qualifications: React.FC<IQualificationsProps> = (props: IQualificationsPr
 				</Row>
 			</Container>
 
-			<hr className="col-print-12" />
+			{/* HR is omitted in print mode to avoid double HRs at the bottom of the page (one from the footer and one from this component */}
+			<hr className="no-print" />
 		</>
 	);
 }
