@@ -837,7 +837,8 @@
 				"PowerShell",
 				"Bash"
 			],
-			"historical": []
+			"historical": [],
+			"printOrder": 1
 		},
 		{
 			"name": "Frameworks/Tools",
@@ -858,7 +859,8 @@
 				"jQuery",
 				"ASP.NET (MVC, Web API)",
 				"Selenium"
-			]
+			],
+			"printOrder": 4
 		},
 		{
 			"name": "Source Control",
@@ -867,7 +869,8 @@
 			],
 			"historical": [
 				"SVN"
-			]
+			],
+			"printOrder": 2
 		},
 		{
 			"name": "Continuous Integration, Delivery, and Deployment",
@@ -879,14 +882,16 @@
 				"TeamCity",
 				"Octopus Deploy",
 				"AppVeyor"
-			]
+			],
+			"printOrder": 6
 		},
 		{
 			"name": "Cloud Experience",
 			"current": [
 				"Azure"
 			],
-			"historical": []
+			"historical": [],
+			"printOrder": 3
 		},
 		{
 			"name": "Project Management",
@@ -900,7 +905,8 @@
 			"historical": [
 				"Redmine",
 				"Trello"
-			]
+			],
+			"printOrder": 5
 		},
 		{
 			"name": "Databases",
@@ -912,7 +918,8 @@
 				"SQLite",
 				"PostgreSQL",
 				"Azure Table Storage"
-			]
+			],
+			"printOrder": 7
 		},
 		{
 			"name": "Infrastructure as Code",
@@ -922,20 +929,20 @@
 			],
 			"historical": [
 				"ARM"
-			]
+			],
+			"printOrder": 8
 		},
 		{
 			"name": "Enterprise",
 			"current": [
-				"Azure",
 				"Azure Active Directory",
-				"Office 365",
 				"Microsoft Teams"
 			],
 			"historical": [
 				"Active Directory",
 				"Microsoft Exchange"
-			]
+			],
+			"printOrder": 9
 		}
 	],
 	"meta": {

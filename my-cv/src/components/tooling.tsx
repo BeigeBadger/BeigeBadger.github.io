@@ -17,67 +17,76 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 						<div className="tooling mb-3">
 							<SectionTitle title="Tooling" icon={faToolbox} />
 
-							{
-								props.tooling.map((tool, index) => {
-									const currentElements = (
-										<div>
-											{
-												` ${tool.current.join(", ")}`
-											}
-										</div>
-									);
+							<Container className="p-0">
+								<Row className="flex-column print-flex-direction-row">
 
-									const historicalElements = tool.historical.length <= 0
-										? null
-										: (
+								{
+									props.tooling.map((tool, index) => {
+										const currentElements = (
 											<div>
 												{
-													` ${tool.historical.join(", ")}`
+													` ${tool.current.join(", ")}`
 												}
 											</div>
 										);
 
-									return (
-										<div key={index} className="mb-3">
-											<div>
-												<h5>
+										const historicalElements = tool.historical.length <= 0
+											? null
+											: (
+												<div>
 													{
-														tool.name
+														` ${tool.historical.join(", ")}`
 													}
-												</h5>
-											</div>
+												</div>
+											);
 
-											<div className="fst-italic">
-												{/* <div className="fw-lighter"> */}
-												Current
-											</div>
+										return (
+											<Col className={`col-print-4 print-order-${tool.printOrder}`}>
+												<div key={index} className="mb-3">
+													<div>
+														<h5>
+															{
+																tool.name
+															}
+														</h5>
+													</div>
 
-											<div className="mb-2">
-												{
-													currentElements
-												}
-											</div>
-
-											{
-												tool.historical.length > 0 &&
-												<>
 													<div className="fst-italic">
 														{/* <div className="fw-lighter"> */}
-														Historical
+														Current
 													</div>
 
 													<div className="mb-2">
 														{
-															historicalElements
+															currentElements
 														}
 													</div>
-												</>
-											}
-										</div>
-									)
-								})
-							}
+
+													{
+														tool.historical.length > 0 &&
+														<>
+															<div className="fst-italic">
+																{/* <div className="fw-lighter"> */}
+																Historical
+															</div>
+
+															<div className="mb-2">
+																{
+																	historicalElements
+																}
+															</div>
+														</>
+													}
+												</div>
+											</Col>
+										)
+									})
+								}
+
+								</Row>
+							</Container>
 						</div>
+
 					</Col>
 				</Row>
 			</Container>

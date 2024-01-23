@@ -13,7 +13,7 @@
 	.col-print-1 {width:8%;  float:left;}
 	.col-print-2 {width:16%; float:left;}
 	.col-print-3 {width:25%; float:left;}
-	.col-print-4 {width:33%; float:left;}
+	.col-print-4 {width:33%; float:left; min-width:33%;}
 	.col-print-5 {width:42%; float:left;}
 	.col-print-6 {width:50%; float:left;}
 	.col-print-7 {width:58%; float:left;}
@@ -22,4 +22,44 @@
 	.col-print-10{width:83%; float:left;}
 	.col-print-11{width:92%; float:left;}
 	.col-print-12{width:100%; float:left;}
-  }
+
+	.print-order-1 {
+		order: 1;
+	}
+
+	.print-order-2 {
+		order: 2;
+	}
+
+	.print-order-3 {
+		order: 3;
+	}
+
+	.print-order-4 {
+		order: 4;
+	}
+
+	.print-order-5 {
+		order: 5;
+	}
+
+	.print-order-6 {
+		order: 6;
+	}
+
+	.print-order-7 {
+		order: 7;
+	}
+
+	.print-order-8 {
+		order: 8;
+	}
+
+	.print-order-9 {
+		order: 9;
+	}
+
+	.print-flex-direction-row {
+		flex-direction: row !important;
+	}
+}
