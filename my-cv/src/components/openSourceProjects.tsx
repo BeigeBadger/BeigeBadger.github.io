@@ -25,7 +25,7 @@ const OpenSourceProjects: React.FC<IOpenSourceProjectsProps> = (props: IOpenSour
 
 	return (
 		<>
-			<Container>
+			<Container className="no-print">
 				<Row>
 					<Col>
 						<div className="open-source-development mb-3">
@@ -65,6 +65,8 @@ const OpenSourceProjects: React.FC<IOpenSourceProjectsProps> = (props: IOpenSour
 					</Col>
 				</Row>
 			</Container>
+
+			<hr className="no-print" />
 		</>
 	);
 }

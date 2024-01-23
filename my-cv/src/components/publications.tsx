@@ -10,7 +10,7 @@ interface IPublicationProps {
 const Publications: React.FC<IPublicationProps> = (props: IPublicationProps) => {
 	return (
 		<>
-			<Container>
+			<Container className="no-print">
 				<Row>
 					<Col>
 						<div className="publications mb-3">
@@ -59,6 +59,8 @@ const Publications: React.FC<IPublicationProps> = (props: IPublicationProps) => 
 					</Col>
 				</Row>
 			</Container>
+
+			<hr className="no-print" />
 		</>
 	);
 }

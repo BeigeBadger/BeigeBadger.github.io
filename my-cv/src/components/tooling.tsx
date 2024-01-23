@@ -13,7 +13,7 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 		<>
 			<Container>
 				<Row>
-					<Col>
+					<Col className="col-print-12">
 						<div className="tooling mb-3">
 							<SectionTitle title="Tooling" icon={faToolbox} />
 
@@ -81,6 +81,8 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 					</Col>
 				</Row>
 			</Container>
+
+			<hr className="col-print-12" />
 		</>
 	);
 }

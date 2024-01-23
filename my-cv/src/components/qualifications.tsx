@@ -13,7 +13,7 @@ const Qualifications: React.FC<IQualificationsProps> = (props: IQualificationsPr
 		<>
 			<Container>
 				<Row>
-					<Col>
+					<Col className="col-print-12">
 						<div className="qualifications mb-3">
 							<SectionTitle title="Qualifications" icon={faGraduationCap} />
 
@@ -60,6 +60,8 @@ const Qualifications: React.FC<IQualificationsProps> = (props: IQualificationsPr
 					</Col>
 				</Row>
 			</Container>
+
+			<hr className="col-print-12" />
 		</>
 	);
 }

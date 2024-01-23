@@ -1,4 +1,3 @@
-import { Col, Container, Row } from "react-bootstrap";
 import { IResume } from "../models/resume/resume";
 import ValuePropositions from "./valuePropositions";
 import Tooling from "./tooling";
@@ -14,65 +13,17 @@ interface ISideContentProps {
 const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 	return (
 		<>
-			<Container>
-				<Row>
-					<Col className="col-print-12">
-						<ValuePropositions valuePropositions={props.resumeData.valuePropositions} />
-					</Col>
-				</Row>
-			</Container>
+			<ValuePropositions valuePropositions={props.resumeData.valuePropositions} />
 
-			<hr className="col-print-12" />
+			<Tooling tooling={props.resumeData.tooling} />
 
-			<Container>
-				<Row>
-					<Col className="col-print-12">
-						<Tooling tooling={props.resumeData.tooling} />
-					</Col>
-				</Row>
-			</Container>
+			<OpenSourceProjects projects={props.resumeData.openSourceProjects} />
 
-			<hr className="col-print-12" />
+			<Publications publications={props.resumeData.publications} />
 
-			<Container>
-				<Row className="no-print">
-					<Col>
-						<OpenSourceProjects projects={props.resumeData.openSourceProjects} />
-					</Col>
-				</Row>
-			</Container>
+			<Qualifications qualifications={props.resumeData.qualifications} />
 
-			<hr className="no-print" />
-
-			<Container>
-				<Row className="no-print">
-					<Col>
-						<Publications publications={props.resumeData.publications} />
-					</Col>
-				</Row>
-			</Container>
-
-			<hr className="no-print" />
-
-			<Container>
-				<Row>
-					<Col className="col-print-12">
-						<Qualifications qualifications={props.resumeData.qualifications} />
-					</Col>
-				</Row>
-			</Container>
-
-			<hr className="col-print-12" />
-
-			<Container>
-				<Row>
-					<Col className="col-print-12">
-						<References references={props.resumeData.references} />
-					</Col>
-				</Row>
-			</Container>
-
-			<hr className="col-print-12" />
+			<References references={props.resumeData.references} />
 		</>
 	);
 };

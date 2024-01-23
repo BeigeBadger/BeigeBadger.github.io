@@ -12,7 +12,7 @@ const ValuePropositions: React.FC<IValuePropositionProps> = (props: IValuePropos
 		<>
 			<Container>
 				<Row>
-					<Col>
+					<Col className="col-print-12">
 						<div className="values mb-3">
 							<SectionTitle title="Value Proposition" icon={faBalanceScale} />
 
@@ -29,6 +29,8 @@ const ValuePropositions: React.FC<IValuePropositionProps> = (props: IValuePropos
 					</Col>
 				</Row>
 			</Container>
+
+			<hr className="col-print-12" />
 		</>
 	);
 }
