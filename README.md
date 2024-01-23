@@ -36,3 +36,12 @@ If gh-pages fails, you may find that you need to manually clean up the cache dir
 - Use SCSS instead of CSS
 - Use material UI styling?
 - https://create-react-app.dev/docs/adding-a-sass-stylesheet/
+
+# Printing
+
+Chrome
+0.8, 0.8
+0.0, 0.0
+Scale 80%
+Background graphics
+
