@@ -41,7 +41,7 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 											);
 
 										return (
-											<Col className={`col-print-4 print-order-${tool.printOrder}`}>
+											<Col className={`col-print-6 print-order-${tool.printOrder}`}>
 												<div key={index} className="mb-3">
 													<div>
 														<h5>

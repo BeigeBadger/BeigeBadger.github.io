@@ -853,14 +853,15 @@
 				"Docker",
 				"Power Apps",
 				"Microsoft Bot Framework",
-				"Power BI"
+				"Power BI",
+				"Microsoft Teams"
 			],
 			"historical": [
 				"jQuery",
 				"ASP.NET (MVC, Web API)",
 				"Selenium"
 			],
-			"printOrder": 4
+			"printOrder": 3
 		},
 		{
 			"name": "Source Control",
@@ -884,7 +885,7 @@
 				"AppVeyor",
 				"GitLab"
 			],
-			"printOrder": 6
+			"printOrder": 4
 		},
 		{
 			"name": "Cloud Experience",
@@ -895,7 +896,7 @@
 				"Google Cloud Platform",
 				"Amazon Web Services"
 			],
-			"printOrder": 3
+			"printOrder": 6
 		},
 		{
 			"name": "Project Management",
@@ -935,18 +936,6 @@
 				"ARM"
 			],
 			"printOrder": 8
-		},
-		{
-			"name": "Enterprise",
-			"current": [
-				"Azure Active Directory",
-				"Microsoft Teams"
-			],
-			"historical": [
-				"Active Directory",
-				"Microsoft Exchange"
-			],
-			"printOrder": 9
 		}
 	],
 	"meta": {
