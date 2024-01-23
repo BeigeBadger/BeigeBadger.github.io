@@ -55,10 +55,9 @@ const Awards: React.FC<IAwardProps> = (props: IAwardProps) => {
 						</div>
 					</Col>
 				</Row>
-
-				<hr/>
-
 			</Container>
+
+			<hr className="no-print"/>
 		</>
 	);
 }
