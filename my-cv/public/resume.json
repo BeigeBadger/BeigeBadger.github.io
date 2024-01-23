@@ -890,7 +890,10 @@
 			"current": [
 				"Azure"
 			],
-			"historical": [],
+			"historical": [
+				"Google Cloud Platform",
+				"Amazon Web Services"
+			],
 			"printOrder": 3
 		},
 		{
