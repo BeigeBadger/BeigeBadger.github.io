@@ -108,6 +108,16 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 						</Col>
 					</Row>
 				</Container>
+
+				<Container className="only-show-when-printing">
+					<Row>
+						<Col>
+							<div>
+								This is a condensed version of my CV, see the full version at https://beigebadger.github.io/.
+							</div>
+						</Col>
+					</Row>
+				</Container>
 			</div>
 		</>
 	);
