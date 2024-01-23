@@ -40,7 +40,7 @@ If gh-pages fails, you may find that you need to manually clean up the cache dir
 # Printing
 
 Chrome
-0.8, 0.8
+0.6, 0.6
 0.0, 0.0
 Scale 80%
 Background graphics
