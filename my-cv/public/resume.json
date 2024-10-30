@@ -498,7 +498,7 @@
 			"position": "Senior Software Engineer",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2023-03-08",
-			"endDate": "",
+			"endDate": "2024-03-12",
 			"responsibilities": [
 				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions had support agreements in place. Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
 				"Continued developing skills in other technical practices through use of professional development time, volunteering to work outside of the Software Engineering practice, and being assigned to non-Software projects. Assisted colleagues in their personal and professional development by providing mentoring, emotional support, and technical guidance."
@@ -509,9 +509,9 @@
 				"<strong>Heavily involved in development of workshop materials</strong> - Created technical content and exemplars for attendees to work through as part of Microsoft-funded events. This content was the core focus of an on-going series of multi-day events throughout Asia-Pacific that were run remotely to educate the community on Microsoft products and workflows; such as DevOps and GitHub or Deploying Open-Source Software and tools on Azure. Reviewed, tested, and oversaw the development of content packs created by others.",
 				"<strong>Developed OpenAI solutions for clients</strong> - Delivered several solutions for clients that leveraged OpenAI models to provide a private and secure ChatGPT experience for their staff. Both traditional Web Applications and Microsoft Teams bots were used to provide access to the chat interface. A separate solution used an OpenAI model in conjunction with OCR and Form Recognition tools to extract and format data from photos and documents, this data was then ingested by a client system."
 			],
-			"isCurrentRole": true,
+			"isCurrentRole": false,
 			"start": "March 2023",
-			"end": "",
+			"end": "March 2024",
 			"company": "Aware Group",
 			"website": "https://www.awaregroup.com/"
 		},
