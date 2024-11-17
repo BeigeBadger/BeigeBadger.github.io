@@ -25,7 +25,7 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 										const currentElements = (
 											<div>
 												{
-													` ${tool.current.join(", ")}`
+													` ${tool.current.sort().join(", ")}`
 												}
 											</div>
 										);
@@ -35,7 +35,7 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 											: (
 												<div>
 													{
-														` ${tool.historical.join(", ")}`
+														` ${tool.historical.sort().join(", ")}`
 													}
 												</div>
 											);
