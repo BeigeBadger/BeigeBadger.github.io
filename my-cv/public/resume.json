@@ -505,14 +505,14 @@
 			"end": "",
 			"isCurrentRole": true,
 			"responsibilities":[
-				"Worked as part of a cross-functional team to maintain and modernise an existing web application that used a Micro-Frontend (MFE) architecture. Was responsible for contributing to multiple MFEs, in addition to working on the backend monolith and microservices.",
-				"Liaising with stakeholders from across the business to identify and resolve issues. Worked with Quality Assurance Engineers to ensure code was robust, Technical support team to resolve customer-reported issues."
+				"Worked as part of a cross-functional team to deliver a modern and accessible replacement for an existing Micro-Frontend (MFE) that was used by Education Perfect's largest user base (students). Was responsible for contributing to and maintaining multiple MFEs, in addition to working on the backend monolith and microservice code bases that supported our MFEs.",
+				"Collaborated with stakeholders from across the business to identify and resolve issues. Worked with Quality Assurance Engineers to ensure solutions were robust, and liaised with the technical support team to resolve customer-reported issues. Assisted with various cross-team initiatives to ensure that they were successful."
 			],
 			"highlights":[
-"Template contributions - CI, documentation, bug fixes, features <- merge -> Documentation - led by example, technical and non-technical",
-"Investigations - performance, internationalisation, session",
-"Testing - new frameworks for Frontend testing [unit + integration] (Vi Test, React Testing Library), Cypress (e2e)",
-"Lead initiatives - load testing, New Relic instrumentation?"
+				"<strong>Lead initiatives and assisted in technical investigations</strong> - Took ownership of the internationalisation, load testing, and Frontend instrumentation initiatives within my team, this included upskilling other team members to support these initiatives going forward and providing recommendations to the business. As part of a select group, participated in engineering-wide technical investigations related to platform performance and stability improvements, and the removal of our legacy authentication system.",
+				"<strong>Contributed to engineering templates and documentation</strong> - Performed quality of life improvements and bug fixes to our templates for CI/CD, microservices, and MFEs. Used my initiative to update outdated documentation and guides, wrote documentation both technical and non-technical documentation for an internal audience.",
+				"<strong>Learned Frontend Testing libraries</strong> - Ensured the quality of frontend code by writing component, unit and integration tests using Vitest and React Testing Library. Wrote end to end tests using Cypress that asserted behaviour from a user journey perspective.",
+				"<strong>Improved Frontend development skills</strong> - Developed pages and components which followed the Atomic Design Methodology, using React/Typescript. Used React Aria components and other tools to ensure that UI elements were accessible according to the WCAG 2.2 standards."
 			]
 		},
 		{
