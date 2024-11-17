@@ -11,6 +11,7 @@ Created following a combination of these guides:
 - NPM
 - Node
 	- Will need Node v16 or lower as we're using a version of react-scripts that is less than v5 which has an OpenSSL issue. More information is available [here](https://stackoverflow.com/a/71334532).
+	- `nvs use node/16.20.2/x64`
 
 ## Commands
 
