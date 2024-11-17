@@ -495,6 +495,28 @@
 	"jobHistory": [
 		{
 			"location": "Hamilton, New Zealand",
+			"position":"Senior Software Engineer",
+			"company": "Education Perfect",
+			"website": "https://www.educationperfect.com/",
+			"url": "https://www.educationperfect.com/",
+			"startDate": "2024-03-18",
+			"endDate": "",
+			"start":"March 2024",
+			"end": "",
+			"isCurrentRole": true,
+			"responsibilities":[
+				"Worked as part of a cross-functional team to maintain and modernise an existing web application that used a Micro-Frontend (MFE) architecture. Was responsible for contributing to multiple MFEs, in addition to working on the backend monolith and microservices.",
+				"Liaising with stakeholders from across the business to identify and resolve issues. Worked with Quality Assurance Engineers to ensure code was robust, Technical support team to resolve customer-reported issues."
+			],
+			"highlights":[
+"Template contributions - CI, documentation, bug fixes, features <- merge -> Documentation - led by example, technical and non-technical",
+"Investigations - performance, internationalisation, session",
+"Testing - new frameworks for Frontend testing [unit + integration] (Vi Test, React Testing Library), Cypress (e2e)",
+"Lead initiatives - load testing, New Relic instrumentation?"
+			]
+		},
+		{
+			"location": "Hamilton, New Zealand",
 			"position": "Senior Software Engineer",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2023-03-08",
