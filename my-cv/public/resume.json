@@ -851,40 +851,45 @@
 				"C#",
 				"HTML",
 				"CSS",
-				"SASS",
 				"SQL",
-				"JavaScript",
+				"JavaScript/TypeScript"
+			],
+			"historical": [
 				"Python",
-				"TypeScript",
 				"PowerShell",
 				"Bash"
 			],
-			"historical": [],
 			"printOrder": 1
 		},
 		{
 			"name": "Frameworks/Tools",
 			"current": [
-				"Entity Framework",
-				"ASP.NET Core (Web API, Razor pages)",
 				"React",
-				"Bootstrap",
-				"Notebooks (Jupyter, SQL)",
 				"Docker",
+				"GraphQL",
+				"Vitest",
+				"Cypress",
+				"React Testing Library",
+				"Amplitude",
+				"New Relic"
+			],
+			"historical": [
+				"Entity Framework",
+				"ASP.NET Core (Razor pages)",
+				"jQuery",
+				"ASP.NET (MVC, Web Forms)",
+				"Notebooks (Jupyter, SQL)",
+				"Selenium",
+				"Redux",
+				"Debezium",
+				"Bootstrap",
+				"Power Apps",
+				"Dapper",
 				"Microsoft Bot Framework",
 				"Power BI",
 				"Microsoft Teams",
 				"Next.JS",
 				"Open AI models"
-			],
-			"historical": [
-				"jQuery",
-				"ASP.NET (MVC, Web API)",
-				"Selenium",
-				"Redux",
-				"Debezium",
-				"Power Apps",
-				"Dapper"
 			],
 			"printOrder": 3
 		},
@@ -915,11 +920,11 @@
 		{
 			"name": "Cloud Experience",
 			"current": [
-				"Azure"
+				"Azure",
+				"Amazon Web Services"
 			],
 			"historical": [
-				"Google Cloud Platform",
-				"Amazon Web Services"
+				"Google Cloud Platform"
 			],
 			"printOrder": 6
 		},
@@ -930,7 +935,8 @@
 				"GitHub Projects",
 				"JIRA",
 				"Confluence",
-				"Miro"
+				"Miro",
+				"Figma"
 			],
 			"historical": [
 				"Redmine",
@@ -942,23 +948,25 @@
 			"name": "Databases",
 			"current": [
 				"SQL Server",
-				"Cosmos DB (NoSQL/Document DB)"
+				"PostgreSQL",
+				"Redis",
+				"DynamoDB"
 			],
 			"historical": [
 				"SQLite",
-				"PostgreSQL",
-				"Azure Table Storage"
+				"Azure Table Storage",
+				"Cosmos DB (NoSQL/Document DB)"
 			],
 			"printOrder": 7
 		},
 		{
 			"name": "Infrastructure as Code",
 			"current": [
-				"Bicep",
 				"Terraform"
 			],
 			"historical": [
-				"ARM"
+				"ARM",
+				"Bicep"
 			],
 			"printOrder": 8
 		}
