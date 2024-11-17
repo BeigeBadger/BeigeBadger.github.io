@@ -32,6 +32,7 @@ If gh-pages fails, you may find that you need to manually clean up the cache dir
 
 
 # Ideas
+
 - React Helmet for page titles (if there are separate pages)
 - Use SCSS instead of CSS
 - Use material UI styling?
