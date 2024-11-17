@@ -12,6 +12,10 @@ Created following a combination of these guides:
 - Node
 	- Will need Node v16 or lower as we're using a version of react-scripts that is less than v5 which has an OpenSSL issue. More information is available [here](https://stackoverflow.com/a/71334532).
 
+## Commands
+
+- Should be run from inside the `my-cv` folder.
+
 # Deployment
 
 Run `npm run deploy` to deploy (which will push to the `cv` branch that is configured [here](https://github.com/BeigeBadger/BeigeBadger.github.io/settings/pages) as the default branch for GitHub Pages).
