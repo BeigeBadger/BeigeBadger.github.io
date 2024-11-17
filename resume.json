@@ -29,7 +29,7 @@
 		],
 		"headline": "",
 		"blog": null,
-		"yearsOfExperience": 8,
+		"yearsOfExperience": 10,
 		"fullTimeExperienceStartDate": "2014-01-01",
 		"username": "BeigeBadger",
 		"locationAsString": "Hamilton, New Zealand",
@@ -495,10 +495,32 @@
 	"jobHistory": [
 		{
 			"location": "Hamilton, New Zealand",
+			"position":"Senior Software Engineer",
+			"company": "Education Perfect",
+			"website": "https://www.educationperfect.com/",
+			"url": "https://www.educationperfect.com/",
+			"startDate": "2024-03-18",
+			"endDate": "",
+			"start":"March 2024",
+			"end": "",
+			"isCurrentRole": true,
+			"responsibilities":[
+				"Worked as part of a cross-functional team to deliver a modern and accessible replacement for an existing Micro-Frontend (MFE) that was used by Education Perfect's largest user base (students). Was responsible for contributing to and maintaining multiple MFEs, in addition to working on the backend monolith and microservice codebases that supported our MFEs.",
+				"Collaborated with stakeholders from across the business to identify and resolve issues. Worked with Quality Assurance Engineers to ensure solutions were robust, and liaised with the technical support team to resolve customer-reported issues. Assisted with various cross-team initiatives to ensure that they were successful."
+			],
+			"highlights":[
+				"<strong>Lead initiatives and assisted in technical investigations</strong> - Took ownership of the internationalisation, load testing, and Frontend instrumentation initiatives within my team, this included upskilling other team members to support these initiatives going forward and providing recommendations to the business. As part of a select group, participated in engineering-wide technical investigations related to platform performance and stability improvements, and the removal of our legacy authentication system.",
+				"<strong>Contributed to engineering templates and documentation</strong> - Performed quality of life improvements and bug fixes to our templates for CI/CD, microservices, and MFEs. Used my initiative to update outdated documentation and guides, wrote documentation both technical and non-technical documentation for an internal audience.",
+				"<strong>Learned Frontend Testing libraries</strong> - Ensured the quality of frontend code by writing component, unit and integration tests using Vitest and React Testing Library. Wrote end to end tests using Cypress that asserted behaviour from a user journey perspective.",
+				"<strong>Improved Frontend development skills</strong> - Developed pages and components which followed the Atomic Design Methodology, using React/Typescript. Used React Aria components and other tools to ensure that UI elements were accessible according to the WCAG 2.2 standards."
+			]
+		},
+		{
+			"location": "Hamilton, New Zealand",
 			"position": "Senior Software Engineer",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2023-03-08",
-			"endDate": "",
+			"endDate": "2024-03-12",
 			"responsibilities": [
 				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions had support agreements in place. Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
 				"Continued developing skills in other technical practices through use of professional development time, volunteering to work outside of the Software Engineering practice, and being assigned to non-Software projects. Assisted colleagues in their personal and professional development by providing mentoring, emotional support, and technical guidance."
@@ -509,9 +531,9 @@
 				"<strong>Heavily involved in development of workshop materials</strong> - Created technical content and exemplars for attendees to work through as part of Microsoft-funded events. This content was the core focus of an on-going series of multi-day events throughout Asia-Pacific that were run remotely to educate the community on Microsoft products and workflows; such as DevOps and GitHub or Deploying Open-Source Software and tools on Azure. Reviewed, tested, and oversaw the development of content packs created by others.",
 				"<strong>Developed OpenAI solutions for clients</strong> - Delivered several solutions for clients that leveraged OpenAI models to provide a private and secure ChatGPT experience for their staff. Both traditional Web Applications and Microsoft Teams bots were used to provide access to the chat interface. A separate solution used an OpenAI model in conjunction with OCR and Form Recognition tools to extract and format data from photos and documents, this data was then ingested by a client system."
 			],
-			"isCurrentRole": true,
+			"isCurrentRole": false,
 			"start": "March 2023",
-			"end": "",
+			"end": "March 2024",
 			"company": "Aware Group",
 			"website": "https://www.awaregroup.com/"
 		},
@@ -561,7 +583,7 @@
 			"website": "https://www.awaregroup.com/"
 		},
 		{
-			"location": "",
+			"location": "Hamilton, New Zealand",
 			"position": "Software Engineer",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2019-02-01",
@@ -583,7 +605,7 @@
 			"website": "https://www.awaregroup.com/"
 		},
 		{
-			"location": "",
+			"location": "Hamilton, New Zealand",
 			"position": "Software Engineer",
 			"url": "https://smartrak.com/",
 			"startDate": "2016-06-01",
@@ -605,7 +627,7 @@
 			"website": "https://smartrak.com/"
 		},
 		{
-			"location": "",
+			"location": "Hamilton, New Zealand",
 			"position": "Junior Software Engineer/IT Administrator",
 			"url": "https://smartrak.com/",
 			"startDate": "2013-12-31",
@@ -625,7 +647,7 @@
 			"website": "https://smartrak.com/"
 		},
 		{
-			"location": "",
+			"location": "Hamilton, New Zealand",
 			"position": "Software Engineer Intern",
 			"url": "https://smartrak.com/",
 			"startDate": "2012-11-01",
@@ -773,7 +795,7 @@
 				"year": 2013,
 				"month": 11
 			},
-			"display": true
+			"display": false
 		}
 	],
 	"languages": [
@@ -787,7 +809,7 @@
 			"description": "<strong>Experienced Software Engineer</strong> with the ability to develop full-stack applications that utilize design patterns, a variety of languages, and leverage the cloud to deliver innovative solutions for end users."
 		},
 		{
-			"description": "<strong>Over eight years software engineering experience</strong> delivering predominantly web-based applications, primarily using .NET/C#."
+			"description": "<strong>Over ten years software engineering experience</strong> delivering predominantly web-based applications, primarily using .NET/C#."
 		},
 		{
 			"description": "Strong emphasis on <strong>multi-layered testing</strong> using both unit, integration, and functional tests to ensure reliability and prevent regressions."
@@ -829,40 +851,45 @@
 				"C#",
 				"HTML",
 				"CSS",
-				"SASS",
 				"SQL",
-				"JavaScript",
+				"JavaScript/TypeScript"
+			],
+			"historical": [
 				"Python",
-				"TypeScript",
 				"PowerShell",
 				"Bash"
 			],
-			"historical": [],
 			"printOrder": 1
 		},
 		{
 			"name": "Frameworks/Tools",
 			"current": [
-				"Entity Framework",
-				"ASP.NET Core (Web API, Razor pages)",
 				"React",
-				"Bootstrap",
-				"Notebooks (Jupyter, SQL)",
 				"Docker",
+				"GraphQL",
+				"Vitest",
+				"Cypress",
+				"React Testing Library",
+				"Amplitude",
+				"New Relic"
+			],
+			"historical": [
+				"Entity Framework",
+				"ASP.NET Core (Razor pages)",
+				"jQuery",
+				"ASP.NET (MVC, Web Forms)",
+				"Notebooks (Jupyter, SQL)",
+				"Selenium",
+				"Redux",
+				"Debezium",
+				"Bootstrap",
+				"Power Apps",
+				"Dapper",
 				"Microsoft Bot Framework",
 				"Power BI",
 				"Microsoft Teams",
 				"Next.JS",
 				"Open AI models"
-			],
-			"historical": [
-				"jQuery",
-				"ASP.NET (MVC, Web API)",
-				"Selenium",
-				"Redux",
-				"Debezium",
-				"Power Apps",
-				"Dapper"
 			],
 			"printOrder": 3
 		},
@@ -893,11 +920,11 @@
 		{
 			"name": "Cloud Experience",
 			"current": [
-				"Azure"
+				"Azure",
+				"Amazon Web Services"
 			],
 			"historical": [
-				"Google Cloud Platform",
-				"Amazon Web Services"
+				"Google Cloud Platform"
 			],
 			"printOrder": 6
 		},
@@ -908,7 +935,8 @@
 				"GitHub Projects",
 				"JIRA",
 				"Confluence",
-				"Miro"
+				"Miro",
+				"Figma"
 			],
 			"historical": [
 				"Redmine",
@@ -920,23 +948,25 @@
 			"name": "Databases",
 			"current": [
 				"SQL Server",
-				"Cosmos DB (NoSQL/Document DB)"
+				"PostgreSQL",
+				"Redis",
+				"DynamoDB"
 			],
 			"historical": [
 				"SQLite",
-				"PostgreSQL",
-				"Azure Table Storage"
+				"Azure Table Storage",
+				"Cosmos DB (NoSQL/Document DB)"
 			],
 			"printOrder": 7
 		},
 		{
 			"name": "Infrastructure as Code",
 			"current": [
-				"Bicep",
 				"Terraform"
 			],
 			"historical": [
-				"ARM"
+				"ARM",
+				"Bicep"
 			],
 			"printOrder": 8
 		}
