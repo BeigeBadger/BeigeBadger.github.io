@@ -4,6 +4,14 @@ Created following a combination of these guides:
 - [Official Create React App GitHub Pages documentation](https://create-react-app.dev/docs/deployment/#github-pages)
 - [PluralSight guide on deploying GitHub Pages with Create React App](https://www.pluralsight.com/guides/deploying-github-pages-with-create-react-app)
 
+# Development
+
+## Dependencies
+
+- NPM
+- Node
+	- Will need Node v16 or lower as we're using a version of react-scripts that is less than v5 which has an OpenSSL issue. More information is available [here](https://stackoverflow.com/a/71334532).
+
 # Deployment
 
 Run `npm run deploy` to deploy (which will push to the `cv` branch that is configured [here](https://github.com/BeigeBadger/BeigeBadger.github.io/settings/pages) as the default branch for GitHub Pages).
