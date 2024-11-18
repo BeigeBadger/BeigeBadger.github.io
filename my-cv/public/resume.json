@@ -512,7 +512,7 @@
 				"<strong>Lead initiatives and assisted in technical investigations</strong> - Took ownership of the internationalisation, load testing, and Frontend instrumentation initiatives within my team, this included upskilling other team members to support these initiatives going forward and providing recommendations to the business. As part of a select group, participated in engineering-wide technical investigations related to platform performance and stability improvements, and the removal of our legacy authentication system.",
 				"<strong>Improved Frontend development skills</strong> - Developed pages and components which followed the Atomic Design Methodology, using React/Typescript and GraphQL. Used React Aria components and other tools to ensure that UI elements were accessible according to the WCAG 2.2 guidelines.",
 				"<strong>Contributed to engineering templates and documentation</strong> - Performed quality of life improvements and bug fixes to our templates for CI/CD, microservices, and MFEs. Used my initiative to update outdated documentation and guides, wrote documentation both technical and non-technical documentation for an internal audience.",
-				"<strong>Learned Frontend Testing libraries</strong> - Ensured the quality of frontend code by writing component, unit and integration tests using Vitest and React Testing Library. Wrote end to end tests using Cypress that asserted behaviour from a user journey perspective."
+				"<strong>Learned Frontend Testing libraries</strong> - Ensured frontend code quality by writing component, unit and integration tests using Vitest and React Testing Library. Wrote end to end tests using Cypress that validated behaviour from a user journey perspective."
 			]
 		},
 		{
