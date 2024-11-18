@@ -506,7 +506,7 @@
 			"isCurrentRole": true,
 			"responsibilities":[
 				"Worked as part of a cross-functional team to deliver a modern and accessible replacement for an existing Micro-Frontend (MFE) that was used by Education Perfect's largest user base (students). Was responsible for contributing to and maintaining multiple MFEs, in addition to working on the backend monolith and microservice codebases that supported our MFEs.",
-				"Collaborated with stakeholders from across the business to identify and resolve issues. Worked with Quality Assurance Engineers to ensure solutions were robust, and liaised with the technical support team to resolve customer-reported issues. Assisted with various cross-team initiatives to ensure that they were successful."
+				"Collaborated with stakeholders from across the business to identify and resolve issues. Worked with Quality Assurance Engineers to ensure solutions were robust, and liaised with the technical support team to resolve customer-reported issues. Assisted with various cross-team initiatives to ensure that they were successful. Provided technical guidance to Designer and Product Owner where appropriate."
 			],
 			"highlights":[
 				"<strong>Lead initiatives and assisted in technical investigations</strong> - Took ownership of the internationalisation, load testing, and Frontend instrumentation initiatives within my team, this included upskilling other team members to support these initiatives going forward and providing recommendations to the business. As part of a select group, participated in engineering-wide technical investigations related to platform performance and stability improvements, and the removal of our legacy authentication system.",
