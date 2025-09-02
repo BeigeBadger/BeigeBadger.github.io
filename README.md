@@ -49,11 +49,23 @@ The gh-pages module writes temporary files to a node_modules/.cache/gh-pages dir
 If gh-pages fails, you may find that you need to manually clean up the cache directory. To remove the cache directory, run node_modules/gh-pages/bin/gh-pages-clean or remove node_modules/.cache/gh-pages.
 ```
 
-# Printing
+# Printing to PDF settings
+
+## Browser
 
 Chrome
-0.6, 0.6
-0.0, 0.0
-Scale 80%
-Background graphics
+
+## Margins
+
+| Top | Bottom | Left | Right |
+| --- | ---    | ---  | ---   |
+| 0.6 | 0.6    | 0.0  | 0.0   |
+
+## Scale
+
+80%
+
+## Print background graphics
+- Checked
+  - This is so that the horizontal rules/dividers will be printed.
 
