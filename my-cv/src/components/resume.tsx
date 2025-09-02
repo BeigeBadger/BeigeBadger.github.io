@@ -113,7 +113,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 					<Row>
 						<Col>
 							<div>
-								This is a condensed version of my CV, see the full version at https://beigebadger.github.io/.
+								This is a condensed version of my CV, see the full version at <a href="https://beigebadger.github.io/">https://beigebadger.github.io/</a>.
 							</div>
 						</Col>
 					</Row>
