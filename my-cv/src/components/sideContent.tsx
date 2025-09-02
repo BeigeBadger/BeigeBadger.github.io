@@ -26,7 +26,7 @@ const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 
 			<Qualifications qualifications={props.resumeData.qualifications} />
 
-			<References references={props.resumeData.references} />
+			<References />
 		</>
 	);
 };

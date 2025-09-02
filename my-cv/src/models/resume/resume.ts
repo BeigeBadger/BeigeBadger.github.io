@@ -6,7 +6,6 @@ import { IValueProposition } from "./valueProposition";
 import { ILanguage } from "./language";
 import { IProject } from "./project";
 import { IPublication } from "./publication";
-import { IReference } from "./reference";
 import { ISkill } from "./skill";
 import { IJob } from "./job";
 
@@ -21,6 +20,5 @@ export interface IResume {
 	awards: IAward[];
 	languages: ILanguage[];
 	valuePropositions: IValueProposition[];
-	references: IReference[];
 	tooling: ITooling[];
 }
