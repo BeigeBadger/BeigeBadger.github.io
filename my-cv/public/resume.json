@@ -853,12 +853,12 @@
 				"HTML",
 				"CSS",
 				"SQL",
-				"JavaScript/TypeScript"
+				"JavaScript/TypeScript",
+				"Bash"
 			],
 			"historical": [
 				"Python",
-				"PowerShell",
-				"Bash"
+				"PowerShell"
 			],
 			"printOrder": 1
 		},
@@ -872,7 +872,8 @@
 				"Cypress",
 				"React Testing Library",
 				"Amplitude",
-				"New Relic"
+				"New Relic",
+				"Tailwind CSS"
 			],
 			"historical": [
 				"Entity Framework",
@@ -907,10 +908,10 @@
 		{
 			"name": "Continuous Integration, Delivery, and Deployment",
 			"current": [
-				"Azure Pipelines",
 				"GitHub Actions"
 			],
 			"historical": [
+				"Azure Pipelines",
 				"TeamCity",
 				"Octopus Deploy",
 				"AppVeyor",
@@ -933,7 +934,6 @@
 			"name": "Project Management",
 			"current": [
 				"Azure Boards",
-				"GitHub Projects",
 				"JIRA",
 				"Confluence",
 				"Miro",
@@ -941,7 +941,8 @@
 			],
 			"historical": [
 				"Redmine",
-				"Trello"
+				"Trello",
+				"GitHub Projects"
 			],
 			"printOrder": 5
 		},
