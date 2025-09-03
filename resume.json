@@ -510,9 +510,10 @@
 			],
 			"highlights":[
 				"<strong>Lead initiatives and assisted in technical investigations</strong> - Took ownership of the internationalisation, load testing, and Frontend instrumentation initiatives within my team, this included upskilling other team members to support these initiatives going forward and providing recommendations to the business. As part of a select group, participated in engineering-wide technical investigations related to platform performance and stability improvements, and the removal of our legacy authentication system.",
-				"<strong>Improved Frontend development skills</strong> - Developed pages and components which followed the Atomic Design Methodology, using React/Typescript and GraphQL. Used React Aria components and other tools to ensure that UI elements were accessible according to the WCAG 2.2 guidelines.",
+				"<strong>Improved Frontend development skills</strong> - Developed pages and components which followed the Atomic Design Methodology, using React/Typescript and GraphQL. Used React Aria components and other tools to ensure that UI elements were accessible according to the WCAG 2.2 guidelines. Wrote component, unit and integration tests using Vitest and React Testing Library, and implemented end to end tests using Cypress.",
 				"<strong>Contributed to engineering templates and documentation</strong> - Performed quality of life improvements and bug fixes to our templates for CI/CD, microservices, and MFEs. Used my initiative to update outdated documentation and guides, wrote documentation both technical and non-technical documentation for an internal audience.",
-				"<strong>Learned Frontend Testing libraries</strong> - Ensured frontend code quality by writing component, unit and integration tests using Vitest and React Testing Library. Wrote end to end tests using Cypress that validated behaviour from a user journey perspective."
+				"<strong>Migrated incentives system to a microservice</strong> - Worked with a small team to migrate the existing code base from the Monolith to a new microservice using Domain-Driven Design and Event-Driven Architecture. This involved a zero-downtime migration of a core piece of the progression system that required updating several consuming MFEs and ensuring that existing user functionality remained intact.",
+				"<strong>Delivered Content Authoring replacement</strong> - Inherited a partially completed but strategically important initiative to replace the existing Content Authoring system, driving it to a successful and more complete implementation. This involved developing in two MFEs and two microservices, as well as collaborating with three other teams and integrating with their codebases. Demonstrated leadership by mentoring new team members and developing comprehensive unit, integration, and architecture tests, and leading technical investigations."
 			]
 		},
 		{
@@ -852,12 +853,12 @@
 				"HTML",
 				"CSS",
 				"SQL",
-				"JavaScript/TypeScript"
+				"JavaScript/TypeScript",
+				"Bash"
 			],
 			"historical": [
 				"Python",
-				"PowerShell",
-				"Bash"
+				"PowerShell"
 			],
 			"printOrder": 1
 		},
@@ -871,7 +872,8 @@
 				"Cypress",
 				"React Testing Library",
 				"Amplitude",
-				"New Relic"
+				"New Relic",
+				"Tailwind CSS"
 			],
 			"historical": [
 				"Entity Framework",
@@ -906,10 +908,10 @@
 		{
 			"name": "Continuous Integration, Delivery, and Deployment",
 			"current": [
-				"Azure Pipelines",
 				"GitHub Actions"
 			],
 			"historical": [
+				"Azure Pipelines",
 				"TeamCity",
 				"Octopus Deploy",
 				"AppVeyor",
@@ -932,7 +934,6 @@
 			"name": "Project Management",
 			"current": [
 				"Azure Boards",
-				"GitHub Projects",
 				"JIRA",
 				"Confluence",
 				"Miro",
@@ -940,7 +941,8 @@
 			],
 			"historical": [
 				"Redmine",
-				"Trello"
+				"Trello",
+				"GitHub Projects"
 			],
 			"printOrder": 5
 		},
