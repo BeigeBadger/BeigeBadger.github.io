@@ -106,360 +106,54 @@
 	],
 	"openSourceProjects": [
 		{
-			"name": "AzureMapsCodeSamples",
+			"name": "Azure Maps Code Samples",
 			"description": "Fixed typos in the GitHub Issue template.",
-			"url": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
-			"highlights": [],
-			"keywords": [],
-			"roles": [],
-			"startDate": "",
-			"endDate": "",
-			"entity": "",
-			"type": "",
-			"displayName": "Azure Maps Code Samples",
-			"website": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
-			"summary": "A collection of over a hundred code samples for the Azure Maps Web SDK.",
-			"primaryLanguage": "C#",
-			"languages": [
-				"C#",
-				"Markdown"
-			],
-			"libraries": [],
-			"githubUrl": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
-			"repositoryUrl": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
-			"start": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"end": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"images": [],
-			"videos": []
+			"url": "https://github.com/Azure-Samples/AzureMapsCodeSamples"
 		},
 		{
-			"name": "msteams-docs",
+			"name": "Microsoft Teams Docs",
 			"description": "Fixed broken links in the documentation.",
-			"url": "https://github.com/MicrosoftDocs/msteams-docs",
-			"highlights": [],
-			"keywords": [],
-			"roles": [],
-			"startDate": "",
-			"endDate": "",
-			"entity": "",
-			"type": "",
-			"displayName": "Microsoft Teams Docs",
-			"website": "https://github.com/MicrosoftDocs/msteams-docs",
-			"summary": "Documentation on how to use Microsoft Teams",
-			"primaryLanguage": "Markdown",
-			"languages": [
-				"Markdown"
-			],
-			"libraries": [],
-			"githubUrl": "https://github.com/MicrosoftDocs/msteams-docs",
-			"repositoryUrl": "https://github.com/MicrosoftDocs/msteams-docs",
-			"start": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"end": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"images": [],
-			"videos": []
+			"url": "https://github.com/MicrosoftDocs/msteams-docs"
 		},
 		{
-			"name": "botframework-solutions",
+			"name": "Microsoft Bot Framework Solutions",
 			"description": "Fixed incorrect path issue in code and broken link in the documentation.",
-			"url": "https://github.com/microsoft/botframework-solutions",
-			"highlights": [],
-			"keywords": [],
-			"roles": [],
-			"startDate": "",
-			"endDate": "",
-			"entity": "",
-			"type": "",
-			"displayName": "Microsoft Bot Framework Solutions",
-			"website": "https://github.com/microsoft/botframework-solutions",
-			"summary": "This repository is the home for a set of templates and solutions to help build conversational experiences using Azure Bot Service and Bot Framework.",
-			"primaryLanguage": "C#",
-			"languages": [
-				"C#",
-				"Markdown"
-			],
-			"libraries": [],
-			"githubUrl": "https://github.com/microsoft/botframework-solutions",
-			"repositoryUrl": "https://github.com/microsoft/botframework-solutions",
-			"start": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"end": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"images": [],
-			"videos": []
+			"url": "https://github.com/microsoft/botframework-solutions"
 		},
 		{
-			"name": "botbuilder-tools",
+			"name": "Microsoft Bot Builder Tools",
 			"description": "Fixed grammar and improved formatting within the documentation.",
-			"url": "https://github.com/microsoft/botbuilder-tools",
-			"highlights": [],
-			"keywords": [],
-			"roles": [],
-			"startDate": "",
-			"endDate": "",
-			"entity": "",
-			"type": "",
-			"displayName": "Microsoft Bot Builder Tools",
-			"website": "https://github.com/microsoft/botbuilder-tools",
-			"summary": "The Bot Framework SDK team is happy to announce the General Availability of the consolidated bot framework CLI tool bf-cli. ",
-			"primaryLanguage": "C#",
-			"languages": [
-				"C#",
-				"Markdown",
-				"PowerShell",
-				"JavaScript",
-				"TypeScript"
-			],
-			"libraries": [],
-			"githubUrl": "https://github.com/microsoft/botbuilder-tools",
-			"repositoryUrl": "https://github.com/microsoft/botbuilder-tools",
-			"start": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"end": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"images": [],
-			"videos": []
+			"url": "https://github.com/microsoft/botbuilder-tools"
 		},
 		{
-			"name": "azure-docs",
-			"description": "Improved the clarity of the documentation, fixed various typos and other mistakes as I came across them. Updated example scripts to pass missing arguments, contributed updates for sample code that had errors in it.",
-			"url": "https://docs.microsoft.com/azure",
-			"highlights": [],
-			"keywords": [],
-			"roles": [],
-			"startDate": "",
-			"endDate": "",
-			"entity": "",
-			"type": "",
-			"displayName": "Azure Docs",
-			"website": "https://docs.microsoft.com/azure",
-			"summary": "Open source documentation of Microsoft Azure",
-			"primaryLanguage": "Markdown",
-			"languages": [
-				"PowerShell",
-				"Markdown"
-			],
-			"libraries": [],
-			"githubUrl": "https://github.com/MicrosoftDocs/azure-docs",
-			"repositoryUrl": "https://github.com/MicrosoftDocs/azure-docs",
-			"start": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"end": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"images": [],
-			"videos": []
+			"name": "Azure Docs",
+			"description": "Improved the clarity of the documentation, fixed various typos and other mistakes as I came across them. Updated example scripts to pass missing arguments, contributed updates for sample code that had errors.",
+			"url": "https://docs.microsoft.com/azure"
 		},
 		{
-			"name": "azure-cosmos-dotnet-repository",
+			"name": "Azure Cosmos DB Repository .NET SDK",
 			"description": "Added support for using Managed Identities to authenticate. Added tests to ensure correct behaviour and prevent regressions.",
-			"url": "",
-			"highlights": [],
-			"keywords": [],
-			"roles": [],
-			"startDate": "",
-			"endDate": "",
-			"entity": "",
-			"type": "",
-			"displayName": "Azure Cosmos DB Repository .NET SDK",
-			"website": "",
-			"summary": "Wraps the .NET SDK for Azure Cosmos DB abstracting away the complexity, exposing a simple CRUD-based repository pattern",
-			"primaryLanguage": "C#",
-			"languages": [
-				"C#"
-			],
-			"libraries": [],
-			"githubUrl": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository",
-			"repositoryUrl": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository",
-			"start": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"end": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"images": [],
-			"videos": []
+			"url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository"
 		},
 		{
-			"name": "sql-docs",
+			"name": "Microsoft SQL Server Technical Documentation",
 			"description": "Fixed typos in the documentation.",
-			"url": "",
-			"highlights": [],
-			"keywords": [],
-			"roles": [],
-			"startDate": "",
-			"endDate": "",
-			"entity": "",
-			"type": "",
-			"displayName": "Microsoft SQL Server Technical Documentation",
-			"website": "",
-			"summary": "Technical documentation for Microsoft SQL Server, tools such as SQL Server Management Studio (SSMS), SQL Server Data Tools (SSDT) etc.",
-			"primaryLanguage": "Markdown",
-			"languages": [
-				"Markdown",
-				"SQL"
-			],
-			"libraries": [],
-			"githubUrl": "https://github.com/MicrosoftDocs/sql-docs",
-			"repositoryUrl": "https://github.com/MicrosoftDocs/sql-docs",
-			"start": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"end": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"images": [],
-			"videos": []
+			"url": "https://github.com/MicrosoftDocs/sql-docs"
 		},
 		{
-			"name": "AzureTipsAndTricks",
+			"name": "Azure Tips and Tricks",
 			"description": "Fixed typos in the documentation.",
-			"url": "",
-			"highlights": [],
-			"keywords": [],
-			"roles": [],
-			"startDate": "",
-			"endDate": "",
-			"entity": "",
-			"type": "",
-			"displayName": "Azure Tips and Tricks",
-			"website": "Welcome to Azure Tips and Tricks, this site is a special collection hundreds of tips in form of blog posts and videos that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that we've encountered (along with the community) while using Azure. Feel free to jump in and come back weekly for new tips!",
-			"primaryLanguage": "Markdown",
-			"languages": [
-				"Markdown",
-				"Vue",
-				"JavaScript"
-			],
-			"libraries": [],
-			"githubUrl": "https://github.com/microsoft/AzureTipsAndTricks",
-			"repositoryUrl": "https://github.com/microsoft/AzureTipsAndTricks",
-			"start": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"end": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"images": [],
-			"videos": []
+			"url": "https://github.com/microsoft/AzureTipsAndTricks"
 		},
 		{
-			"name": "pyaudioanalysis",
+			"name": "Python Audio Analysis",
 			"description": "Added support for an optional output directory, running analysis over a directory, and providing min/max bounds for durations.",
-			"url": "",
-			"highlights": [],
-			"keywords": [],
-			"roles": [],
-			"startDate": "",
-			"endDate": "",
-			"entity": "",
-			"type": "",
-			"displayName": "Python Audio Analysis",
-			"website": "",
-			"summary": "Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications",
-			"primaryLanguage": "Python",
-			"languages": [
-				"HTML",
-				"CSS",
-				"Shell",
-				"PowerShell",
-				"MATLAB",
-				"Python"
-			],
-			"libraries": [],
-			"githubUrl": "https://github.com/BeigeBadger/pyAudioAnalysis",
-			"repositoryUrl": "https://github.com/BeigeBadger/pyAudioAnalysis",
-			"start": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"end": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"images": [],
-			"videos": []
+			"url": "https://github.com/BeigeBadger/pyAudioAnalysis"
 		},
 		{
-			"name": "zen-audio-player",
+			"name": "Zen Audio Player",
 			"description": "Added support for retrieving and conditionally showing the description for a video.",
-			"url": "",
-			"highlights": [],
-			"keywords": [],
-			"roles": [],
-			"startDate": "",
-			"endDate": "",
-			"entity": "",
-			"type": "",
-			"displayName": "Zen Audio Player",
-			"website": "",
-			"summary": "Listen to YouTube videos, without the distracting visuals.",
-			"primaryLanguage": "JavaScript",
-			"languages": [
-				"HTML",
-				"CSS",
-				"JavaScript"
-			],
-			"libraries": [],
-			"githubUrl": "https://github.com/zen-audio-player/zen-audio-player.github.io",
-			"repositoryUrl": "https://github.com/zen-audio-player/zen-audio-player.github.io",
-			"start": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"end": {
-				"year": null,
-				"month": null,
-				"day": null
-			},
-			"images": [],
-			"videos": []
+			"url": "https://github.com/zen-audio-player/zen-audio-player.github.io"
 		}
 	],
 	"jobHistory": [

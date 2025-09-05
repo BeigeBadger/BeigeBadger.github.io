@@ -9,8 +9,8 @@ interface IOpenSourceProjectsProps {
 
 const OpenSourceProjects: React.FC<IOpenSourceProjectsProps> = (props: IOpenSourceProjectsProps) => {
 	function nameSort(projectA: IProject, projectB: IProject) {
-		const projectAName: string = projectA.displayName;
-		const projectBName: string = projectB.displayName;
+		const projectAName: string = projectA.name;
+		const projectBName: string = projectB.name;
 
 		if (projectAName < projectBName) {
 			return -1;
@@ -39,7 +39,7 @@ const OpenSourceProjects: React.FC<IOpenSourceProjectsProps> = (props: IOpenSour
 										<div key={index} className="mb-3">
 											<div className="fw-bold">
 												{
-													project.displayName
+													project.name
 												}
 											</div>
 
@@ -51,8 +51,8 @@ const OpenSourceProjects: React.FC<IOpenSourceProjectsProps> = (props: IOpenSour
 
 											<div>
 												{
-													project.githubUrl &&
-													<a href={project.githubUrl}>
+													project.url &&
+													<a href={project.url}>
 														Project homepage
 													</a>
 												}
