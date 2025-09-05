@@ -158,14 +158,14 @@
 	],
 	"jobHistory": [
 		{
-			"location": "Hamilton, New Zealand",
-			"position":"Senior Software Engineer",
 			"company": "Education Perfect",
+			"position":"Senior Software Engineer",
 			"website": "https://www.educationperfect.com/",
 			"url": "https://www.educationperfect.com/",
+			"location": "Hamilton, New Zealand",
 			"startDate": "2024-03-18",
-			"endDate": "",
 			"start":"March 2024",
+			"endDate": "",
 			"end": "",
 			"isCurrentRole": true,
 			"responsibilities":[
@@ -181,11 +181,16 @@
 			]
 		},
 		{
-			"location": "Hamilton, New Zealand",
+			"company": "Aware Group",
 			"position": "Senior Software Engineer",
+			"website": "https://www.awaregroup.com/",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2023-03-08",
+			"start": "March 2023",
 			"endDate": "2024-03-12",
+			"end": "March 2024",
+			"isCurrentRole": false,
+			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions had support agreements in place. Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
 				"Continued developing skills in other technical practices through use of professional development time, volunteering to work outside of the Software Engineering practice, and being assigned to non-Software projects. Assisted colleagues in their personal and professional development by providing mentoring, emotional support, and technical guidance."
@@ -195,19 +200,19 @@
 				"<strong>Increased proficiency with Infrastructure as Code solutions</strong> - Completed several Infrastructure as Code projects; client requirements dictated the tooling, all solutions used either Bicep or Terraform. Continued to develop expertise in this area by keeping across the latest developments and best practices. Provided guidance and support for colleagues who had less experience in this area. Used various frameworks, development methodologies, and tools to build and deploy solutions.",
 				"<strong>Heavily involved in development of workshop materials</strong> - Created technical content and exemplars for attendees to work through as part of Microsoft-funded events. This content was the core focus of an on-going series of multi-day events throughout Asia-Pacific that were run remotely to educate the community on Microsoft products and workflows; such as DevOps and GitHub or Deploying Open-Source Software and tools on Azure. Reviewed, tested, and oversaw the development of content packs created by others.",
 				"<strong>Developed OpenAI solutions for clients</strong> - Delivered several solutions for clients that leveraged OpenAI models to provide a private and secure ChatGPT experience for their staff. Both traditional Web Applications and Microsoft Teams bots were used to provide access to the chat interface. A separate solution used an OpenAI model in conjunction with OCR and Form Recognition tools to extract and format data from photos and documents, this data was then ingested by a client system."
-			],
-			"isCurrentRole": false,
-			"start": "March 2023",
-			"end": "March 2024",
-			"company": "Aware Group",
-			"website": "https://www.awaregroup.com/"
+			]
 		},
 		{
-			"location": "Hamilton, New Zealand",
+			"company": "Aware Group",
 			"position": "Product Technical Lead (Secondment)",
+			"website": "https://www.awaregroup.com/",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2022-09-05",
+			"start": "September 2022",
 			"endDate": "2023-03-07",
+			"end": "March 2023",
+			"isCurrentRole": false,
+			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Provided technical and people leadership to the newly formed Product team that was responsible for further development on several existing MVP solutions which would enable them to move into the scale stage of their lifecycle. Worked with the Director of Product to ideate, design, architect, and deliver hardware and SaaS solutions to customers. Acted as a role model for the team and those in the wider business by personally demonstrating the processes and behaviours required to successfully deliver value in a timely manner, while still maintaining a focus on quality. Worked with stakeholders to assess the suitability of, and plan for, the future integration of other offerings in the product solution portfolio. Actively contributed to the growth of team members through mentoring, regular one-on-ones, setting goals and having career conversations. Empowered people to take ownership and be accountable for deliverables, while providing appropriate levels of emotional and technical support.",
 				"Collaborated with others to understand requirements and technical challenges, then evaluated potential solutions and presented prioritised actions to management for approval. Proactively raised concerns and implemented process improvements. Participated in peer-programming and mobbing sessions which enabled opportunities for two-way mentoring, knowledge-sharing, and increased team cohesion. Oversaw and provided technical guidance on the delivery of multiple parallel workstreams (Web, Data Platform, Embedded Development, Model Training Pipelines, and Operational tasks). Took responsibility for the technical direction, priority, and delivery of both technical and operational tasks."
@@ -217,19 +222,19 @@
 				"<strong>Gained further embedded software development experience</strong> - Worked with team members to up-skill where necessary. Expanded knowledge of embedded software development to Linux services backed by Python code and running on various Raspberry Pi models. Learnt how to interact with and troubleshoot hardware, use various tools to debug embedded applications, and work within the constraints of limited resources.",
 				"<strong>Implemented processes to improve team performance</strong> - Consulted with internal and external stakeholders to get buy-in for implementing new processes. These processes introduced engineering and operational rigour to a previously unstructured way of working, improved team efficiency, and reduced errors. Advocated for and implemented regular team ceremonies such as daily stand-ups with the sprint board as the centerpiece, sprint planning, sprint retrospective, and backlog refinement. Ensured continued engagement with and adherence to processes by using social contracts and fostering a culture of continuous improvement.",
 				"<strong>Increased traceability, accountability, and visibility</strong> - Carried out initiatives to improve oversight in various areas of the delivery lifecycle. Added tags to artifacts so that they could easily be connected back to the commit and pipeline run. Introduced pull request templates to standardize our approach and ensure that important steps and context were not overlooked. Integrated notification with common tooling and regularly communicated with stakeholders outside of the team to improve the visibility of work. Sourced materials for hardware storage and designed a sign-in/out process to increase traceability. Helped create relevant and achievable sprint goals, ensured that work in the sprint related to the goals and had a primary person responsible for achieving it, and reflected on whether or not the goals were achieved. Enhanced financial observability by configuring environment spend, resource quota use, and forecasted budget consumption alerts to enable early intervention and action to be taken."
-			],
-			"isCurrentRole": false,
-			"start": "September 2022",
-			"end": "March 2023",
-			"company": "Aware Group",
-			"website": "https://www.awaregroup.com/"
+			]
 		},
 		{
-			"location": "Hamilton, New Zealand",
+			"company": "Aware Group",
 			"position": "Senior Software Engineer",
+			"website": "https://www.awaregroup.com/",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2020-11-01",
+			"start": "October 2020",
 			"endDate": "2022-09-02",
+			"end": "September 2022",
+			"isCurrentRole": false,
+			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Continued delivering solutions using the Azure platform and DevOps best practices. Scoped and designed the architecture and the security posture for new pieces of work. Shifted into a leadership role, independently ran projects and managed team members across multiple disciplines to ensure that deliverables were on time and met the requirements. Heavily involved in the onboarding process, including performing inductions for engineering staff both inside and outside of the software engineering discipline, and ensuring that new-hires were set up for success. Learned and practiced candidate evaluation skills for technical hires, gained practical experience with pre/post-interview tasks.",
 				"Utilised professional development time to undergo training to further develop leadership and coaching skills, so that different styles could be utilized, depending on the situation. Developed content for team standards, style guides, templates, and onboarding collateral to ensure that a consistent approach was taken to building solutions. Demonstrated flexibility and acquired new skills by completing an extended placement as a Data Platform Engineer. Gave back to the development community by contributing to open-source projects and answering questions on developer forums."
@@ -240,19 +245,19 @@
 				"<strong>Built an online quiz application</strong> - Delivered a solution that was used as part of an event with teams in 40 locations throughout Australia and New Zealand. This project included tight deadlines, hardware integration with controllers, and creating documentation on how each station needed to be set up. There was also a requirement to create an interface mode for quiz application where the questions and answers were able to be overlaid on the live stream of the host by the TV production company.",
 				"<strong>Delivered an Internet of Things (IoT) platform</strong> - Integrated third-party devices with Azure IoT Hub for a major telecommunications company, the solution utilised Lambda architecture for event storage. In a technical leadership capacity: advised the client and internal staff on cloud and IoT best practices. Created a readily-extensible framework to allow for the integration of devices from other vendors and reporting on device behaviour. Set up an API endpoint with serverless backend to allow developer access to device information and telemetry data that had been ingested whilst minimizing costs. Created Infrastructure-as-Code (IaC) templates to ensure consistency between environments and that future environments could be easily created.",
 				"<strong>Contributed to an embedded software development project</strong> - Worked as part of a team to plan, build, and deliver an end to end software solution for a large agricultural client that run on custom hardware. This involved learning how to build a custom Linux distribution using Yocto, running containers on Linux within stringent hardware performance tolerances, and working with embedded resources on the client side."
-			],
-			"isCurrentRole": false,
-			"start": "October 2020",
-			"end": "September 2022",
-			"company": "Aware Group",
-			"website": "https://www.awaregroup.com/"
+			]
 		},
 		{
-			"location": "Hamilton, New Zealand",
+			"company": "Aware Group",
 			"position": "Software Engineer",
+			"website": "https://www.awaregroup.com/",
 			"url": "https://www.awaregroup.com/",
 			"startDate": "2019-02-01",
+			"start": "February 2019",
 			"endDate": "2020-10-01",
+			"end": "October 2020",
+			"isCurrentRole": false,
+			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Worked as part of a small Software Engineering team to deliver primarily web-based solutions that were built using the Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work for both short and long-term engagements. Took ownership of being the technical authority on ChatBots, Form Recognizer, Power Apps, and the speech (Speech to Text) and language (LUIS and QnA Maker) Cognitive Services.",
 				"Collaborated with Microsoft product teams to test new and upcoming features, and had multiple pull requests accepted for documentation across various Microsoft services and technologies. Successfully delivered projects whether working independently, collaborating with team members, or as an embedded resource within a client team (remote and in-person). Mentored and supported team members across professional practices, sharing knowledge throughout the business, and improving soft skills."
@@ -262,19 +267,19 @@
 				"<strong>Developed an Automated Ad Serving solution</strong> - Successfully architected and delivered a project on-time, using a new language and unfamiliar technologies. Interacted directly with technical and non-technical staff on the client-side to: confirm requirements, prevent scope creep, sign off milestones, and exceed client expectations. The final solution significantly improved the client's go-live process, provided increased visibility of changes, and is readily extensible.",
 				"<strong>Championed team improvements</strong> - Designed and implemented a pull request template for a repository that had a high number of integrations from different developers. Regularly shared development of new tools, functionality, productivity tips, and other announcements with colleagues to encourage continuous improvement. Created and shared lab exercises, along with a standardized template for workshop so that it could be re-used by other team members in the future.",
 				"<strong>Delivered multiple ChatBot solutions</strong> - Worked with major municipal, regional, governance, and financial authorities to provide guidance on, architect, develop, and deploy ChatBots that provided self-service functionality to their clients or internal staff. Functioned as an embedded resource (on-site) in a client team for several months while developing a solution that allowed ratepayers to troubleshoot why their inorganic waste collection had been missed, this included integration with an existing knowledge base in Umbraco. All of the solutions were delivered using C#, Microsoft's Bot Framework, the Azure Bot Service, and a combination of QnA Maker or LUIS."
-			],
-			"isCurrentRole": false,
-			"start": "February 2019",
-			"end": "October 2020",
-			"company": "Aware Group",
-			"website": "https://www.awaregroup.com/"
+			]
 		},
 		{
-			"location": "Hamilton, New Zealand",
+			"company": "Smartrak",
 			"position": "Software Engineer",
+			"website": "https://smartrak.com/",
 			"url": "https://smartrak.com/",
 			"startDate": "2016-06-01",
+			"start": "May 2016",
 			"endDate": "2019-01-31",
+			"end": "February 2019",
+			"isCurrentRole": false,
+			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Served as a key member of the software development team charged with maintaining and iterating upon core web applications used both internally and externally. Collaborated with stakeholders across departments to assist with the delivery of innovative new products and solutions that met client requirements and matched the Smartrak vision.",
 				"Volunteered to mentor Junior Software Engineers and interns, for mutual benefit. Wrote robust, reusable, and well-tested code that adhered to design patterns and social contracts within the team."
@@ -284,19 +289,19 @@
 				"<strong>Developed an authentication proxy</strong> - Worked with a Senior Software Engineer to scope, plan, then independently implement a crucial middleware component that helped deliver an API solution, that utilised JSON Web Tokens (JWTs) for authentication, Entity Framework, and OWIN.",
 				"<strong>API 2.0</strong> - Researched and developed the initial prototype project using ASP.NET Web APIs. Made vital contributions to the team that delivered the finished product using ASP.NET Web APIs, Entity Framework, and claims-based authorisation.",
 				"<strong>Introduced new ways of testing</strong> - Developed an integration test suite that covers critical functionality across core systems, using Selenium WebDriver to test user interface behaviour, which meant that regressions were caught."
-			],
-			"isCurrentRole": false,
-			"start": "May 2016",
-			"end": "February 2019",
-			"company": "Smartrak",
-			"website": "https://smartrak.com/"
+			]
 		},
 		{
-			"location": "Hamilton, New Zealand",
+			"company": "Smartrak",
 			"position": "Junior Software Engineer/IT Administrator",
+			"website": "https://smartrak.com/",
 			"url": "https://smartrak.com/",
 			"startDate": "2013-12-31",
+			"start": "December 2014",
 			"endDate": "2016-05-31",
+			"end": "May 2016",
+			"isCurrentRole": false,
+			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System (ICS) and Smart Fleet Management System solutions to Fonterra using .NET and open-source technologies.",
 				"Willingly undertook training as an IT Administrator; this role involved managing relationships with internal staff, external contractors and third-party vendors to ensure hardware and software systems ran smoothly, and licenses remained current."
@@ -304,30 +309,25 @@
 			"highlights": [
 				"<strong>Developed multi-platform systems</strong> - Helped develop the ICS application that ran on a tablet, along with the Smart FMS portal. The technologies used were WPF, Razor, ReactJS, SQLite, and PostgreSQL.",
 				"<strong>Fonterra hardware rollout support</strong> - Independently researched, developed and implemented the processes for the setup of Fonterra hardware. In addition to this, a solution that allowed support staff to remotely control the device in each truck through a web application was implemented."
-			],
-			"isCurrentRole": false,
-			"start": "December 2014",
-			"end": "May 2016",
-			"company": "Smartrak",
-			"website": "https://smartrak.com/"
+			]
 		},
 		{
-			"location": "Hamilton, New Zealand",
+			"company": "Smartrak",
 			"position": "Software Engineer Intern",
+			"website": "https://smartrak.com/",
 			"url": "https://smartrak.com/",
 			"startDate": "2012-11-01",
+			"start": "November 2012",
 			"endDate": "2013-12-31",
+			"end": "December 2013",
+			"isCurrentRole": false,
+			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Assisted with maintenance of core web applications. Focused on bringing user experience improvements to internal systems and learning real-world Software Engineering best practices."
 			],
 			"highlights": [
-				"<strong>Updated the customer-facing Administration website</strong> - Updated an ASP.NET Web Forms site with over 30 pages that was using legacy styling, to use a responsive framework which enabled staff, customers, and our vendors to use the site on devices with various screen resolutions."
-			],
-			"isCurrentRole": false,
-			"start": "November 2012",
-			"end": "December 2013",
-			"company": "Smartrak",
-			"website": "https://smartrak.com/"
+				"<strong>Re-skinned and made the customer-facing Administration website responsive</strong> - Updated an ASP.NET Web Forms site with over 30 pages that was using legacy styling, to use a modern framework which enabled staff, customers, and our vendors to use the site on devices with various screen resolutions."
+			]
 		}
 	],
 	"publications": [
