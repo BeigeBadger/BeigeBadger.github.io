@@ -15,7 +15,6 @@ export interface IResume {
 	jobHistory: IJob[];
 	publications: IPublication[];
 	qualifications: IQualification[];
-	volunteer: any[];
 	awards: IAward[];
 	valuePropositions: IValueProposition[];
 	tooling: ITooling[];
