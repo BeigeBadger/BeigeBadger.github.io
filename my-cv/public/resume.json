@@ -344,15 +344,11 @@
 	"qualifications": [
 		{
 			"institution": "Microsoft via Pearson VUE",
-			"url": "https://www.credly.com/badges/790f8dd7-0f12-4f98-908c-d6c49092bc46/public_url",
-			"area": "",
+			"website": "https://www.credly.com/badges/790f8dd7-0f12-4f98-908c-d6c49092bc46/public_url",
 			"studyType": "Microsoft Certified: Azure Fundamentals",
-			"startDate": "2022-06-30",
-			"endDate": "2022-06-30",
+			"area": "",
+			"result": "895/1000",
 			"endorsement": "",
-			"courses": [],
-			"description": "",
-			"activities": "",
 			"start": {
 				"year": 2022,
 				"month": 6
@@ -360,21 +356,15 @@
 			"end": {
 				"year": 2022,
 				"month": 6
-			},
-			"website": "https://www.credly.com/badges/790f8dd7-0f12-4f98-908c-d6c49092bc46/public_url",
-			"gpa": "895/1000"
+			}
 		},
 		{
 			"institution": "University of Waikato",
-			"url": "https://www.waikato.ac.nz/",
-			"area": "Computer Science",
+			"website": "https://www.waikato.ac.nz/",
 			"studyType": "Bachelors of Computing and Mathematical Sciences",
-			"startDate": "2010-01-01",
-			"endDate": "2014-01-01",
+			"area": "Computer Science",
+			"result": "First Class Honours",
 			"endorsement": "First Class Honours",
-			"courses": [],
-			"description": "",
-			"activities": "",
 			"start": {
 				"year": 2010,
 				"month": 1
@@ -382,9 +372,7 @@
 			"end": {
 				"year": 2014,
 				"month": 1
-			},
-			"website": "https://www.waikato.ac.nz/",
-			"gpa": "First Class Honours"
+			}
 		}
 	],
 	"awards": [
