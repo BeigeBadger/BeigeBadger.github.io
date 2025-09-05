@@ -166,7 +166,6 @@
 			"start":"March 2024",
 			"endDate": "",
 			"end": "",
-			"isCurrentRole": true,
 			"responsibilities":[
 				"Delivered a modern, accessible Micro-Frontend (MFE) replacement for Education Perfect's largest user base (students), as part of a cross-functional team. Contributed to and maintained multiple MFEs, and worked on the backend monolith and microservice codebases that supported our MFEs.",
 				"Collaborated with diverse business stakeholders to identify and resolve issues. Worked closely with Quality Assurance Engineers, Designers, and Product Owners to ensure that solutions with both robust and aligned with the product vision. Identified and resolved customer-reported issues and supported various cross-team initiatives."
@@ -187,7 +186,6 @@
 			"start": "March 2023",
 			"endDate": "2024-03-12",
 			"end": "March 2024",
-			"isCurrentRole": false,
 			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions had support agreements in place. Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
@@ -208,7 +206,6 @@
 			"start": "September 2022",
 			"endDate": "2023-03-07",
 			"end": "March 2023",
-			"isCurrentRole": false,
 			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Provided technical and people leadership to the newly formed Product team that was responsible for further development on several existing MVP solutions which would enable them to move into the scale stage of their lifecycle. Worked with the Director of Product to ideate, design, architect, and deliver hardware and SaaS solutions to customers. Acted as a role model for the team and those in the wider business by personally demonstrating the processes and behaviours required to successfully deliver value in a timely manner, while still maintaining a focus on quality. Worked with stakeholders to assess the suitability of, and plan for, the future integration of other offerings in the product solution portfolio. Actively contributed to the growth of team members through mentoring, regular one-on-ones, setting goals and having career conversations. Empowered people to take ownership and be accountable for deliverables, while providing appropriate levels of emotional and technical support.",
@@ -229,7 +226,6 @@
 			"start": "October 2020",
 			"endDate": "2022-09-02",
 			"end": "September 2022",
-			"isCurrentRole": false,
 			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Continued delivering solutions using the Azure platform and DevOps best practices. Scoped and designed the architecture and the security posture for new pieces of work. Shifted into a leadership role, independently ran projects and managed team members across multiple disciplines to ensure that deliverables were on time and met the requirements. Heavily involved in the onboarding process, including performing inductions for engineering staff both inside and outside of the software engineering discipline, and ensuring that new-hires were set up for success. Learned and practiced candidate evaluation skills for technical hires, gained practical experience with pre/post-interview tasks.",
@@ -251,7 +247,6 @@
 			"start": "February 2019",
 			"endDate": "2020-10-01",
 			"end": "October 2020",
-			"isCurrentRole": false,
 			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Worked as part of a small Software Engineering team to deliver primarily web-based solutions that were built using the Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work for both short and long-term engagements. Took ownership of being the technical authority on ChatBots, Form Recognizer, Power Apps, and the speech (Speech to Text) and language (LUIS and QnA Maker) Cognitive Services.",
@@ -272,7 +267,6 @@
 			"start": "May 2016",
 			"endDate": "2019-01-31",
 			"end": "February 2019",
-			"isCurrentRole": false,
 			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Served as a key member of the software development team charged with maintaining and iterating upon core web applications used both internally and externally. Collaborated with stakeholders across departments to assist with the delivery of innovative new products and solutions that met client requirements and matched the Smartrak vision.",
@@ -293,7 +287,6 @@
 			"start": "December 2014",
 			"endDate": "2016-05-31",
 			"end": "May 2016",
-			"isCurrentRole": false,
 			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System (ICS) and Smart Fleet Management System solutions to Fonterra using .NET and open-source technologies.",
@@ -312,7 +305,6 @@
 			"start": "November 2012",
 			"endDate": "2013-12-31",
 			"end": "December 2013",
-			"isCurrentRole": false,
 			"location": "Hamilton, New Zealand",
 			"responsibilities": [
 				"Assisted with maintenance of core web applications. Focused on bringing user experience improvements to internal systems and learning real-world Software Engineering best practices."
