@@ -10,20 +10,17 @@
 		"profiles": [
 			{
 				"network": "GitHub",
-				"username": "BeigeBadger",
 				"url": "https://github.com/BeigeBadger",
 				"iconName": "github"
 			},
 			{
 				"network": "Stack Overflow",
 				"url": "https://stackoverflow.com/users/5209435/matt-stannett",
-				"username": "matt-stannett",
 				"iconName": "stack-overflow"
 			},
 			{
 				"network": "LinkedIn",
 				"url": "https://www.linkedin.com/in/matt-stannett-404a63b7/",
-				"username": "Matt Stannett",
 				"iconName": "linkedin"
 			}
 		],

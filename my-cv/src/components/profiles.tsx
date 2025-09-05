@@ -32,7 +32,7 @@ const Profiles: React.FC<IProfilesProps> = (props: IProfilesProps) => {
 
 											<a href={profile.url}>
 												{
-													profile.username
+													profile.network
 												}
 											</a>
 										</div>
