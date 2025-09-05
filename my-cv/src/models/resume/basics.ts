@@ -8,7 +8,6 @@ export interface IBasics {
 	headline: string;
 	blog?: any;
 	fullTimeExperienceStartDate: string;
-	locationAsString: string;
 	location: string;
 	id: string;
 	picture: string;
