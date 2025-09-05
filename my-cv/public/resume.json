@@ -3,6 +3,10 @@
 		"name": "Matt Stannett",
 		"jobTitle": "Senior Software Engineer",
 		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that satisfy client needs. Believes in producing elegant, extensible, and well-documented deliverables. An avid consumer of books, documentaries and podcasts, also an amateur military historian. Keeps active through football, mountain biking, and running around after my children.",
+		"location": "Hamilton, New Zealand",
+		"locationAsString": "Hamilton, New Zealand",
+		"fullTimeExperienceStartDate": "2014-01-01",
+		"picture": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200",
 		"profiles": [
 			{
 				"network": "GitHub",
@@ -19,11 +23,7 @@
 				"url": "https://www.linkedin.com/in/matt-stannett-404a63b7/",
 				"iconName": "linkedin"
 			}
-		],
-		"fullTimeExperienceStartDate": "2014-01-01",
-		"locationAsString": "Hamilton, New Zealand",
-		"location": "Hamilton, New Zealand",
-		"picture": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200"
+		]
 	},
 	"skills": [
 		{
