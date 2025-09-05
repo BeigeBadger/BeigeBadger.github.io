@@ -8,5 +8,4 @@ export interface IPublication {
 	authors: string[];
 	summary: string;
 	fullReleaseDate: IFullReleaseDate;
-	website: string;
 }

@@ -326,6 +326,7 @@
 		{
 			"name": "Massive Ontology Interface",
 			"publisher": "The University of Waikato",
+			"summary": "Paper presented at CHINZ 2013: 14th Annual Conference of the New Zealand Chapter of the ACM Special Interest Group on Computer-Human Interaction, 15-16 November 2013 — Christchurch, New Zealand.",
 			"releaseDate": "2013-01-01",
 			"url": "https://researchcommons.waikato.ac.nz/handle/10289/8410",
 			"authors": [
@@ -333,13 +334,11 @@
 				"Legg, C.",
 				"Sarjant, S."
 			],
-			"summary": "Paper presented at CHINZ 2013: 14th Annual Conference of the New Zealand Chapter of the ACM Special Interest Group on Computer-Human Interaction, 15-16 November 2013 — Christchurch, New Zealand.",
 			"fullReleaseDate": {
 				"year": 2013,
 				"month": null,
 				"day": null
-			},
-			"website": "https://researchcommons.waikato.ac.nz/handle/10289/8410"
+			}
 		}
 	],
 	"qualifications": [
