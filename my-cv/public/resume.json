@@ -379,65 +379,40 @@
 		{
 			"title": "Best Active Ageing Programme (Residential Living)",
 			"date": "2021-12-03",
-			"type": "trophy",
 			"awarder": "Ageing Asia",
 			"summary": "I worked as part of the wider teams to independently deliver the Quiznastics component of the Olympics@Ryman event (for Ryman Healthcare) that won an award at the Ageing Asia Awards.",
-			"fullDate": {
-				"year": 2021,
-				"month": 12
-			},
 			"link": "https://ageingasia.com/industry-programmes/awards2021/",
 			"display": true
 		},
 		{
 			"title": "Business Transformation through Digital and IT Award (finalist - Auckland Airport)",
 			"date": "2021-07-29",
-			"type": "award",
 			"awarder": "CIO Awards New Zealand",
 			"summary": "I worked with group subject-matter experts at Auckland Airport, and as part of a small internal team to deliver a modern, cloud-hosted Data Platform that was a finalist for the 2021 New Zealand CIO Summit Awards.",
-			"fullDate": {
-				"year": 2021,
-				"month": 7
-			},
 			"link": "https://www.ciosummit.co.nz/alumni",
 			"display": true
 		},
 		{
 			"title": "Digital & Application Innovation Award",
 			"date": "2021-12-06",
-			"type": "trophy",
 			"awarder": "Microsoft",
 			"summary": "I worked as part of the wider teams to independently deliver the Quiznastics component of the Olympics@Ryman event (for Ryman Healthcare) that won an award at the New Zealand Microsoft Partner Awards.",
-			"fullDate": {
-				"year": 2021,
-				"month": 12
-			},
 			"link": "https://www.msnzpartnerawards.co.nz/",
 			"display": true
 		},
 		{
 			"title": "Azure Innovate Award",
 			"date": "2019-10-18",
-			"type": "trophy",
 			"awarder": "Microsoft",
 			"summary": "I was part of the team that delivered the Port Otago solution that won an award at the New Zealand Microsoft Partner Awards.",
-			"fullDate": {
-				"year": 2019,
-				"month": 10
-			},
 			"link": "https://news.microsoft.com/en-nz/2019/10/18/microsoft-announces-2019-new-zealand-partner-awards-winners/",
 			"display": true
 		},
 		{
 			"title": "Best Honours Project Presentation",
 			"date": "2013-11-01",
-			"type": "trophy",
 			"awarder": "University of Waikato Computer Science Department",
 			"summary": "I was awarded the best presentation for my cohort (~50 students).",
-			"fullDate": {
-				"year": 2013,
-				"month": 11
-			},
 			"display": false
 		}
 	],
