@@ -2,10 +2,6 @@
 	"basics": {
 		"name": "Matt Stannett",
 		"jobTitle": "Senior Software Engineer",
-		"image": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200",
-		"email": "matt.stannett@gmail.com",
-		"phone": "",
-		"url": null,
 		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that satisfy client needs. Believes in producing elegant, extensible, and well-documented deliverables. An avid consumer of books, documentaries and podcasts, also an amateur military historian. Keeps active through football, mountain biking, and running around after my children.",
 		"profiles": [
 			{
@@ -24,19 +20,10 @@
 				"iconName": "linkedin"
 			}
 		],
-		"headline": "",
-		"blog": null,
-		"yearsOfExperience": 10,
 		"fullTimeExperienceStartDate": "2014-01-01",
-		"username": "BeigeBadger",
 		"locationAsString": "Hamilton, New Zealand",
 		"location": "Hamilton, New Zealand",
-		"karma": 14,
-		"id": "c8a9f100-0c01-403e-9c0f-cd64cd7deb54",
-		"followers": 3,
-		"following": 0,
-		"picture": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200",
-		"website": null
+		"picture": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200"
 	},
 	"skills": [
 		{
