@@ -28,91 +28,78 @@
 		{
 			"name": "Event-Driven",
 			"level": "Intermediate",
-			"keywords": [],
 			"rating": 4,
 			"yearsOfExperience": 1
 		},
 		{
 			"name": "Serverless",
 			"level": "Advanced",
-			"keywords": [],
 			"rating": 4,
 			"yearsOfExperience": 4
 		},
 		{
 			"name": "Web Applications",
 			"level": "Advanced",
-			"keywords": [],
 			"rating": 4,
 			"yearsOfExperience": 10
 		},
 		{
 			"name": "Databases",
 			"level": "Intermediate",
-			"keywords": [],
 			"rating": 3,
 			"yearsOfExperience": 10
 		},
 		{
 			"name": "Cloud Architecture",
 			"level": "Advanced",
-			"keywords": [],
 			"rating": 4,
 			"yearsOfExperience": 4
 		},
 		{
 			"name": "IoT (Internet of Things)",
 			"level": "Intermediate",
-			"keywords": [],
 			"rating": 3,
 			"yearsOfExperience": 3
 		},
 		{
 			"name": "Unit Testing",
 			"level": "Advanced",
-			"keywords": [],
 			"rating": 4,
 			"yearsOfExperience": 8
 		},
 		{
 			"name": "CI/CD",
 			"level": "Advanced",
-			"keywords": [],
 			"rating": 4,
 			"yearsOfExperience": 9
 		},
 		{
 			"name": "Mentoring/Coaching",
 			"level": "Intermediate",
-			"keywords": [],
 			"rating": 3,
 			"yearsOfExperience": 4
 		},
 		{
 			"name": "Infrastructure as Code",
 			"level": "Advanced",
-			"keywords": [],
 			"rating": 4,
 			"yearsOfExperience": 3
 		},
 		{
 			"name": "Data Platforms",
 			"level": "Beginner-Intermediate",
-			"keywords": [],
 			"rating": 2.5,
 			"yearsOfExperience": 2
 		},
 		{
 			"name": "Prompt Engineering",
 			"level": "Intermediate",
-			"keywords": [],
 			"rating": 3,
 			"yearsOfExperience": 1
 		},
 		{
 			"name": "Documentation",
 			"level": "Advanced",
-			"keywords": [],
 			"rating": 4,
 			"yearsOfExperience": 8
 		}
