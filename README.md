@@ -51,6 +51,8 @@ If gh-pages fails, you may find that you need to manually clean up the cache dir
 
 # Printing to PDF settings
 
+> Note: Printing to PDF should be performed when the page is displaying the Short version as this cuts down on some details
+
 ## Browser
 
 Chrome
