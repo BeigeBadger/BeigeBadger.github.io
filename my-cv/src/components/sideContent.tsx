@@ -6,9 +6,11 @@ import Publications from "./publications";
 import Qualifications from "./qualifications";
 import References from "./references";
 import Awards from "./awards";
+import { BrevityEnum } from "./resume";
 
 interface ISideContentProps {
 	resumeData: IResume
+	brevityLevel: BrevityEnum
 }
 
 const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
@@ -16,7 +18,7 @@ const SideContent: React.FC<ISideContentProps> = (props: ISideContentProps) => {
 		<>
 			<ValuePropositions valuePropositions={props.resumeData.valuePropositions} customClass="no-print" />
 
-			<Tooling tooling={props.resumeData.tooling} />
+			<Tooling tooling={props.resumeData.tooling} brevityLevel={props.brevityLevel}/>
 
 			<OpenSourceProjects projects={props.resumeData.openSourceProjects} />
 

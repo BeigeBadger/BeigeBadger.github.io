@@ -2,10 +2,12 @@ import { faToolbox } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap";
 import { ITooling } from "../models/resume/tooling";
 import SectionTitle from "./shared/sectionTitle";
+import { BrevityEnum } from "./resume";
 
 
 interface IToolingProps {
 	tooling: ITooling[]
+	brevityLevel: BrevityEnum
 }
 
 const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
@@ -66,6 +68,7 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 
 													{
 														tool.historical.length > 0 &&
+														props.brevityLevel === BrevityEnum.Full &&
 														<div className="no-print">
 															<div className="fst-italic">
 																{/* <div className="fw-lighter"> */}

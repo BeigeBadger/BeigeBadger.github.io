@@ -2,10 +2,12 @@ import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap"
 import { IJob } from "../models/resume/job";
 import SectionTitle from "./shared/sectionTitle";
+import { BrevityEnum } from "./resume";
 
 interface IWorkHistoryProps {
 	jobHistory: IJob[];
 	customClass: string;
+	brevityLevel: BrevityEnum
 }
 
 const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
@@ -69,8 +71,13 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 												<ul>
 													{
 														job.highlights.map((highlight, index) => {
+															let fullText = highlight;
+															const displayText = props.brevityLevel === BrevityEnum.Full
+																? highlight
+																: highlight.split("</strong>")[0].replace("<strong>", "");
+
 															return (
-																<li key={index} dangerouslySetInnerHTML={{ __html: highlight }}>
+																<li key={index} dangerouslySetInnerHTML={{ __html: displayText }}>
 																</li>
 															)
 														})

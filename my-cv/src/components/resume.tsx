@@ -1,5 +1,5 @@
 import { IResume } from "../models/resume/resume";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, ToggleButton } from "react-bootstrap";
 import BasicInfo from "./basicInfo";
 import Profiles from "./profiles";
 import PersonalSummary from "./personalSummary";
@@ -8,18 +8,40 @@ import WorkHistory from "./workHistory";
 import SideContent from "./sideContent";
 import dayjs from "dayjs";
 import ValuePropositions from "./valuePropositions";
+import { useState } from "react";
 
 interface IResumeProps {
 	resumeData: IResume
 };
 
+export enum BrevityEnum {
+	Full,
+	Short
+}
+
 const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 	const footerText = `© Copyright ${dayjs().year()} Matt Stannett`;
+	const [brevityLevel, setBrevityLevel] = useState(BrevityEnum.Full);
+
+	const handleToggleBrevity = (event: React.MouseEvent<HTMLButtonElement>) => {
+		setBrevityLevel(prev =>
+			prev === BrevityEnum.Full ? BrevityEnum.Short : BrevityEnum.Full
+		);
+	};
 
 	return (
 		<>
 			<div className="header">
 				<Container className="no-print">
+					<Row className="position-fixed top-0 end-0">
+						<Col>
+							<ToggleButton value={brevityLevel} onClick={handleToggleBrevity} style={{width: "140px"}}>
+								{
+									brevityLevel === BrevityEnum.Full ? "Full version" : "Short version"
+								}
+							</ToggleButton>
+						</Col>
+					</Row>
 					<Row>
 						<Col>
 							<img className="mt-4" src={props.resumeData.basics.picture} alt="Matt Stannett's avatar" />
@@ -80,13 +102,17 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 				<Container>
 					<Row>
 						<Col xs={12} md={7} lg={7} className="col-print-12 d-flex flex-column">
-							<WorkHistory jobHistory={props.resumeData.jobHistory} customClass="print-order-2 page-break-before-always" />
+							<WorkHistory
+								jobHistory={props.resumeData.jobHistory}
+								customClass="print-order-2 page-break-before-always"
+								brevityLevel={brevityLevel}
+							/>
 
 							<ValuePropositions valuePropositions={props.resumeData.valuePropositions} customClass="only-show-when-printing print-order-1" />
 						</Col>
 
 						<Col xs={12} md={5} lg={5} className="col-print-12">
-							<SideContent resumeData={props.resumeData} />
+							<SideContent resumeData={props.resumeData} brevityLevel={brevityLevel} />
 						</Col>
 					</Row>
 				</Container>
