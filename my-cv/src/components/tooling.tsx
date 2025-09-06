@@ -66,7 +66,7 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 
 													{
 														tool.historical.length > 0 &&
-														<>
+														<div className="no-print">
 															<div className="fst-italic">
 																{/* <div className="fw-lighter"> */}
 																Historical
@@ -77,7 +77,7 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 																	historicalElements
 																}
 															</div>
-														</>
+														</div>
 													}
 												</div>
 											</Col>
