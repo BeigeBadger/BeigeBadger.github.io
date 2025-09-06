@@ -108,7 +108,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 								brevityLevel={brevityLevel}
 							/>
 
-							<ValuePropositions valuePropositions={props.resumeData.valuePropositions} customClass="only-show-when-printing print-order-1" />
+							<ValuePropositions valuePropositions={props.resumeData.valuePropositions} customClass="only-show-when-printing print-order-1 page-break-after-always" />
 						</Col>
 
 						<Col xs={12} md={5} lg={5} className="col-print-12">

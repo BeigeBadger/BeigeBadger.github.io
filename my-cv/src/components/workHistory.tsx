@@ -15,14 +15,13 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 		<div className={props.customClass}>
 			<Container>
 				<Row>
-					<Col className="col-print-12">
+					<Col className="col-print-12 page-break-before-always">
 						<div className="work-history mb-3">
 							<SectionTitle title="Work History" icon={faLaptopCode} />
 							{
 								props.jobHistory.map((job, index) => {
 									return (
-										// The page break class is a cludge to make things print nicely
-										<div key={index} className={`job-history-entry mb-5 ${index === 1 ? `page-break-before-always` : ``}`}>
+										<div key={index} className="job-history-entry mb-5">
 											<div >
 												<h5>
 													{
