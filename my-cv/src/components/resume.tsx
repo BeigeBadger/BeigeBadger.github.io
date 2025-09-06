@@ -1,5 +1,5 @@
 import { IResume } from "../models/resume/resume";
-import { Col, Container, Row, ToggleButton } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import BasicInfo from "./basicInfo";
 import Profiles from "./profiles";
 import PersonalSummary from "./personalSummary";
@@ -35,11 +35,13 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 				<Container className="no-print">
 					<Row className="position-fixed top-0 end-0">
 						<Col>
-							<ToggleButton value={brevityLevel} onClick={handleToggleBrevity} style={{width: "140px"}}>
+							<Button value={brevityLevel} onClick={handleToggleBrevity} style={{width: "180px"}}>
 								{
-									brevityLevel === BrevityEnum.Full ? "Full version" : "Short version"
+									brevityLevel === BrevityEnum.Full
+										? <>Displaying<br />Full version</>
+										: <>Displaying<br />Short version</>
 								}
-							</ToggleButton>
+							</Button>
 						</Col>
 					</Row>
 					<Row>
