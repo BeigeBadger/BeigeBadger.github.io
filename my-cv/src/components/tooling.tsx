@@ -51,16 +51,18 @@ const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 														</h5>
 													</div>
 
-													<div className="fst-italic">
-														{/* <div className="fw-lighter"> */}
-														Current
-													</div>
+													<>
+														<div className="fst-italic">
+															{/* <div className="fw-lighter"> */}
+															Current
+														</div>
 
-													<div className="mb-2">
-														{
-															currentElements
-														}
-													</div>
+														<div className="mb-2">
+															{
+																currentElements
+															}
+														</div>
+													</>
 
 													{
 														tool.historical.length > 0 &&
