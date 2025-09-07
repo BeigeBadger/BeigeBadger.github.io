@@ -2,7 +2,7 @@ import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap"
 import { IJobRole } from "../models/resume/jobRole";
 import SectionTitle from "./shared/sectionTitle";
-import { BrevityEnum } from "./resume";
+import { BrevityEnum } from "../models/brevityEnum";
 
 interface IWorkHistoryProps {
 	jobHistory: IJobRole[];

@@ -9,15 +9,11 @@ import SideContent from "./sideContent";
 import dayjs from "dayjs";
 import ValuePropositions from "./valuePropositions";
 import { useState } from "react";
+import { BrevityEnum } from "../models/brevityEnum";
 
 interface IResumeProps {
 	resumeData: IResume
 };
-
-export enum BrevityEnum {
-	Full,
-	Short
-}
 
 const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 	const footerText = `© Copyright ${dayjs().year()} Matt Stannett`;

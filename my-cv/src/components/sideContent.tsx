@@ -6,7 +6,7 @@ import Publications from "./publications";
 import Qualifications from "./qualifications";
 import References from "./references";
 import Awards from "./awards";
-import { BrevityEnum } from "./resume";
+import { BrevityEnum } from "../models/brevityEnum";
 
 interface ISideContentProps {
 	resumeData: IResume

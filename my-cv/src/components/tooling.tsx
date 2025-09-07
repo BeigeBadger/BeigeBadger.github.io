@@ -2,7 +2,7 @@ import { faToolbox } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap";
 import { ITooling } from "../models/resume/tooling";
 import SectionTitle from "./shared/sectionTitle";
-import { BrevityEnum } from "./resume";
+import { BrevityEnum } from "../models/brevityEnum";
 
 
 interface IToolingProps {
