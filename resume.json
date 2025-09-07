@@ -161,19 +161,20 @@
 			"company": "Education Perfect",
 			"position":"Senior Software Engineer",
 			"website": "https://www.educationperfect.com/",
-			"location": "Hamilton, New Zealand",
 			"startDate": "2024-03-18",
 			"start":"March 2024",
 			"endDate": "",
 			"end": "",
+			"location": "Hamilton, New Zealand",
+			"workModel": "Remote",
 			"responsibilities":[
-				"Delivered a modern, accessible Micro-Frontend (MFE) replacement for Education Perfect's largest user base (students), as part of a cross-functional team. Contributed to and maintained multiple MFEs, and worked on the backend monolith and microservice codebases that supported our MFEs.",
+				"Delivered a modern, accessible Micro-Frontend (MFE) replacement for Education Perfect's largest user base (students), as part of a cross-functional team. Worked on and maintained multiple MFEs, and worked on the back-end monolith and microservice codebases that supported our MFEs. Gained experience interviewing candidates, took the lead in onboarding and mentoring new hires to the team.",
 				"Collaborated with diverse business stakeholders to identify and resolve issues. Worked closely with Quality Assurance Engineers, Designers, and Product Owners to ensure that solutions with both robust and aligned with the product vision. Identified and resolved customer-reported issues and supported various cross-team initiatives."
 			],
 			"highlights":[
-				"<strong>Lead initiatives and assisted in technical investigations</strong> - Took ownership of the internationalisation, load testing, and Frontend instrumentation initiatives within my team, this included upskilling other team members to support these initiatives going forward and providing recommendations to the business. As part of a select group, participated in engineering-wide technical investigations related to platform performance and stability improvements, and the removal of our legacy authentication system.",
-				"<strong>Improved Frontend development skills</strong> - Developed pages and components which followed the Atomic Design Methodology, using React/Typescript and GraphQL. Used React Aria components and other tools to ensure that UI elements were accessible according to the WCAG 2.2 guidelines. Wrote component, unit and integration tests using Vitest and React Testing Library, and implemented end to end tests using Cypress.",
-				"<strong>Contributed to engineering templates and documentation</strong> - Performed quality of life improvements and bug fixes to our templates for CI/CD, microservices, and MFEs. Used my initiative to update outdated documentation and guides, wrote documentation both technical and non-technical documentation for an internal audience.",
+				"<strong>Lead initiatives and assisted in technical investigations</strong> - Took ownership of the internationalisation, load testing, and front-end instrumentation initiatives within my team, this included upskilling other team members to support these initiatives going forward and providing recommendations to the business. As part of a select group, participated in engineering-wide technical investigations related to platform performance and stability improvements, and the removal of our legacy authentication system.",
+				"<strong>Improved front-end development skills</strong> - Developed pages and components which followed the Atomic Design Methodology, using React/Typescript and GraphQL. Used React Aria components and other tools to ensure that UI elements were accessible according to the WCAG 2.2 guidelines. Wrote component, unit and integration tests using Vitest and React Testing Library, and implemented end to end tests using Cypress.",
+				"<strong>Proactively contributed to engineering templates and documentation</strong> - Performed quality of life improvements and bug fixes to our templates for CI/CD, microservices, and MFEs. Used my initiative to update outdated documentation and guides, wrote documentation both technical and non-technical documentation for an internal audience.",
 				"<strong>Migrated incentives system to a microservice</strong> - Worked with a small team to migrate the existing code base from the Monolith to a new microservice using Domain-Driven Design and Event-Driven Architecture. This involved a zero-downtime migration of a core piece of the progression system that required updating several consuming MFEs and ensuring that existing user functionality remained intact.",
 				"<strong>Delivered Content Authoring replacement</strong> - Inherited a partially completed but strategically important initiative to replace the existing Content Authoring system, driving it to a successful and more complete implementation. This involved developing in two MFEs and two microservices, as well as collaborating with three other teams and integrating with their codebases. Demonstrated leadership by mentoring new team members, implementing observability dashboards, developing a comprehensive (unit, integration, architecture) test suite, and leading technical investigations."
 			]
@@ -187,6 +188,7 @@
 			"endDate": "2024-03-12",
 			"end": "March 2024",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Hybrid",
 			"responsibilities": [
 				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions had support agreements in place. Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
 				"Continued developing skills in other technical practices through use of professional development time, volunteering to work outside of the Software Engineering practice, and being assigned to non-Software projects. Assisted colleagues in their personal and professional development by providing mentoring, emotional support, and technical guidance."
@@ -207,6 +209,7 @@
 			"endDate": "2023-03-07",
 			"end": "March 2023",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Hybrid",
 			"responsibilities": [
 				"Provided technical and people leadership to the newly formed Product team that was responsible for further development on several existing MVP solutions which would enable them to move into the scale stage of their lifecycle. Worked with the Director of Product to ideate, design, architect, and deliver hardware and SaaS solutions to customers. Acted as a role model for the team and those in the wider business by personally demonstrating the processes and behaviours required to successfully deliver value in a timely manner, while still maintaining a focus on quality. Worked with stakeholders to assess the suitability of, and plan for, the future integration of other offerings in the product solution portfolio. Actively contributed to the growth of team members through mentoring, regular one-on-ones, setting goals and having career conversations. Empowered people to take ownership and be accountable for deliverables, while providing appropriate levels of emotional and technical support.",
 				"Collaborated with others to understand requirements and technical challenges, then evaluated potential solutions and presented prioritised actions to management for approval. Proactively raised concerns and implemented process improvements. Participated in peer-programming and mobbing sessions which enabled opportunities for two-way mentoring, knowledge-sharing, and increased team cohesion. Oversaw and provided technical guidance on the delivery of multiple parallel workstreams (Web, Data Platform, Embedded Development, Model Training Pipelines, and Operational tasks). Took responsibility for the technical direction, priority, and delivery of both technical and operational tasks."
@@ -227,6 +230,7 @@
 			"endDate": "2022-09-02",
 			"end": "September 2022",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Hybrid",
 			"responsibilities": [
 				"Continued delivering solutions using the Azure platform and DevOps best practices. Scoped and designed the architecture and the security posture for new pieces of work. Shifted into a leadership role, independently ran projects and managed team members across multiple disciplines to ensure that deliverables were on time and met the requirements. Heavily involved in the onboarding process, including performing inductions for engineering staff both inside and outside of the software engineering discipline, and ensuring that new-hires were set up for success. Learned and practiced candidate evaluation skills for technical hires, gained practical experience with pre/post-interview tasks.",
 				"Utilised professional development time to undergo training to further develop leadership and coaching skills, so that different styles could be utilized, depending on the situation. Developed content for team standards, style guides, templates, and onboarding collateral to ensure that a consistent approach was taken to building solutions. Demonstrated flexibility and acquired new skills by completing an extended placement as a Data Platform Engineer. Gave back to the development community by contributing to open-source projects and answering questions on developer forums."
@@ -235,7 +239,7 @@
 				"<strong>Created a data platform</strong> - Worked with a Data Platform Engineer and the client to design and deliver a Data Lake and associated pipelines for a major transportation hub to ingest and reconcile movement data on a daily basis. This reporting data store replaced a legacy on-premises store with one hosted in Azure which was faster, more reliable, cheaper, and more accurate. Introduced new tools to the team that were instrumental in demonstrating milestones had been achieved and sharing knowledge across the team.",
 				"<strong>Developed an integration solution using streaming architecture</strong> - Created two streaming solutions to handle different scenarios for the same client. One for ingesting changes from an on-premises SQL Server database into an Azure SQL database in near real-time. The other used a serverless approach for receiving different events from an online store, validating their schema, and passing them on to an existing customer endpoint. Both of these pipelines were engineered in a way that allowed them to be easily extended to handle additional tables and event types.",
 				"<strong>Built an online quiz application</strong> - Delivered a solution that was used as part of an event with teams in 40 locations throughout Australia and New Zealand. This project included tight deadlines, hardware integration with controllers, and creating documentation on how each station needed to be set up. There was also a requirement to create an interface mode for quiz application where the questions and answers were able to be overlaid on the live stream of the host by the TV production company.",
-				"<strong>Delivered an Internet of Things (IoT) platform</strong> - Integrated third-party devices with Azure IoT Hub for a major telecommunications company, the solution utilised Lambda architecture for event storage. In a technical leadership capacity: advised the client and internal staff on cloud and IoT best practices. Created a readily-extensible framework to allow for the integration of devices from other vendors and reporting on device behaviour. Set up an API endpoint with serverless backend to allow developer access to device information and telemetry data that had been ingested whilst minimizing costs. Created Infrastructure-as-Code (IaC) templates to ensure consistency between environments and that future environments could be easily created.",
+				"<strong>Delivered an Internet of Things (IoT) platform</strong> - Integrated third-party devices with Azure IoT Hub for a major telecommunications company, the solution utilised Lambda architecture for event storage. In a technical leadership capacity: advised the client and internal staff on cloud and IoT best practices. Created a readily-extensible framework to allow for the integration of devices from other vendors and reporting on device behaviour. Set up an API endpoint with serverless back-end to allow developer access to device information and telemetry data that had been ingested whilst minimizing costs. Created Infrastructure-as-Code (IaC) templates to ensure consistency between environments and that future environments could be easily created.",
 				"<strong>Contributed to an embedded software development project</strong> - Worked as part of a team to plan, build, and deliver an end to end software solution for a large agricultural client that run on custom hardware. This involved learning how to build a custom Linux distribution using Yocto, running containers on Linux within stringent hardware performance tolerances, and working with embedded resources on the client side."
 			]
 		},
@@ -248,15 +252,16 @@
 			"endDate": "2020-10-01",
 			"end": "October 2020",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Office",
 			"responsibilities": [
-				"Worked as part of a small Software Engineering team to deliver primarily web-based solutions that were built using the Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work for both short and long-term engagements. Took ownership of being the technical authority on ChatBots, Form Recognizer, Power Apps, and the speech (Speech to Text) and language (LUIS and QnA Maker) Cognitive Services.",
+				"Worked as part of a small Software Engineering team to deliver primarily web-based solutions that were built using the Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work for both short and long-term engagements. Took ownership of being the technical authority on Chatbots, Form Recognizer, Power Apps, and the speech (Speech to Text) and language (LUIS and QnA Maker) Cognitive Services.",
 				"Collaborated with Microsoft product teams to test new and upcoming features, and had multiple pull requests accepted for documentation across various Microsoft services and technologies. Successfully delivered projects whether working independently, collaborating with team members, or as an embedded resource within a client team (remote and in-person). Mentored and supported team members across professional practices, sharing knowledge throughout the business, and improving soft skills."
 			],
 			"highlights": [
 				"<strong>Planned and delivered customer workshops</strong> - Successfully led multi-day workshops and events for customers. Operated as the sole facilitator/presenter for company-specific events, and collaborated as part of a team of coaches at events that were open to the selected Microsoft clients. These events covered a variety of topics and technologies, which could span multiple disciplines. This involved designing, writing, reviewing, and testing the content for practical exercises; usually on short notice, with limited preparation time, and occasionally for others to deliver.",
 				"<strong>Developed an Automated Ad Serving solution</strong> - Successfully architected and delivered a project on-time, using a new language and unfamiliar technologies. Interacted directly with technical and non-technical staff on the client-side to: confirm requirements, prevent scope creep, sign off milestones, and exceed client expectations. The final solution significantly improved the client's go-live process, provided increased visibility of changes, and is readily extensible.",
 				"<strong>Championed team improvements</strong> - Designed and implemented a pull request template for a repository that had a high number of integrations from different developers. Regularly shared development of new tools, functionality, productivity tips, and other announcements with colleagues to encourage continuous improvement. Created and shared lab exercises, along with a standardized template for workshop so that it could be re-used by other team members in the future.",
-				"<strong>Delivered multiple ChatBot solutions</strong> - Worked with major municipal, regional, governance, and financial authorities to provide guidance on, architect, develop, and deploy ChatBots that provided self-service functionality to their clients or internal staff. Functioned as an embedded resource (on-site) in a client team for several months while developing a solution that allowed ratepayers to troubleshoot why their inorganic waste collection had been missed, this included integration with an existing knowledge base in Umbraco. All of the solutions were delivered using C#, Microsoft's Bot Framework, the Azure Bot Service, and a combination of QnA Maker or LUIS."
+				"<strong>Delivered multiple Chatbot solutions</strong> - Worked with major municipal, regional, governance, and financial authorities to provide guidance on, architect, develop, and deploy Chatbots that provided self-service functionality to their clients or internal staff. Functioned as an embedded resource (on-site) in a client team for several months while developing a solution that allowed ratepayers to troubleshoot why their inorganic waste collection had been missed, this included integration with an existing knowledge base in Umbraco. All of the solutions were delivered using C#, Microsoft's Bot Framework, the Azure Bot Service, and a combination of QnA Maker or LUIS."
 			]
 		},
 		{
@@ -268,6 +273,7 @@
 			"endDate": "2019-01-31",
 			"end": "February 2019",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Office",
 			"responsibilities": [
 				"Served as a key member of the software development team charged with maintaining and iterating upon core web applications used both internally and externally. Collaborated with stakeholders across departments to assist with the delivery of innovative new products and solutions that met client requirements and matched the Smartrak vision.",
 				"Volunteered to mentor Junior Software Engineers and interns, for mutual benefit. Wrote robust, reusable, and well-tested code that adhered to design patterns and social contracts within the team."
@@ -275,8 +281,8 @@
 			"highlights": [
 				"<strong>Improved soft skills</strong> - Gave technical presentations on testing and Software Engineering principles to the development team. Attended Agile training, which led to running daily stand-ups and sprint retrospectives for the team.",
 				"<strong>Developed an authentication proxy</strong> - Worked with a Senior Software Engineer to scope, plan, then independently implement a crucial middleware component that helped deliver an API solution, that utilised JSON Web Tokens (JWTs) for authentication, Entity Framework, and OWIN.",
-				"<strong>API 2.0</strong> - Researched and developed the initial prototype project using ASP.NET Web APIs. Made vital contributions to the team that delivered the finished product using ASP.NET Web APIs, Entity Framework, and claims-based authorisation.",
-				"<strong>Introduced new ways of testing</strong> - Developed an integration test suite that covers critical functionality across core systems, using Selenium WebDriver to test user interface behaviour, which meant that regressions were caught."
+				"<strong>Introduced new ways of testing</strong> - Developed an integration test suite that covers critical functionality across core systems, using Selenium WebDriver to test user interface behaviour, which meant that regressions were caught.",
+				"<strong>Designed and delivered an MVP for modernised internal APIs</strong> - Researched and developed the initial prototype project using ASP.NET Web APIs. Made vital contributions to the team that delivered the finished product using ASP.NET Web APIs, Entity Framework, and claims-based authorisation."
 			]
 		},
 		{
@@ -288,13 +294,14 @@
 			"endDate": "2016-05-31",
 			"end": "May 2016",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Office",
 			"responsibilities": [
 				"Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System (ICS) and Smart Fleet Management System solutions to Fonterra using .NET and open-source technologies.",
 				"Willingly undertook training as an IT Administrator; this role involved managing relationships with internal staff, external contractors and third-party vendors to ensure hardware and software systems ran smoothly, and licenses remained current."
 			],
 			"highlights": [
-				"<strong>Developed multi-platform systems</strong> - Helped develop the ICS application that ran on a tablet, along with the Smart FMS portal. The technologies used were WPF, Razor, ReactJS, SQLite, and PostgreSQL.",
-				"<strong>Fonterra hardware rollout support</strong> - Independently researched, developed and implemented the processes for the setup of Fonterra hardware. In addition to this, a solution that allowed support staff to remotely control the device in each truck through a web application was implemented."
+				"<strong>Developed and integrated multi-platform systems</strong> - Helped develop the ICS application that ran on a tablet, along with the Smart FMS portal. The technologies used were WPF, Razor, ReactJS, SQLite, and PostgreSQL.",
+				"<strong>Supported the rollout of Fonterra ICS hardware</strong> - Independently researched, developed and implemented the processes for the setup of Fonterra hardware. In addition to this, a solution that allowed support staff to remotely control the device in each truck through a web application was implemented."
 			]
 		},
 		{
@@ -306,6 +313,7 @@
 			"endDate": "2013-12-31",
 			"end": "December 2013",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Office",
 			"responsibilities": [
 				"Assisted with maintenance of core web applications. Focused on bringing user experience improvements to internal systems and learning real-world Software Engineering best practices."
 			],
