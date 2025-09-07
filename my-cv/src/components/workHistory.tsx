@@ -73,7 +73,6 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 												<ul>
 													{
 														job.highlights.map((highlight, index) => {
-															let fullText = highlight;
 															const displayText = props.brevityLevel === BrevityEnum.Full
 																? highlight
 																: highlight.split("</strong>")[0].replace("<strong>", "");
