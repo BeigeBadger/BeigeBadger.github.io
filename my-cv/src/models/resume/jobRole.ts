@@ -7,7 +7,6 @@ export interface IJobRole {
 	startDate: string;
 	endDate: string;
 	highlights: string[];
-	isCurrentRole: boolean;
 	start: string;
 	end: string;
 	company: string;
