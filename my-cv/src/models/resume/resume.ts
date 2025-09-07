@@ -6,13 +6,13 @@ import { IValueProposition } from "./valueProposition";
 import { IProject } from "./project";
 import { IPublication } from "./publication";
 import { ISkill } from "./skill";
-import { IJob } from "./job";
+import { IJobRole } from "./jobRole";
 
 export interface IResume {
 	basics: IBasics;
 	skills: ISkill[];
 	openSourceProjects: IProject[];
-	jobHistory: IJob[];
+	jobHistory: IJobRole[];
 	publications: IPublication[];
 	qualifications: IQualification[];
 	awards: IAward[];
