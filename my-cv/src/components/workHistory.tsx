@@ -46,6 +46,9 @@ const WorkHistory: React.FC<IWorkHistoryProps> = (props: IWorkHistoryProps) => {
 														}
 													</a>
 												}
+												{
+													` | ${job.workModel}`
+												}	
 											</div>
 
 											<div className="mb-3">

@@ -1,3 +1,5 @@
+import { WorkModelEnum } from "../workModelEnum";
+
 export interface IJobRole {
 	location: string;
 	responsibilities: string[];
@@ -10,4 +12,5 @@ export interface IJobRole {
 	end: string;
 	company: string;
 	website: string;
+	workModel: WorkModelEnum;
 }

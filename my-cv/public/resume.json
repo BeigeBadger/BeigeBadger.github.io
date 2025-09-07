@@ -161,11 +161,12 @@
 			"company": "Education Perfect",
 			"position":"Senior Software Engineer",
 			"website": "https://www.educationperfect.com/",
-			"location": "Hamilton, New Zealand",
 			"startDate": "2024-03-18",
 			"start":"March 2024",
 			"endDate": "",
 			"end": "",
+			"location": "Hamilton, New Zealand",
+			"workModel": "Remote",
 			"responsibilities":[
 				"Delivered a modern, accessible Micro-Frontend (MFE) replacement for Education Perfect's largest user base (students), as part of a cross-functional team. Contributed to and maintained multiple MFEs, and worked on the back-end monolith and microservice codebases that supported our MFEs.",
 				"Collaborated with diverse business stakeholders to identify and resolve issues. Worked closely with Quality Assurance Engineers, Designers, and Product Owners to ensure that solutions with both robust and aligned with the product vision. Identified and resolved customer-reported issues and supported various cross-team initiatives."
@@ -187,6 +188,7 @@
 			"endDate": "2024-03-12",
 			"end": "March 2024",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Hybrid",
 			"responsibilities": [
 				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions had support agreements in place. Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
 				"Continued developing skills in other technical practices through use of professional development time, volunteering to work outside of the Software Engineering practice, and being assigned to non-Software projects. Assisted colleagues in their personal and professional development by providing mentoring, emotional support, and technical guidance."
@@ -207,6 +209,7 @@
 			"endDate": "2023-03-07",
 			"end": "March 2023",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Hybrid",
 			"responsibilities": [
 				"Provided technical and people leadership to the newly formed Product team that was responsible for further development on several existing MVP solutions which would enable them to move into the scale stage of their lifecycle. Worked with the Director of Product to ideate, design, architect, and deliver hardware and SaaS solutions to customers. Acted as a role model for the team and those in the wider business by personally demonstrating the processes and behaviours required to successfully deliver value in a timely manner, while still maintaining a focus on quality. Worked with stakeholders to assess the suitability of, and plan for, the future integration of other offerings in the product solution portfolio. Actively contributed to the growth of team members through mentoring, regular one-on-ones, setting goals and having career conversations. Empowered people to take ownership and be accountable for deliverables, while providing appropriate levels of emotional and technical support.",
 				"Collaborated with others to understand requirements and technical challenges, then evaluated potential solutions and presented prioritised actions to management for approval. Proactively raised concerns and implemented process improvements. Participated in peer-programming and mobbing sessions which enabled opportunities for two-way mentoring, knowledge-sharing, and increased team cohesion. Oversaw and provided technical guidance on the delivery of multiple parallel workstreams (Web, Data Platform, Embedded Development, Model Training Pipelines, and Operational tasks). Took responsibility for the technical direction, priority, and delivery of both technical and operational tasks."
@@ -227,6 +230,7 @@
 			"endDate": "2022-09-02",
 			"end": "September 2022",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Hybrid",
 			"responsibilities": [
 				"Continued delivering solutions using the Azure platform and DevOps best practices. Scoped and designed the architecture and the security posture for new pieces of work. Shifted into a leadership role, independently ran projects and managed team members across multiple disciplines to ensure that deliverables were on time and met the requirements. Heavily involved in the onboarding process, including performing inductions for engineering staff both inside and outside of the software engineering discipline, and ensuring that new-hires were set up for success. Learned and practiced candidate evaluation skills for technical hires, gained practical experience with pre/post-interview tasks.",
 				"Utilised professional development time to undergo training to further develop leadership and coaching skills, so that different styles could be utilized, depending on the situation. Developed content for team standards, style guides, templates, and onboarding collateral to ensure that a consistent approach was taken to building solutions. Demonstrated flexibility and acquired new skills by completing an extended placement as a Data Platform Engineer. Gave back to the development community by contributing to open-source projects and answering questions on developer forums."
@@ -248,6 +252,7 @@
 			"endDate": "2020-10-01",
 			"end": "October 2020",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Office",
 			"responsibilities": [
 				"Worked as part of a small Software Engineering team to deliver primarily web-based solutions that were built using the Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) offerings on the Azure platform. Directly interacted with clients, their vendors, and our own partners for pre-sales work for both short and long-term engagements. Took ownership of being the technical authority on Chatbots, Form Recognizer, Power Apps, and the speech (Speech to Text) and language (LUIS and QnA Maker) Cognitive Services.",
 				"Collaborated with Microsoft product teams to test new and upcoming features, and had multiple pull requests accepted for documentation across various Microsoft services and technologies. Successfully delivered projects whether working independently, collaborating with team members, or as an embedded resource within a client team (remote and in-person). Mentored and supported team members across professional practices, sharing knowledge throughout the business, and improving soft skills."
@@ -268,6 +273,7 @@
 			"endDate": "2019-01-31",
 			"end": "February 2019",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Office",
 			"responsibilities": [
 				"Served as a key member of the software development team charged with maintaining and iterating upon core web applications used both internally and externally. Collaborated with stakeholders across departments to assist with the delivery of innovative new products and solutions that met client requirements and matched the Smartrak vision.",
 				"Volunteered to mentor Junior Software Engineers and interns, for mutual benefit. Wrote robust, reusable, and well-tested code that adhered to design patterns and social contracts within the team."
@@ -288,6 +294,7 @@
 			"endDate": "2016-05-31",
 			"end": "May 2016",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Office",
 			"responsibilities": [
 				"Contributed to several large projects for external clients in addition to supporting critical customer-facing systems. A member of the team that delivered the In-Cab System (ICS) and Smart Fleet Management System solutions to Fonterra using .NET and open-source technologies.",
 				"Willingly undertook training as an IT Administrator; this role involved managing relationships with internal staff, external contractors and third-party vendors to ensure hardware and software systems ran smoothly, and licenses remained current."
@@ -306,6 +313,7 @@
 			"endDate": "2013-12-31",
 			"end": "December 2013",
 			"location": "Hamilton, New Zealand",
+			"workModel": "Office",
 			"responsibilities": [
 				"Assisted with maintenance of core web applications. Focused on bringing user experience improvements to internal systems and learning real-world Software Engineering best practices."
 			],
