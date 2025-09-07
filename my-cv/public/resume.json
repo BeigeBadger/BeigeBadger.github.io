@@ -275,8 +275,8 @@
 			"highlights": [
 				"<strong>Improved soft skills</strong> - Gave technical presentations on testing and Software Engineering principles to the development team. Attended Agile training, which led to running daily stand-ups and sprint retrospectives for the team.",
 				"<strong>Developed an authentication proxy</strong> - Worked with a Senior Software Engineer to scope, plan, then independently implement a crucial middleware component that helped deliver an API solution, that utilised JSON Web Tokens (JWTs) for authentication, Entity Framework, and OWIN.",
-				"<strong>API 2.0</strong> - Researched and developed the initial prototype project using ASP.NET Web APIs. Made vital contributions to the team that delivered the finished product using ASP.NET Web APIs, Entity Framework, and claims-based authorisation.",
-				"<strong>Introduced new ways of testing</strong> - Developed an integration test suite that covers critical functionality across core systems, using Selenium WebDriver to test user interface behaviour, which meant that regressions were caught."
+				"<strong>Introduced new ways of testing</strong> - Developed an integration test suite that covers critical functionality across core systems, using Selenium WebDriver to test user interface behaviour, which meant that regressions were caught.",
+				"<strong>Designed and delivered an MVP for modernised internal APIs</strong> - Researched and developed the initial prototype project using ASP.NET Web APIs. Made vital contributions to the team that delivered the finished product using ASP.NET Web APIs, Entity Framework, and claims-based authorisation."
 			]
 		},
 		{
@@ -293,8 +293,8 @@
 				"Willingly undertook training as an IT Administrator; this role involved managing relationships with internal staff, external contractors and third-party vendors to ensure hardware and software systems ran smoothly, and licenses remained current."
 			],
 			"highlights": [
-				"<strong>Developed multi-platform systems</strong> - Helped develop the ICS application that ran on a tablet, along with the Smart FMS portal. The technologies used were WPF, Razor, ReactJS, SQLite, and PostgreSQL.",
-				"<strong>Fonterra hardware rollout support</strong> - Independently researched, developed and implemented the processes for the setup of Fonterra hardware. In addition to this, a solution that allowed support staff to remotely control the device in each truck through a web application was implemented."
+				"<strong>Developed and integrated multi-platform systems</strong> - Helped develop the ICS application that ran on a tablet, along with the Smart FMS portal. The technologies used were WPF, Razor, ReactJS, SQLite, and PostgreSQL.",
+				"<strong>Supported the rollout of Fonterra ICS hardware</strong> - Independently researched, developed and implemented the processes for the setup of Fonterra hardware. In addition to this, a solution that allowed support staff to remotely control the device in each truck through a web application was implemented."
 			]
 		},
 		{
