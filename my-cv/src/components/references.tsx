@@ -20,9 +20,6 @@ const References: React.FC = () => {
 					</Col>
 				</Row>
 			</Container>
-
-			{/* HR is omitted in print mode to avoid double HRs at the bottom of the page (one from the footer and one from this component */}
-			<hr className="no-print" />
 		</>
 	);
 }
