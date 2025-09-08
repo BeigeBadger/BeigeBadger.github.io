@@ -418,28 +418,22 @@
 	],
 	"valuePropositions": [
 		{
-			"description": "<strong>Experienced Software Engineer</strong> with the ability to develop full-stack applications that utilize design patterns, a variety of languages, and leverage the cloud to deliver innovative solutions for end users."
+			"description": "<strong>Experienced Software Engineer</strong> with the ability to develop full-stack applications that utilize design patterns, a variety of languages, and leverage the cloud to deliver innovative solutions."
 		},
 		{
-			"description": "<strong>Over ten years software engineering experience</strong> delivering predominantly web-based applications, primarily using .NET/C#."
+			"description": "<strong>Over eleven years software engineering experience</strong> delivering predominantly web-based applications, primarily using .NET/C#."
 		},
 		{
-			"description": "Strong emphasis on <strong>multi-layered testing</strong> using both unit, integration, and functional tests to ensure reliability and prevent regressions."
+			"description": "<strong>Strong emphasis on multi-layered testing</strong> using unit, integration, and functional tests to ensure reliability and prevent regressions."
 		},
 		{
-			"description": "<strong>Actively seeks to improve</strong> the software delivery process through automation, ChatOps, and discussion of best practices and new ideas."
-		},
-		{
-			"description": "<strong>Values a strong team culture</strong>. Encourages team members to develop a shared sense of identity and purpose."
-		},
-		{
-			"description": "Enjoys playing an active role in fostering a fun, friendly, and collaborative environment where <strong>mentoring others is valued</strong> and accepted as part of an employee's responsibilities."
+			"description": "<strong>Actively seeks to improve</strong> the software delivery process through automation and discussion of best practices and new ways of working."
 		},
 		{
 			"description": "<strong>Comfortable working directly with clients</strong>, has experience leading projects, running in-person and remote workshops, and working as an embedded resource."
 		},
 		{
-			"description": "<strong>Excellent written communication skills</strong>. Advocates for knowledge sharing through documentation, demonstrations, and hands-on training. Vast experience documenting processes, system architecture, technical walkthroughs, and functionality overviews for technical and non-technical staff."
+			"description": "<strong>Excellent written communication skills</strong>. Vast experience documenting processes, system architecture, technical walkthroughs, and functionality overviews for both technical and non-technical staff."
 		}
 	],
 	"references": [
