@@ -65,7 +65,7 @@ Chrome
 
 ## Scale
 
-80%
+75%
 
 ## Print background graphics
 - Checked
