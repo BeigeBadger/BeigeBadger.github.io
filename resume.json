@@ -2,7 +2,7 @@
 	"basics": {
 		"name": "Matt Stannett",
 		"jobTitle": "Senior Software Engineer",
-		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that satisfy client needs. Believes in producing elegant, extensible, and well-documented deliverables. An avid consumer of books, documentaries and podcasts, also an amateur military historian. Keeps active through football, mountain biking, and running around after my children.",
+		"summary": "A driven Software Engineer with the ability to design, implement, and maintain creative solutions that address real-world challenges. Believes in producing elegant, extensible, and well-documented deliverables. An avid consumer of books, documentaries and podcasts, also an amateur military historian. Keeps active through football, mountain biking, and running around after my children.",
 		"location": "Hamilton, New Zealand",
 		"fullTimeExperienceStartDate": "2014-01-01",
 		"picture": "https://www.gravatar.com/avatar/d14a78299ebf996ea9b9054cc3bd26ba.png?s=200",
@@ -62,7 +62,7 @@
 			"yearsOfExperience": 3
 		},
 		{
-			"name": "Unit Testing",
+			"name": "Testing",
 			"level": "Advanced",
 			"rating": 4,
 			"yearsOfExperience": 11
@@ -169,7 +169,7 @@
 			"workModel": "Remote",
 			"responsibilities":[
 				"Delivered a modern, accessible Micro-Frontend (MFE) replacement for Education Perfect's largest user base (students), as part of a cross-functional team. Worked on and maintained multiple MFEs, and worked on the back-end monolith and microservice codebases that supported our MFEs. Gained experience interviewing candidates, took the lead in onboarding and mentoring new hires to the team.",
-				"Collaborated with diverse business stakeholders to identify and resolve issues. Worked closely with Quality Assurance Engineers, Designers, and Product Owners to ensure that solutions with both robust and aligned with the product vision. Identified and resolved customer-reported issues and supported various cross-team initiatives."
+				"Collaborated with diverse business stakeholders to identify and resolve issues. Worked closely with Quality Assurance Engineers, Designers, and Product Owners to ensure that solutions were both robust and aligned with the product vision. Identified and resolved customer-reported issues and supported various cross-team initiatives."
 			],
 			"highlights":[
 				"<strong>Lead initiatives and assisted in technical investigations</strong> - Took ownership of the internationalisation, load testing, and front-end instrumentation initiatives within my team, this included upskilling other team members to support these initiatives going forward and providing recommendations to the business. As part of a select group, participated in engineering-wide technical investigations related to platform performance and stability improvements, and the removal of our legacy authentication system.",
@@ -190,7 +190,7 @@
 			"location": "Hamilton, New Zealand",
 			"workModel": "Hybrid",
 			"responsibilities": [
-				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions had support agreements in place. Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
+				"Worked as part of a cross-functional team to deliver bespoke solutions that leveraged the Azure platform and adhered to domain best practices. Responsible for meeting billable targets by completing work within the agreed time frames and budget. Took ownership for the long-term maintenance of several existing client solutions that had support agreements in place. Proactively identified risks, communicated concerns and potential mitigations or remedial actions to both internal and external stakeholders.",
 				"Continued developing skills in other technical practices through use of professional development time, volunteering to work outside of the Software Engineering practice, and being assigned to non-Software projects. Assisted colleagues in their personal and professional development by providing mentoring, emotional support, and technical guidance."
 			],
 			"highlights": [
@@ -211,8 +211,8 @@
 			"location": "Hamilton, New Zealand",
 			"workModel": "Hybrid",
 			"responsibilities": [
-				"Provided technical and people leadership to the newly formed Product team that was responsible for further development on several existing MVP solutions which would enable them to move into the scale stage of their lifecycle. Worked with the Director of Product to ideate, design, architect, and deliver hardware and SaaS solutions to customers. Acted as a role model for the team and those in the wider business by personally demonstrating the processes and behaviours required to successfully deliver value in a timely manner, while still maintaining a focus on quality. Worked with stakeholders to assess the suitability of, and plan for, the future integration of other offerings in the product solution portfolio. Actively contributed to the growth of team members through mentoring, regular one-on-ones, setting goals and having career conversations. Empowered people to take ownership and be accountable for deliverables, while providing appropriate levels of emotional and technical support.",
-				"Collaborated with others to understand requirements and technical challenges, then evaluated potential solutions and presented prioritised actions to management for approval. Proactively raised concerns and implemented process improvements. Participated in peer-programming and mobbing sessions which enabled opportunities for two-way mentoring, knowledge-sharing, and increased team cohesion. Oversaw and provided technical guidance on the delivery of multiple parallel workstreams (Web, Data Platform, Embedded Development, Model Training Pipelines, and Operational tasks). Took responsibility for the technical direction, priority, and delivery of both technical and operational tasks."
+				"Provided technical and people leadership to a new Product team responsible for scaling several MVP solutions. Partnered with the Director of Product to design, architect, and deliver hardware and SaaS solutions. Served as a role model by demonstrating processes and behaviours required to reliably deliver value in a timely manner. Collaborated with stakeholders to assess and plan integration of future offerings. Mentored team members through one-on-ones, goal-setting, and career conversations, empowering ownership and accountability while offering technical and emotional support.",
+				"Worked cross-functionally to clarify requirements, evaluate solutions, and present prioritised actions for approval. Raised concerns early and implemented process improvements. Engaged in peer-programming and mobbing sessions to share knowledge, mentor, and strengthen team cohesion. Directed multiple concurrent workstreams across Web, Data Platform, Embedded Development, Model Training Pipelines, and Operations. Took accountability for technical direction, priorities, and delivery across both technical and operational areas."
 			],
 			"highlights": [
 				"<strong>Improved the onboarding/new developer experience</strong> - Was a driving force behind the creation of both technical and non-technical documentation for all areas of the Pathways product. Stressed the importance and benefits of documentation, and having a single-source of the truth that the team and attached resources could refer to. Lead by example through the creation of documentation and architecture diagrams, delegated this task to subject matter experts where appropriate and to help ingrain it within the team culture. Comprehensive documentation was created for the set up of development environments, the use of common tools, and how to perform various operational tasks.",
@@ -232,15 +232,14 @@
 			"location": "Hamilton, New Zealand",
 			"workModel": "Hybrid",
 			"responsibilities": [
-				"Continued delivering solutions using the Azure platform and DevOps best practices. Scoped and designed the architecture and the security posture for new pieces of work. Shifted into a leadership role, independently ran projects and managed team members across multiple disciplines to ensure that deliverables were on time and met the requirements. Heavily involved in the onboarding process, including performing inductions for engineering staff both inside and outside of the software engineering discipline, and ensuring that new-hires were set up for success. Learned and practiced candidate evaluation skills for technical hires, gained practical experience with pre/post-interview tasks.",
-				"Utilised professional development time to undergo training to further develop leadership and coaching skills, so that different styles could be utilized, depending on the situation. Developed content for team standards, style guides, templates, and onboarding collateral to ensure that a consistent approach was taken to building solutions. Demonstrated flexibility and acquired new skills by completing an extended placement as a Data Platform Engineer. Gave back to the development community by contributing to open-source projects and answering questions on developer forums."
+				"Continued to deliver solutions on the Azure platform following DevOps best practices. Scoped and designed architecture and security for new projects. Transitioned into a leadership role, managing projects and multi-disciplinary team members to ensure that deliverables were on time and met the requirements. Led onboarding activities, including inductions for engineering staff and ensuring new hires were set up for success. Gained experience in candidate evaluation and technical hiring processes.",
+				"Invested in professional development through leadership and coaching training to adapt to different team needs. Created team standards, style guides, templates, and onboarding materials to maintain consistency across solutions. Demonstrated adaptability by completing an extended placement as a Data Platform Engineer. Supported the wider development community by contributing to open-source projects and engaging in developer forums."
 			],
 			"highlights": [
 				"<strong>Created a data platform</strong> - Worked with a Data Platform Engineer and the client to design and deliver a Data Lake and associated pipelines for a major transportation hub to ingest and reconcile movement data on a daily basis. This reporting data store replaced a legacy on-premises store with one hosted in Azure which was faster, more reliable, cheaper, and more accurate. Introduced new tools to the team that were instrumental in demonstrating milestones had been achieved and sharing knowledge across the team.",
 				"<strong>Developed an integration solution using streaming architecture</strong> - Created two streaming solutions to handle different scenarios for the same client. One for ingesting changes from an on-premises SQL Server database into an Azure SQL database in near real-time. The other used a serverless approach for receiving different events from an online store, validating their schema, and passing them on to an existing customer endpoint. Both of these pipelines were engineered in a way that allowed them to be easily extended to handle additional tables and event types.",
-				"<strong>Built an online quiz application</strong> - Delivered a solution that was used as part of an event with teams in 40 locations throughout Australia and New Zealand. This project included tight deadlines, hardware integration with controllers, and creating documentation on how each station needed to be set up. There was also a requirement to create an interface mode for quiz application where the questions and answers were able to be overlaid on the live stream of the host by the TV production company.",
-				"<strong>Delivered an Internet of Things (IoT) platform</strong> - Integrated third-party devices with Azure IoT Hub for a major telecommunications company, the solution utilised Lambda architecture for event storage. In a technical leadership capacity: advised the client and internal staff on cloud and IoT best practices. Created a readily-extensible framework to allow for the integration of devices from other vendors and reporting on device behaviour. Set up an API endpoint with serverless back-end to allow developer access to device information and telemetry data that had been ingested whilst minimizing costs. Created Infrastructure-as-Code (IaC) templates to ensure consistency between environments and that future environments could be easily created.",
-				"<strong>Contributed to an embedded software development project</strong> - Worked as part of a team to plan, build, and deliver an end to end software solution for a large agricultural client that run on custom hardware. This involved learning how to build a custom Linux distribution using Yocto, running containers on Linux within stringent hardware performance tolerances, and working with embedded resources on the client side."
+				"<strong>Built an Internet of Things (IoT) platform</strong> - Integrated third-party devices with Azure IoT Hub for a major telecommunications company, the solution utilised Lambda architecture for event storage. In a technical leadership capacity: advised the client and internal staff on cloud and IoT best practices. Created a readily-extensible framework to allow for the integration of devices from other vendors and reporting on device behaviour. Set up an API endpoint with serverless back-end to allow developer access to device information and telemetry data that had been ingested whilst minimizing costs. Created Infrastructure-as-Code (IaC) templates to ensure consistency between environments and that future environments could be easily created.",
+				"<strong>Contributed to an embedded software development project</strong> - Worked as part of a team to plan, build, and deliver an end to end software solution for a large agricultural client that ran on custom hardware. This involved learning how to build a custom Linux distribution using Yocto, running containers on Linux within stringent hardware performance tolerances, and working with embedded resources on the client side."
 			]
 		},
 		{
@@ -418,28 +417,22 @@
 	],
 	"valuePropositions": [
 		{
-			"description": "<strong>Experienced Software Engineer</strong> with the ability to develop full-stack applications that utilize design patterns, a variety of languages, and leverage the cloud to deliver innovative solutions for end users."
+			"description": "<strong>Experienced Software Engineer</strong> with the ability to develop full-stack applications that utilize design patterns, a variety of languages, and leverage the cloud to deliver innovative solutions."
 		},
 		{
-			"description": "<strong>Over ten years software engineering experience</strong> delivering predominantly web-based applications, primarily using .NET/C#."
+			"description": "<strong>Over eleven years software engineering experience</strong> delivering predominantly web-based applications, primarily using .NET/C#."
 		},
 		{
-			"description": "Strong emphasis on <strong>multi-layered testing</strong> using both unit, integration, and functional tests to ensure reliability and prevent regressions."
+			"description": "<strong>Strong emphasis on multi-layered testing</strong> using unit, integration, and functional tests to ensure reliability and prevent regressions."
 		},
 		{
-			"description": "<strong>Actively seeks to improve</strong> the software delivery process through automation, ChatOps, and discussion of best practices and new ideas."
-		},
-		{
-			"description": "<strong>Values a strong team culture</strong>. Encourages team members to develop a shared sense of identity and purpose."
-		},
-		{
-			"description": "Enjoys playing an active role in fostering a fun, friendly, and collaborative environment where <strong>mentoring others is valued</strong> and accepted as part of an employee's responsibilities."
+			"description": "<strong>Actively seeks to improve</strong> the software delivery process through automation and discussion of best practices and new ways of working."
 		},
 		{
 			"description": "<strong>Comfortable working directly with clients</strong>, has experience leading projects, running in-person and remote workshops, and working as an embedded resource."
 		},
 		{
-			"description": "<strong>Excellent written communication skills</strong>. Advocates for knowledge sharing through documentation, demonstrations, and hands-on training. Vast experience documenting processes, system architecture, technical walkthroughs, and functionality overviews for technical and non-technical staff."
+			"description": "<strong>Excellent written communication skills</strong>. Vast experience documenting processes, system architecture, technical walkthroughs, and functionality overviews for both technical and non-technical staff."
 		}
 	],
 	"references": [
@@ -531,7 +524,7 @@
 			"printOrder": 4
 		},
 		{
-			"name": "Cloud Experience",
+			"name": "Cloud Platforms",
 			"current": [
 				"Azure",
 				"Amazon Web Services"
