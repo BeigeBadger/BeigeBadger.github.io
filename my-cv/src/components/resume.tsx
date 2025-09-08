@@ -102,7 +102,7 @@ const Resume: React.FC<IResumeProps> = (props: IResumeProps) => {
 						<Col xs={12} md={7} lg={7} className="col-print-12 d-flex flex-column">
 							<WorkHistory
 								jobHistory={props.resumeData.jobHistory}
-								customClass="print-order-2 page-break-before-always"
+								customClass="print-order-2"
 								brevityLevel={brevityLevel}
 							/>
 
