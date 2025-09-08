@@ -13,7 +13,7 @@ interface IToolingProps {
 const Tooling: React.FC<IToolingProps> = (props: IToolingProps) => {
 	return (
 		<>
-			<Container className="page-break-before-always">
+			<Container>
 				<Row>
 					<Col className="col-print-12">
 						<div className="tooling mb-3">
